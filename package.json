@@ -1,0 +1,41 @@
+{
+  "name": "@karbon14/whitepaper",
+  "version": "0.0.0",
+  "description": "Karbon14 Whitepaper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r @babel/register -r @babel/polyfill ./src/index.js",
+    "lint": "eslint -f table src",
+    "lint:fix": "eslint --fix -f table src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karbon14/whitepaper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karbon14/whitepaper/issues"
+  },
+  "homepage": "https://github.com/karbon14/whitepaper#readme",
+  "devDependencies": {
+    "@babel/cli": "7.0.0-beta.55",
+    "@babel/core": "7.0.0-beta.55",
+    "@babel/node": "7.0.0-beta.55",
+    "@babel/preset-env": "7.0.0-beta.55",
+    "@babel/preset-react": "7.0.0-beta.55",
+    "babel-eslint": "8.2.6",
+    "eslint": "5.2.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "eslint-plugin-react": "7.10.0",
+    "prettier": "1.14.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "7.0.0-beta.55",
+    "@react-pdf/react-pdf": "1.0.0-alpha.8",
+    "react": "16.4.1",
+    "react-dom": "16.4.1"
+  }
+}
