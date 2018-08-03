@@ -10,10 +10,16 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,json}": [
-      "npm run lint:fix",
-      "npm run build",
-      "git add"
+    "linters": {
+      "*.{js,json}": [
+        "npm run lint:fix",
+        "npm run build",
+        "git add"
+      ]
+    },
+    "ignore": [
+      "package.json",
+      "package-lock.json"
     ]
   },
   "repository": {
