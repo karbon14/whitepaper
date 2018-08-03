@@ -72,15 +72,15 @@ const Karbon14Whitepaper = ({ lang }) => (
 )
 
 const langs = ['EN', 'ES']
+const outputDir = 'whitepaper'
 
 const createDistFolder = () => {
-  const dist = 'dist'
-  if (!fs.existsSync(dist)) {
-    fs.mkdirSync(dist)
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir)
   }
 }
 
-const getDistPath = () => path.join(__dirname, '..', 'dist')
+const getDistPath = () => path.join(__dirname, '..', outputDir)
 
 createDistFolder()
 

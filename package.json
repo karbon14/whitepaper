@@ -4,7 +4,7 @@
   "description": "Karbon14 Whitepaper",
   "main": "index.js",
   "scripts": {
-    "start": "node -r @babel/register -r @babel/polyfill ./src/index.js",
+    "build": "node -r @babel/register -r @babel/polyfill ./src/index.js",
     "lint": "eslint -f table src",
     "lint:fix": "eslint --fix -f table src"
   },
