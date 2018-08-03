@@ -6,7 +6,15 @@
   "scripts": {
     "build": "node -r @babel/register -r @babel/polyfill ./src/index.js",
     "lint": "eslint -f table src",
-    "lint:fix": "eslint --fix -f table src"
+    "lint:fix": "eslint --fix -f table src",
+    "precommit": "lint-staged",
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint:fix",
+      "npm run build",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
@@ -30,7 +38,10 @@
     "eslint-config-prettier": "2.9.0",
     "eslint-plugin-prettier": "2.6.2",
     "eslint-plugin-react": "7.10.0",
-    "prettier": "1.14.0"
+    "husky": "0.14.3",
+    "lint-staged": "7.2.0",
+    "prettier": "1.14.0",
+    "prop-types": "15.6.2"
   },
   "dependencies": {
     "@babel/polyfill": "7.0.0-beta.55",

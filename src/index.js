@@ -1,36 +1,30 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import fs from 'fs'
 import path from 'path'
-import ReactPDF, {
-  Document,
-  Font,
-  Page,
-  Text,
-  View,
-  StyleSheet
-} from '@react-pdf/react-pdf'
+import ReactPDF, { Document, Font, Page, Text, View, StyleSheet } from '@react-pdf/react-pdf'
 import { whitepaper } from './whitepaper'
 
 const styles = StyleSheet.create({
   title: {
     fontSize: 24,
-    textAlign: 'center'
+    textAlign: 'center',
   },
   body: {
     paddingTop: 35,
     paddingBottom: 45,
-    paddingHorizontal: 35
+    paddingHorizontal: 35,
   },
   text: {
     margin: 12,
     fontSize: 12,
-    textAlign: 'justify'
+    textAlign: 'justify',
   },
   header: {
     fontSize: 12,
     color: 'grey',
     marginBottom: 15,
-    textAlign: 'center'
+    textAlign: 'center',
   },
   footer: {
     position: 'absolute',
@@ -39,8 +33,8 @@ const styles = StyleSheet.create({
     left: 35,
     right: 0,
     textAlign: 'center',
-    color: 'grey'
-  }
+    color: 'grey',
+  },
 })
 
 Font.register(`${__dirname}/fonts/Roboto-Regular.ttf`, { family: 'Roboto' })
@@ -58,18 +52,24 @@ const Karbon14Whitepaper = ({ lang }) => (
         ~ Karbon14 ~
       </Text>
       <View style={styles.section}>
-        {Object.entries(whitepaper).map(([key, section]) => {
-          return <Text style={styles.text}>{section[lang]}</Text>
-        })}
+        {Object.entries(whitepaper).map(([key, section]) => (
+          <Text key={key} style={styles.text}>
+            {section[lang]}
+          </Text>
+        ))}
       </View>
-      <Text
-        style={styles.footer}
-        render={({ pageNumber, totalPages }) => `${pageNumber} / ${totalPages}`}
-        fixed
-      />
+      <Text style={styles.footer} render={({ pageNumber, totalPages }) => `${pageNumber} / ${totalPages}`} fixed />
     </Page>
   </Document>
 )
+
+Karbon14Whitepaper.propTypes = {
+  lang: PropTypes.string.isRequired,
+}
+
+Karbon14Whitepaper.defaultProps = {
+  lang: 'EN',
+}
 
 const langs = ['EN', 'ES']
 const outputDir = 'whitepaper'
@@ -84,9 +84,6 @@ const getDistPath = () => path.join(__dirname, '..', outputDir)
 
 createDistFolder()
 
-langs.forEach(lang => {
-  ReactPDF.render(
-    <Karbon14Whitepaper lang={lang} />,
-    `${getDistPath()}/whitepaper_Karbon14_${lang}.pdf`
-  )
+langs.forEach((lang, key) => {
+  ReactPDF.render(<Karbon14Whitepaper key={key} lang={lang} />, `${getDistPath()}/whitepaper_Karbon14_${lang}.pdf`)
 })
