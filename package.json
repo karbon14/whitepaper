@@ -4,14 +4,14 @@
   "description": "Karbon14 Whitepaper",
   "main": "index.js",
   "scripts": {
-    "build": "node -r @babel/register -r @babel/polyfill ./src/index.js",
+    "build": "node -r @babel/register -r @babel/polyfill ./src/builder.js",
     "lint": "eslint -f table src",
     "lint:fix": "eslint --fix -f table src",
     "precommit": "lint-staged"
   },
   "lint-staged": {
     "linters": {
-      "*.{js,json}": [
+      "*.{js}": [
         "npm run lint:fix",
         "npm run build",
         "git add"
@@ -53,6 +53,7 @@
     "@babel/polyfill": "7.0.0-beta.55",
     "@react-pdf/react-pdf": "1.0.0-alpha.8",
     "react": "16.4.1",
-    "react-dom": "16.4.1"
+    "react-dom": "16.4.1",
+    "yaml-import": "^0.2.3"
   }
 }
