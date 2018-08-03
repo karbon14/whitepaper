@@ -7,10 +7,10 @@
     "build": "node -r @babel/register -r @babel/polyfill ./src/index.js",
     "lint": "eslint -f table src",
     "lint:fix": "eslint --fix -f table src",
-    "precommit": "lint-staged",
+    "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": [
+    "*.{js, json}": [
       "npm run lint:fix",
       "npm run build",
       "git add"
