@@ -60,6 +60,7 @@
   "dependencies": {
     "@babel/polyfill": "7.0.0-beta.55",
     "@react-pdf/react-pdf": "1.0.0-alpha.8",
+    "koa-bodyparser": "4.2.1",
     "react": "16.4.1",
     "react-dom": "16.4.1",
     "yaml-import": "^0.2.3"
