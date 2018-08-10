@@ -1,4 +1,6 @@
 {
-  "watch": ["src/app", "src/whitepaper/sections/*"],
+  "watch": ["src/whitepaper/sections", "src/app", "src/whitepaper"],
   "ext": "js yml"
 }
+
+
