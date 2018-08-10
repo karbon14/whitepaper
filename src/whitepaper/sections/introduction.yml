@@ -1,0 +1,15 @@
+EN:
+  TITLE: ENG
+  PARAGRAPHS: 
+  - SUBTITLE: ENG
+    SUBTWO: ENG
+  - SUBTITLE: ASD
+    SUBTWO: ZXC
+
+ES:
+  TITLE: Introducción
+  PARAGRAPHS: 
+  - SUBTITLE: ¿Qué es Karbon14?
+    SUBTWO: Karbon14 es un proyecto de código abierto que tiene como objetivo crear la primera plataforma descentralizada para realizar certificados de pruebas de vida. </br>En nuestro dia  a dia cotidiano se nota cada vez más un incremento en el auge de las aplicaciones que requieren una validación de los datos del usuario como algo indispensable para poder operar en la misma,  esto es simplemente una prueba de vida. La prueba de vida es un certificado indiscutible que confirma la existencia de la persona.
+  - SUBTITLE: ASD
+    SUBTWO: ZXC

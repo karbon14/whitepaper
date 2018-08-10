@@ -7,6 +7,7 @@ import { styles } from './styles'
 
 const index = yimp.read(path.join(__dirname, 'sections/index.yml'))
 const resume = yimp.read(path.join(__dirname, 'sections/resume.yml'))
+const introduction = yimp.read(path.join(__dirname, 'sections/introduction.yml'))
 
 export const Karbon14Whitepaper = ({ lang }) => (
   <Document>
@@ -25,6 +26,18 @@ export const Karbon14Whitepaper = ({ lang }) => (
       </View>
       <Text style={styles.footer} render={({ pageNumber, totalPages }) => `${pageNumber} / ${totalPages}`} fixed />
     </Page>
+
+    <Page size="A4" style={styles.body}>
+      <Text style={styles.title}>{introduction[lang].TITLE}</Text>
+
+      {introduction[lang].PARAGRAPHS.map((paragraphs, index) => (
+        <div key={index}>
+          <Text style={styles.title}>{paragraphs.SUBTITLE}</Text>
+        </div>
+      ))}
+
+    </Page>
+
   </Document>
 )
 
