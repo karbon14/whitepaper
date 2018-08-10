@@ -4,10 +4,12 @@ export default ({ body, title }) => {
     <html>
       <head>
         <title>${title}</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
       </head>
       <style>
         body {
-          background-color: #4C4B4E
+          background-color: #4C4B4E;
+          font-family: Helvetica;
         }
       </style>
       <body>

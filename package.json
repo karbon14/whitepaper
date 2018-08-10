@@ -7,7 +7,7 @@
     "start": "npm run server & sleep 2 && npm run browser",
     "server": "nodemon -r @babel/register -r @babel/polyfill ./src/app/server.js",
     "browser": "browser-sync start --config browser-sync.js",
-    "build": "node -r @babel/register -r @babel/polyfill ./src/builder.js",
+    "build": "NODE_ENV=production node -r @babel/register -r @babel/polyfill ./src/builder.js",
     "lint": "eslint -f table src",
     "lint:fix": "eslint --fix -f table src",
     "precommit": "lint-staged"

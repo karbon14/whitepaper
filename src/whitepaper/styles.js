@@ -1,9 +1,12 @@
 import { Font, StyleSheet } from '@react-pdf/react-pdf'
 
+const isProduction = process.env.NODE_ENV === 'production'
+const fontUnit = (size) => isProduction ? size : `${size}pt`
+
 export const styles = StyleSheet.create({
   title: {
     display: 'block',
-    fontSize: 24,
+    fontSize: fontUnit(24),
     textAlign: 'center',
   },
   document: {
@@ -13,32 +16,33 @@ export const styles = StyleSheet.create({
     width: 794,
   },
   page: {
-    padding: '35px 65px',
+    paddingTop: fontUnit(35),
+    paddingLeft: fontUnit(50),
+    paddingRight: fontUnit(50),
     boxSizing: 'border-box',
     backgroundColor: '#FFF',
     width: 794,
     height: 1122,
-    marginBottom: 20,
+    marginBottom: fontUnit(13),
     boxShadow: '0px 5px 10px #000',
     position: 'relative',
   },
   text: {
-    margin: 12,
-    fontSize: 12,
+    margin: fontUnit(12),
+    fontSize: fontUnit(12),
     textAlign: 'justify',
   },
-  header: {
+  header: {...{
     display: 'block',
-    fontSize: 12,
+    fontSize: fontUnit(12),
     color: 'grey',
-    marginBottom: '40px',
     textAlign: 'center',
-    paddingTop: '10px',
-  },
+    paddingTop: fontUnit(10),
+  }, ...isProduction ? {} : { marginBottom: fontUnit(16) } },
   footer: {
     display: 'block',
     position: 'absolute',
-    fontSize: '12pt',
+    fontSize: fontUnit(12),
     bottom: 25,
     left: 35,
     right: 0,
