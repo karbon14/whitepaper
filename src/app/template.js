@@ -4,7 +4,6 @@ export default ({ body, title }) => {
     <html>
       <head>
         <title>${title}</title>
-        <link rel="stylesheet" href="/assets/index.css" />
       </head>
       
       <body>
