@@ -1,0 +1,4 @@
+{
+  "watch": ["src/app", "src/whitepaper/sections/*"],
+  "ext": "js yml"
+}
