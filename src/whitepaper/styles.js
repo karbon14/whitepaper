@@ -19,6 +19,7 @@ export const styles = StyleSheet.create({
     paddingTop: fontUnit(35),
     paddingLeft: fontUnit(50),
     paddingRight: fontUnit(50),
+    paddingBottom: fontUnit(65),
     boxSizing: 'border-box',
     backgroundColor: '#FFF',
     width: 794,
@@ -49,6 +50,62 @@ export const styles = StyleSheet.create({
     textAlign: 'center',
     color: 'grey',
   },
+  subtitle: {
+    color: '#3c78d8',
+    fontSize: fontUnit(20),
+    display: 'block',
+    margin: '10px 0px',
+  },
+  subsubtitle: {
+    fontWeight: 'bold',
+    fontSize: fontUnit(17),
+    display: 'block',
+    margin: '5px 0px',
+  },
+  list: {
+    flexDirection: 'row',
+    marginBottom: 5,
+  },
+  listLeftColumn: {
+    flexDirection: 'column',
+    marginRight: 10,
+  },
+  listRightColumn: {
+    flexDirection: 'column',
+    flexGrow: 9,
+  },
+  listBulletPoint: {
+    fontSize: 10,
+  },
+  listContent: {
+    fontSize: 10,
+    fontFamily: 'Lato',
+  },
+  imageButerin: {
+    height: '400px',
+    width: '400px',
+    display: 'block',
+    margin: '25px auto'
+  },
+  imageToken: {
+    height: '200px',
+    width: '200px',
+    display: 'block',
+    margin: '25px 20px'
+  },
+  pageNumber: {
+    position: 'absolute',
+    fontSize: 12,
+    bottom: 30,
+    left: 0,
+    right: 0,
+    textAlign: 'center',
+    color: 'grey',
+  },
+  bold: {
+    fontWeight: 900,
+    fontSize: fontUnit(12),
+  }
 })
 
 Font.register(`${__dirname}/fonts/Roboto-Regular.ttf`, { family: 'Roboto' })
