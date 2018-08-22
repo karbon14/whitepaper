@@ -2,23 +2,285 @@ EN:
   INDEX:
     <h2>Index</h2>
   INDEXRESUME:
+    <h4><strong>Summary</strong></h4>
+  INDEXINTRODUCTION:
+    <h4><strong>Introduction</strong></h4>
+  INDEXIWISK14:
+    <p>What is Karbon 14?</p>
+  INDEXDEFPROBLEM:
+    <p>Problem Definition</p>
+  INDEXWHYPROOFLIFE:
+    <p>What is a Proof of Life?</p>
+  INDEXSTAKEHOLDERS:
+    <p>Stakeholders</p>
+  INDEXSECURITY:
+    <p>Information Security with Karbon14</p>
+  INDEXBENEFITS:
+    <p>Karbon14 Benefits</p>
+  INDEXHOWWORK:
+    <h4><strong>How does Karbon14 work?</strong></h4>
+  INDEXCERTIFICATE:
+    <p>Proof of Life Certificates</p>
+  INDEXCRYPTO:
+    <p>Crypto Notaries</p>
+  INDEXLICENSECRYPTO:
+    <p>Cripto Notary License</p>
+  INDEXEXPLORER:
+    <p>Proof of Life Validator</p>
+  INDEXWALLET:
+    <p>Karbon14 Wallet</p>
+  INDEXUSECASES:
+    <h4><strong>Use Cases</strong></h4>
+  INDEXBIRTH:
+    <p>Birth Certificates</p>
+  INDEXFAKENEWS:
+    <p>Fake News</p>
+  INDEXPFAGENTS:
+    <p>Proof of Life for Government Agent</p>
+  INDEXRESUING:
+    <p>Streamlining and Reusing a Proof of Life</p>
+  INDEXTESTAMENT:
+    <p>Testaments</p>
+  INDEXTEAM:
+    <h4><strong>Team</strong></h4>
+  INDEXROADMAP:
+    <h4><strong>Roadmap</strong></h4>
+  INDEXDISTRIBUTION:
+    <h4><strong>Distribution Token</strong></h4>
+  INDEXSELLTOKENS:
+    <p>Sale of Karbon14 tokens</p>
+  INDEXWHYINVEST:
+    <h4><strong>Why invest in Karbon14?</strong></h4>
+  INDEXBUDGET:
+    <h4><strong>Budget Use</strong></h4>
+  INDEXCROWDSALE:
+    <p>Crowdsale</p>
+  INDEXLEGALNOTE:
+    <h4><strong>Legal Statement</strong></h4>
+  INDEXGLOSSARY:
+    <h4><strong>Glossary</strong></h4>
+  RESUME:
+    <h1>Summary</h1>
+  TITLE: 
+    <h1>Introduction</h1>
+  WISK14: 
+    <h3>What is Karbon 14?</h3>
+  WISK14TEXT: 
+    <p>Karbon14 is an open source project that aims to create the first decentralized platform to perform Proof of Life Certificates.</p>
+    <p>Due to the rise of cryptocurrency applications, validation of user information is required, which is simply a Proof of Life. The Proof of Life is an indisputable certificate that confirms the existence of that person.</p>
+  DEFPROBLEM: 
+    <h3>Problem Definition</h3>
+  DEFPROBLEMTEXT: 
+    <p>Today's digital world lacks a credible identity system that is universally consumable and trusted by counterparts in all industries.</p>
+    <p>Getting all industries, governments and consumers from hundreds of jurisdictions to agree on one framework is a challenge.</p>
+    <p>Right now, users need a long time to provide the information to the different petitioners, because in most cases they are not prepared to create their Proof of Life.</p>
+    <p>But this problem will be solved with Karbon14 having his different types of Proof of Life in one place, avoiding in this way, repeating again and again the same procedure with the different entities that need the certificate.</p>
+    <p>Karbon14 aspires that this Proof of Life Certificate will be a valid document in governmental entities. Thanks to Karbon14 we could:</p>
+    <ul>
+      <li> Facilitate the possession of identity for people </li>
+      <li> Establish massive consensus on the verification of real identities </li>
+      <li> Leaving behind centralized systems, as they are not reliable in the long term due to political and security risks </li>
+      <li> Maintain identities constantly validated and updated </li>
+      <li> Expand mass adoption by different stakeholders </li>
+    </ul>
+    <p>Governments around the world and industries are desperately looking for a solution and Karbon14 can help solve it.</p>
+  WPROOFLIFE:
+    <h3>What is a Proof of Life?</h3>
+  WPROOFLIFETEXT:
+    <p>Karbon14 defines the Proof of Life as the process to confirm that the person in question really exists and that he is alive. Karbon14 will verify that past information is consistent with present data.</p>
+    <p>We could take as a reference that the information of the past are certificates or documents provided by a government agent testifying their identity, and that those are congruent with their present data provided by the same user.</p>
+  PINTERESTED:
+    <h3>Stakeholders</h3>
+  GOVERNMENTS:
+    <h3>Governments</h3>
+  GOVERNMENTSTEXT:
+    <p>Governments usually ask citizens for some type of certificate or document that corroborates the existence of that person when making a sort of procedure.</p>
+    <p>In general, the method is characterized by being excessively bureaucratic, slow and inefficient. Generating a highly frustrating process for people and a huge waste of time.</p>
+    <p>A tool like Karbon14 will allow governments to leave behind the centralized and analogical system that now counts and will avoid the risk of losing the physical documents generated today by citizens.</p>
+    <p>It is important to mention that the above has already happened countless times when climatic or imponderable disasters such as fires have affected public buildings where all that  citizens sensitive documents are storage, resulting in their partial or total loss.</p>
+  EXCHANGECRYPTO:
+    <h3>Cryptocurrency Exchange Applications</h3>
+  EXCHANGECRYPTOTEXT:
+    <p>As mentioned above, the constant progress of cryptocurrency applications makes necessary at the time of the transaction, to validate user data. That is to say, a Proof of Life.</p>
+    <p>An application such as Karbon14 will allow cryptocurrency applications to incorporate a secure and easy-to-use validation system.</p>
+  USERS: 
+    <h3>Users</h3>
+  USERSTEXT:
+    <p>For users, a system like Karbon14 will directly benefit them when creating the Proof of Life, by giving them a great agility to do it. Which represents a significant saving of time, since they won’t have to repeat the same procedure over and over again with the different entities that ask for it.</p>
+  BANKS:
+    <h3>Fintech/Banks</h3>
+  BANKSTEXT:
+    <p>Currently a lot of Banks, are making major changes in Digital Banking, always trying to improve user experience.</p>
+    <p>One of the ways to do this, is through the possibility to create an account, accessing loans or making transfers, completely by a digital medium, usually called Home Banking. For such a thing, Banks needs a Proof of Life or certification of it as a fundamental requirement prior to operating.</p>
+    <p>Thanks to Karbon14 digital banking world could further improve the experience and the approach of people towards the digital use of it.</p>
+  MEDIA:
+    <h3>Mass Media</h3>
+  MEDIATEXT:
+    <p>The instantaneity and decentralization of social networks makes it possible for anyone to spread a rumor and make it viral. In this way, in a matter of minutes, you can spread false news about the death of a famous person or recognized by society.</p>
+    <p>The chaos of the news can make media didn’t verify correctly the truth of it, thus incurring in the coverage of a false news.</p>
+    <p>Thanks to Karbon14 media will be able to check in real time, the rumor viralized through social networks, quickly reached the truth of it and report correctly. This will be useful to deny the rumor or as to confirm it.</p>
+    <p>Thanks to Karbon14, the person involved or affected by this false news will be able to create their Proof of Life certificate quickly and easily. Having the possibility of denying almost immediately the false news.</p>
+    <p>We can show as an emblematic antecedent of this, the case happened to the creator of Ethereum, where he discredit the false news of his death with a photo of him next to a paper where the last block of Ethereum mined until that moment was written.</p>
+  INFORMATIONSECURITY:
+    <h3>Information Security with Karbon14</h3>
+  INFORMATIONSECURITYTEXT:
+    <p>In the blockchain the information is stored in blocks, which are linked to each other identified by a hash generated next to a timestamp. All that information is immutable, that is, nobody can modify it. And even more is replicated throughout all the nodes that creates the network.</p>
+    <p>Karbon 14 will create an smart contract that will be stored in the Ethereum blockchain to achieve privacy and information security. Smart contracts are ideal for conducting micro-transactions guided by events verifiable by the network.</p>
+    <p>Karbon14 is the first application to use the benefits of the blockchain to create Proof of Life certificates. When you create your Proof of Life certificate with Karbon14 your data will be transformed into a hash code and that hash will be saved in a smart contract. <strong>It should be noted that no personal data will be stored in the smart contract, avoiding in this way the exposure of user's data.</strong></p>
+    <p>Karbon14 will create a <strong>validation protocol</strong> for the hashes to authenticate the Proof of Life certificates. As well as several tools will be created that will use the protocol to allow validation from different platforms.</p>
+  BENEFITS:
+    <h3>Karbon14 Benefits</h3>
+  BENEFITSTEXT:
+    <p>The fact of having an application that creates Proof of Life Certificates through a decentralized system entails various benefits to the different actors involved. Here is a short list:</p>
+    <p><b>Shorten waiting times:</b> Karbon14 main goal is that users reduce waiting times, acquire a reliable and easy to use service, with the reassurance that their information will be secure, highly available and will last over time. We will solve this by using the blockchain, which will provide us with a decentralized network.</p>
+    <p><b>Security in the information provided:</b> As mentioned in the Security Information section, an application such as Karbon14 will ensure that people’s information are unmodifiable by  third parties. Therefore, users and the requesting entities can be sure that the certificates are 100% real, that people’s data is reliable and is completely protected.</p>
+    <p><b>Trust for companies or entities:</b> We will solve this with a scoring system. The most remarkable thing about the scoring system is that it will be totally decentralized. The certificates will have a score according to the chosen level, therefore the applicant institutions will be able to check person's profile score, thus giving the necessary confidence to take these certifications as valid.</p>
+  HOWWORK:
+    <h3>How does Karbon14 work?</h3>
+  HOWWORKTEXT:
+    <p>Karbon14 use blockchain benefits to create the proof of life certificates and at the same time will take advantage of the potential of smart contracts to achieve privacy and security of all users information.</p>
+    <p>​​Karbon14 idea is to be able to create Proof of Life Certificates that the different entities request from the users.</p>
+    <p>Basically a Proof of Life Certificate for Karbon14 consists in information provided by the user, approved by the crypto notaries from karbon14 and persisting in the blockchain.</p>
+    <p>To this end, a notary system will be implemented, which will approve family relations. In order to create this process, the user will be asked for a birth certificate or, failing that, verifiable documents to authenticate the family relationship.</p>
+    <p>The notary will be composed by network users who will exercise the role of notaries, executing this action by means of an affirmative or negative vote.</p>
+    <p>These notaries will exercise their vote without knowing who their counterpart is, this will guarantee that the vote is not consensual, but totally independent so notaries should be an odd number. To do this procedure, users involved must offer a monetary reward in Karbon14 tokens.</p>
+    <p>To create the certificate, Karbon 14 will use different tools, let's see them below:</p>
+    <ul>
+      <li>Proof of Life Certificate</li>
+      <li>Cripto Notaries</li>
+      <li>Cripto Notary License</li>
+      <li>Proof of Life Explorers</li>
+      <li>Karbon14 Wallet</li>
+      <li>Family Tree</li>
+    </ul>
+  CERTIFICATEPROOFLIFE:
+    <h3>Proof of Life Certificates</h3>
+  CERTIFICATEPROOFLIFETEXT:
+    <p>The Proof of Life Certificate is immutable, so it can’t be altered. This feature means that they can be used by entities that require Proof of Life to start operating.</p>
+    <p>Another characteristic presented by the Proof of Life Certificates is that they have different levels of validation. Generating from simple proofs to more complete proofs as needed by the user or entity that will validate this Proof of Life.</p>
+    <p>Certificates levels are related to the requesting entity, since it has its own levels of security.</p>
+    <p>For this reason Karbon14 will provide the possibility to create different types of Proof of Life. According to the security level requested, the Proof of Life will require having fewer or more steps to complete it.</p>
+    <p>Each certificate will have a score according to the chosen level. Once validated in the network, it will contribute to add a score in your profile. With this feature Karbon14 seeks to create a reputation for the user with their Proof of Life.</p>
+  CRYPTO:
+    <h3>Crypto Notaries</h3>
+  CRYPTOTEXT:
+    <p>As in the daily life the governmental entities are the ones that verify that a person is still alive, crypto notaries will fulfill the same role but in a decentralized network. That is to say, that its main objective will be the verification of the Proof of Life that are sent to it.</p>
+    <p>It is important to highlight that each time a Karbon14 user requires to validate a new Proof of Life, that validation to be done in blockchain will require a minimum of 3 crypto notaries to get the approval, this will be given only if there is a positive consensus by the crypto notaries in the voting.</p>
+    <p>Karbon14 will offer a list of registered notaries in the system. Users will have this list available and will have any of these notaries ready to send their Proofs of life and their subsequent validation.</p>
+  LICENSECRYPTO:
+    <h3>Cripto Notary License</h3>
+  LICENSECRYPTOTEXT:
+    <p>Karbon14 will give the possibility to any user of being a crypto notary by acquiring a license for this purpose, which will be paid with Karbon14 tokens.</p>
+    <p>Notaries will have the ability to establish the value of the Proof of Life validation. This value will be charged to the user with Karbon14 tokens.</p>
+    <p>The crypto notary will be a holder of Karbon14 tokens and will generate profits as he keeps validating Proofs of Life.</p>
+  VALIDATORPROOFLIFE:
+    <h3>Proof of Life Validator</h3>
+  VALIDATORPROOFLIFETEXT:
+    <p>Karbon14 will create a Proof of Life Validator that will use the validation protocol developed for this purpose. In conjunction with the protocol, different tools will be developed that make use of it, to provide the possibility of validate the proof of life certificate on multiple platforms and devices. Allowing easy adoption of the solution proposed by Karbon14 to be integrated into third-party applications and developments.</p>
+  WALLET:
+    <h3>Karbon14 Wallet</h3>
+  WALLETTEXT:
+    <p>Karbon14 will create a multiplatform application so users will be able to manage their Proofs of Life, visualize them or create a new one. The application will be continually updated by the new features that we will develop.</p>
+  CASEUSES:
+    <h3>Use Cases</h3>
+  CASEUSESTEXT:
+    <p>There are several use cases for Karbon14, here are some examples in which Karbon14 could be used.</p>
+  BIRTHCERTIFICATES:
+    <h3>Birth Certificates</h3>
+  BIRTHCERTIFICATESTEXT:
+    <p>It could generate the first Proof of Life from birth. This can be done by government agents or parents.</p>
+    <p>The objective is to safeguard the document in the blockchain. This could establish a degree of relationship in Karbon14 family tree.</p>
+  FAKENEWS:
+    <h3>Fake News</h3>
+  FAKENEWSTEXT:
+    <p>Nowadays thanks to how social networks handle the information, we often see fake news about public persons death.</p>
+    <p>For example, we can take the case of Ethereum founder, Vitalik Buterin, who made his Proof of Life on Twitter. This could have been easily disproved with the use of Karbon14.</p>
+  PROOFGOVERNMENTAGENT:
+    <h3>Proof of Life for Government Agent</h3>
+  PROOFGOVERNMENTAGENTTEXT:
+    <p>Generally to obtain or keep having some benefits from the state, people are asked for a Proof of Life, Karbon14 could be the one that provides the state with the Proof of Life of the applicant.</p>
+  RESUINGPROOF:
+    <h3>Streamlining and Reusing a Proof of Life</h3>
+  RESUINGPROOFTEXT:
+    <p>The crypto currency transaction sites usually ask the user for evidence that the person is who claim to be, this can easily be done with a Proof of Life from Karbon14.</p>
+  WHYINVEST:
+    <h3>Why invest in Karbon14?</h3>
+  WHYINVESTTEXT:
+    <p>Karbon14 es una herramienta &uacute;nica en el mercado, que viene a proponer algo totalmente disruptivo e innovador que ayudar&aacute; enormemente tanto a las personas como a las instituciones, a ahorrar mucho tiempo y mejorar los sistemas centralizados existentes actualmente. </p>
+    <p>Governments will be able to modernize their services, expedite the management of procedures and, above all, provide a better experience for citizens. Karbon14 will allow to decentralize the document generation such as Proof of Life Certificates.</p>
+    <p>Investing in Karbon14 is to join the first decentralized platform that creates Proof of Life Certificate. It is a totally surpassing project with immense potential.</p>
+    <p>Being an unexplored territory and without actors in the market, its limit doesn’t have a visible horizon.</p>
+  USEBUDGET:
+    <h3>Budget Use</h3>
+  USEBUDGETTEXT:
+    <p>The funds raised during the Contribution Period will be used only for the development of the Karbon14 application.</p>
+    <p>The following is an estimated budget that represents the scenario in which all of the investment sought is achieved:</p>
+  CROWDSALE:
+    <h4>Crowdsale</h4>
+  DISTRIBUTIONCOMMUNITY:
+    <h4><strong>50%  Community</strong></h4>
+  DISTRIBUTIONCOMMUNITYTEXT:
+    <p>Karbon14 is sure that a strong community can achieve a very large project. That is why a big part of it will go to listen to the community, talk, have meetings, and all kinds of actions that will make the community to multiply.</p>
+  DISTRIBUTIONDEVELOPMENT:
+    <h4><strong>30% Development</strong></h4>
+  DISTRIBUTIONDEVELOPMENTTEXT:
+    <p>An important part of the budget will be used for the development of the applications and everything required to achieve the best product.</p>
+  DISTRIBUTIONFOUNDERS:
+    <h4><strong>10% Founders</strong></h4>
+  DISTRIBUTIONMARKETING:
+    <h4><strong>7% Marketing</strong></h4>
+  DISTRIBUTIONMARKETINGTEXT:
+    <pThis percentage will be use to the construction of the community and will help reach the general public through traditional channels and social networks.</p>
+  DISTRIBUTIONAIRDROP:
+    <h4><strong>3%  Airdrop</strong></h4>
+  DISTRIBUTIONAIRDROPTEXT:
+    <p>A karbon14 is interested that its users are more than satisfied with the platform and its founders, for that reason it was thought to allocate 3% of the generated tokens will to the Airdrop</p>
+  LEGALNOTE:
+    <h3>Legal Statement</h3>
+  LEGALNOTETEXT:
+    <p> This Whitepaper describes the main functionalities of the first Karbon14 prototype. As such, it may be subject to modifications during the development of the application, mainly due to security issues. </p>
+    <p> Therefore, it can undergo modifications, distancing in this way in some points with the initial proposal thrown in this Whitepaper.</p>
+    <p> This Whitepaper is not subject to any legal requirement or legislation. Everything cited in it is not subject to any type of investor protection or security in transfers. This applies without restriction to all types of law or legislation. Karbon14 does not assume responsibility or guarantees for the information shared by the user.</p>
+    <p> Likewise, this Whitepaper does not endorse the requests or declarations of guarantees from any investor or of any other legal or contractual guarantee regarding a relationship with the investor.</p>
+    <p> Any prediction, specific data, or estimate contained in this Whitepaper do not constitute factual statements, according to the information provided and how the final development of the implementation may result.</p>
+    <p> The statements made do not validate the user to make legal disclaimers in relation to the discounts, offer and sales promotions token in the aforementioned Whitepaper, in the event that they come to differ with how it was finally implemented by Karbon14.</p>
+    <p> An investment represents an independent risk for investors funds, whose capitalization of royalties results in an uncertain future and which its economic development is solely and fully the responsibility of investor's decisions. The investor is also aware of the total loss of said investment.</p>
+    <p> Any possibility of legal claim against Karbon14 for the aforementioned as well as against part of its members, employees, representative or affiliated companies is excluded.</p>
+  GLOSSARY:
+    <h3>Glossary</h3>
+  PROOFLIFEGLOSSARYTEXT:
+    <p><strong>Proof of Life:</strong> Process in which it’s verified that the data of the past is congruent with the present information. Confirming that the person is who they say they are, and that they are currently alive when they make the life certificate.</p>
+  CERTIFICATEPROOFGLOSSARYTEXT:
+    <p><strong>Cripto Notary:</strong> The Cripto Notaries will certify the data sent by users. They will have the responsibility to approve or reject the information.</p>
+  CRYPTONOTARYGLOSSARYTEXT:
+    <p><strong>Proof of Life Certificate:</strong> A Proof of Life Certificate for Karbon14 is a document consisting of information provided by the user, approved by the crypto notaries and persisting in the blockchain.</p>
+  WALLETGLOSSARYTEXT:
+    <p><strong>Karbon14 Wallet:</strong> A multiplatform application so that users can manage their Proof of Life, visualize or create a new one.</p>
+  VALIDATORGLOSSARYTEXT:
+    <p><strong>Proof of Life Explorer:</strong> Tool that will allow users to provide their data quickly and easily to the institution who ask for the certification.</p>
+
+
+ES:
+  INDEX:
+    <h2>Índice</h2>
+  INDEXRESUME:
     <h4><strong>Resumen del Proyecto</strong></h4>
   INDEXINTRODUCTION:
-    <h4><strong>Introducci&oacute;n</strong></h4>
+    <h4><strong>Introducción</strong></h4>
   INDEXIWISK14:
-    <p>&#191;Qu&eacute; es Karbon 14?</p>
+    <p>¿Qué es Karbon14?</p>
   INDEXDEFPROBLEM:
-    <p>Definici&oacute;n del Problema</p>
+    <p>Definición del Problema</p>
   INDEXWHYPROOFLIFE:
-    <p>&#191;Qu&eacute; son las Pruebas de Vida?</p>
+    <p>¿Qué son las Pruebas de Vida?</p>
   INDEXSTAKEHOLDERS:
-    <p>Stakeholders o P&uacute;blico Interesado</p>
+    <p>Stakeholders o Público Interesado</p>
   INDEXSECURITY:
-    <p>Seguridad de la Informaci&oacute;n con Karbon14</p>
+    <p>Seguridad de la Información con Karbon14</p>
   INDEXBENEFITS:
     <p>Beneficios de Karbon14</p>
   INDEXHOWWORK:
-    <h4><strong>&#191;C&oacute;mo funciona Karbon14?</strong></h4>
+    <h4><strong>¿Cómo funciona Karbon14?</strong></h4>
   INDEXCERTIFICATE:
     <p>Certificados de Prueba de Vida</p>
   INDEXCRYPTO:
@@ -26,7 +288,7 @@ EN:
   INDEXLICENSECRYPTO:
     <p>Licencia Cripto Escribano</p>
   INDEXEXPLORER:
-    <p>Explorador de pruebas de vidas</p>
+    <p>Validador de pruebas de vidas</p>
   INDEXWALLET:
     <p>Wallet Karbon14</p>
   INDEXUSECASES:
@@ -38,7 +300,7 @@ EN:
   INDEXPFAGENTS:
     <p>Pruebas de vida para agente gubernamentales</p>
   INDEXRESUING:
-    <p>Agilizaci&oacute;n y reutilizaci&oacute;n de una prueba de vida</p>
+    <p>Agilización y reutilización de una prueba de vida</p>
   INDEXTESTAMENT:
     <p>Testamentos</p>
   INDEXTEAM:
@@ -50,7 +312,7 @@ EN:
   INDEXSELLTOKENS:
     <p>Venta de Karbon Tokens</p>
   INDEXWHYINVEST:
-    <h4><strong>&#191;Por qu&eacute; invertir en Karbon14?</strong></h4>
+    <h4><strong>¿Por qué invertir en Karbon14?</strong></h4>
   INDEXBUDGET:
     <h4><strong>Uso del Presupuesto</strong></h4>
   INDEXCROWDSALE:
@@ -62,87 +324,87 @@ EN:
   RESUME:
     <h1>Resumen del proyecto</h1>
   TITLE: 
-    <h1>Introduction</h1>
+    <h1>Introducción</h1>
   WISK14: 
-    <h3>&#191;Qu&eacute; es Karbon 14?</h3>
+    <h3>¿Qué es Karbon14?</h3>
   WISK14TEXT: 
-    <p>Karbon14 es un proyecto de c&oacute;digo abierto que tiene como objetivo crear la primera plataforma descentralizada para realizar certificados de pruebas de vida. <br>En nuestro dia  a dia cotidiano se nota cada vez m&aacute;s un incremento en el auge de las aplicaciones que requieren una validaci&oacute;n de los datos del usuario como algo indispensable para poder operar en la misma,  esto es simplemente una prueba de vida. La prueba de vida es un certificado indiscutible que confirma la existencia de la persona.</p>
+    <p>Karbon14 es un proyecto de código abierto que tiene como objetivo crear la primera plataforma descentralizada para realizar certificados de pruebas de vida.</p>
+    <p>En nuestro dia a dia se nota cada vez más un incremento en el auge de las aplicaciones que requieren una validación de los datos del usuario como algo indispensable para poder operar en la misma, esto es simplemente una prueba de vida. La prueba de vida es un certificado indiscutible que confirma la existencia de la persona. </p>
   DEFPROBLEM: 
-    <h3>Definition of problem</h3>
+    <h3>Definición del Problema</h3>
   DEFPROBLEMTEXT: 
-    <p>El mundo digital de hoy en d&iacute;a carece de un sistema de identidad cre&iacute;ble que sea universalmente consumible y en el que puedan confiar las contrapartes de todas las industrias. </p>
-    <p>Lograr que todas las industrias, gobiernos y consumidores de cientos de jurisdicciones acuerden un marco es un desaf&iacute;o. </p>
-    <p>En la actualidad, el usuario demora mucho tiempo en poder brindar los datos a distintos tipos de solicitantes, porque en la mayor&iacute;a de los casos no est&aacute; preparado para realizar su prueba de vida. </p>
-    <p>Pero este problema ser&aacute; resuelto con Karbon14 teniendo sus diferentes tipos de prueba de vida en un solo lugar, evitando de esta manera, repetir una y otra vez el mismo procedimiento con las distintas entidades que lo necesiten
-    Karbon14 aspira que este certificado de vida sea un documento con validez en entidades gubernamentales. Gracias a Karbon14 se podr&iacute;a:</p>
+    <p>El mundo digital de hoy en día carece de un sistema de identidad creíble que sea universalmente consumible y en el que puedan confiar las contrapartes de todas las industrias.</p>
+    <p>Lograr que todas las industrias, gobiernos y consumidores de cientos de jurisdicciones acuerden un marco es un desafío. </p>
+    <p>En la actualidad, el usuario demora mucho tiempo en poder brindar los datos a distintos tipos de solicitantes, porque en la mayoría de los casos no está preparado para realizar su prueba de vida.</p>
+    <p>Pero este problema será resuelto con Karbon14 teniendo sus diferentes tipos de prueba de vida en un solo lugar, evitando de esta manera, repetir una y otra vez el mismo procedimiento con las distintas entidades que lo necesiten. </p>
+    <p>Karbon14 aspira que este certificado de vida sea un documento con validez en entidades gubernamentales. Gracias a Karbon14 se podría:</p>
     <ul>
-      <li> Facilitar la posesi&oacute;n de la identidad para las personas </li>
-      <li> Facilitar la posesi&oacute;n de la identidad para las personas </li>
-      <li> Establecer el consenso masivo sobre la verificaci&oacute;n de identidades reales. </li>
-      <li> Dejar atr&aacute;s los sistemas centralizados, ya que no son confiables a largo plazo debido a riesgos pol&iacute;ticos y de seguridad </li>
-      <li> Dejar atr&aacute;s los sistemas centralizados, ya que no son confiables a largo plazo debido a riesgos pol&iacute;ticos y de seguridad </li>
+      <li> Facilitar la posesión de la identidad para las personas </li>
+      <li> Establecer el consenso masivo sobre la verificación de identidades reales </li>
+      <li> Dejar atrás los sistemas centralizados, ya que no son confiables a largo plazo debido a riesgos políticos y de seguridad </li>
       <li> Mantener identidades validadas y actualizadas constantemente </li>
-      <li> Expandir la adopci&oacute;n masiva por las diferentes partes interesadas </li>
+      <li> Expandir la adopción masiva por las diferentes partes interesadas </li>
     </ul>
-    <p>Los gobiernos de todo el mundo y la industria est&aacute;n buscando desesperadamente una soluci&oacute;n y Karbon14 puede ayudar a solucionarlo.</p>
+    <p>Los gobiernos de todo el mundo y la industria están buscando desesperadamente una solución y Karbon14 puede ayudar a solucionarlo.</p>
   WPROOFLIFE:
-    <h3>&#191;Qu&eacute; son las Pruebas de Vida?</h3>
+    <h3>¿Qué son las Pruebas de Vida?</h3>
   WPROOFLIFETEXT:
-    <p>Karbon14 define como Prueba de Vida a el proceso para confirmar que la persona en cuesti&oacute;n realmente existe y que se encuentra con vida. Karbon14 va a constatar que los datos del pasado sean congruentes con los datos del presente. </p>
-    <p>Podr&iacute;amos tomar como referencia que los datos del pasado son certificados o documentos proporcionados por un agente gubernamental testificando su identidad, y que estos son congruentes con sus datos del presente brindados por el mismo usuario.</p>
+    <p>Karbon14 define como Prueba de Vida a el proceso para confirmar que la persona en cuestión realmente existe y que se encuentra con vida. Karbon14 va a constatar que los datos del pasado sean congruentes con los datos del presente.</p>
+    <p>Podríamos tomar como referencia que los datos del pasado son certificados o documentos proporcionados por un agente gubernamental testificando su identidad, y que estos son congruentes con sus datos del presente brindados por el mismo usuario.</p>
   PINTERESTED:
-    <h3>Stakeholders o P&uacute;blico Interesado</h3>
+    <h3>Stakeholders o Público Interesado</h3>
   GOVERNMENTS:
     <h3>Gobiernos</h3>
   GOVERNMENTSTEXT:
-    <p>Los Gobiernos de cualquier tipo, Nacional, Provincial o Municipal, suele solicitar a los ciudadanos alg&uacute;n tipo de certificado o documento que corrobore la existencia de la persona a la hora de realizar un tr&aacute;mite o diligencia de cualquier tipo. </p>
-    <p>Por lo general el procedimiento se caracteriza por ser excesivamente burocr&aacute;tico, lento y poco eficiente. Generando un proceso altamente frustrante para las personas y con una enorme p&eacute;rdida de tiempo. </p>
-    <p>Una herramienta como Karbon14 permitir&aacute; a los gobiernos dejar atr&aacute;s el sistema centralizado y anal&oacute;gico con el que cuenta ahora y permitir&aacute; evitar el riesgo de perder los documentos f&iacute;sicos generados hoy por hoy por los ciudadanos. </p>
-    <p>Cabe destacar que lo anteriormente expresado ya ha pasado infinidad de veces cuando desastres clim&aacute;ticos o imponderables como incendios han afectado a edificios p&uacute;blicos encargados de almacenar estos documentos sensibles de sus ciudadanos dando como resultado su p&eacute;rdida parcial o total.</p>
+    <p>Los Gobiernos de cualquier tipo, Nacional, Provincial o Municipal, suele solicitar a los ciudadanos algún tipo de certificado o documento que corrobore la existencia de la persona a la hora de realizar un trámite o diligencia de cualquier tipo.</p>
+    <p>Por lo general el procedimiento se caracteriza por ser excesivamente burocrático, lento y poco eficiente. Generando un proceso altamente frustrante para las personas y con una enorme pérdida de tiempo.</p>
+    <p>Una herramienta como Karbon14 permitirá a los gobiernos dejar atrás el sistema centralizado y analógico con el que cuenta ahora y permitirá evitar el riesgo de perder los documentos físicos generados hoy por hoy por los ciudadanos.</p>
+    <p>Cabe destacar que lo anteriormente expresado ya ha pasado infinidad de veces cuando desastres climáticos o imponderables como incendios han afectado a edificios públicos encargados de almacenar estos documentos sensibles de sus ciudadanos dando como resultado su pérdida parcial o total.</p>
   EXCHANGECRYPTO:
     <h3>Aplicaciones de Intercambio de Criptomonedas</h3>
   EXCHANGECRYPTOTEXT:
-    <p>El constante avance de aplicaciones de intercambio de criptomonedas, hace que necesiten al momento de realizar la transacci&oacute;n, la validaci&oacute;n de los datos de los usuarios. Es decir una prueba de vida. </p>
-    <p>Una aplicaci&oacute;n como Karbon14 permitir&aacute; a las aplicaciones de criptomoneda incorporar un sistema de validaci&oacute;n seguro y f&aacute;cil de utilizar.</p>
+    <p>El constante avance de aplicaciones de intercambio de criptomonedas, genera cada vez más, que al momento de realizar transacción, se requiera la validación de los datos de los usuarios. Es decir una prueba de vida</p>
+    <p>Una aplicación como Karbon14 permitirá a las aplicaciones de criptomoneda incorporar un sistema de validación seguro y fácil de utilizar.</p>
   USERS: 
     <h3>Usuarios</h3>
   USERSTEXT:
-    <p>Para los usuarios un sistema como Karbon14 los beneficiar&aacute; directamente en la agilidad a la hora de realizar los certificados de vida, lo cual representa un ahorro significativo de tiempo, ya que no tendr&aacute; que repetir una y otra vez el mismo procedimiento con las distintas entidades que lo necesiten.</p>
+    <p>Para los usuarios un sistema como Karbon14 los beneficiará directamente en la agilidad a la hora de realizar los certificados de vida, lo cual representa un ahorro significativo de tiempo, ya que no tendrá que repetir una y otra vez el mismo procedimiento con las distintas entidades que lo necesiten.</p>
   BANKS:
     <h3>Fintech/ Bancos</h3>
   BANKSTEXT:
-    <p>En la actualidad muchas entidades financieras, est&aacute;n haciendo cambios importantes en su Banca Digital, intentando en todo momento mejorar la experiencia del usuario. </p>
-    <p>Una de las formas de hacerlo es mediante la posibilidad de crear cuentas, acceder a pr&eacute;stamos o realizar transferencias completamente a trav&eacute;s de un medio digital, por lo general el Home Banking. Para tales requerimientos las entidades necesitan una prueba de vida o certificaci&oacute;n de la misma como requisito fundamental previo a operar. </p>
-    <p>Gracias a Karbon14 el mundo la banca digital podr&iacute;a mejorar a&uacute;n m&aacute;s la experiencia y el acercamiento de las personas hacia el uso digital del banco.</p>
+    <p>En la actualidad muchas entidades financieras, están haciendo cambios importantes en su Banca Digital, intentando en todo momento mejorar la experiencia del usuario.</p>
+    <p>Una de las formas de hacerlo es mediante la posibilidad de crear cuentas, acceder a préstamos o realizar transferencias completamente a través de un medio digital, por lo general el Home Banking. Para tales requerimientos las entidades necesitan una prueba de vida o certificación de la misma como requisito fundamental previo a operar.</p>
+    <p>Gracias a Karbon14 el mundo la banca digital podría mejorar aún más la experiencia y el acercamiento de las personas hacia el uso digital del banco.</p>
   MEDIA:
-    <h3>Medios de Comunicaci&oacute;n</h3>
+    <h3>Medios de Comunicación</h3>
   MEDIATEXT:
-    <p>La instantaneidad y la descentralizaci&oacute;n de las redes sociales hace que sea posible que cualquiera pueda esparcir un rumor y hacerlo viral. De esta manera puede en cuesti&oacute;n de minutos difundir una noticia falsa sobre la muerte de alg&uacute;n personaje famoso o reconocido por la sociedad. </p>
-    <p>La vor&aacute;gine de las noticias puede hacer que los medios de comunicaci&oacute;n con tal de cubrir la noticia a tiempo, no compruebe la veracidad de la misma de forma correcta, incurriendo de esa manera en la cobertura de una noticia falsa. </p>
-    <p>Gracias a Karbon14 la persona involucrada o afectada por estas noticias falsas podr&aacute; realizar su certificado de prueba de vida de una  manera r&aacute;pida y sencilla. Teniendo as&iacute; la posibilidad de desmentir casi de inmediato. Se puede citar como antecedente emblem&aacute;tico de lo anteriormente citado el caso sucedido al creador de Ethereum, donde desacredito la noticia falsa de su muerte con una foto suya junto a un papel donde aparec&iacute;a escrito el &uacute;ltimo bloque de ethreum minado hasta ese momento.</p>
+    <p>La instantaneidad y la descentralización de las redes sociales hace que sea posible que cualquiera pueda esparcir un rumor y hacerlo viral. De esta manera puede en cuestión de minutos difundir una noticia falsa sobre la muerte de algún personaje famoso o reconocido por la sociedad.</p>
+    <p>La vorágine de las noticias puede hacer que los medios de comunicación con tal de cubrir la noticia a tiempo, no compruebe la veracidad de la misma de forma correcta, incurriendo de esa manera en la cobertura de una noticia falsa.</p>
+    <p>Gracias a Karbon14 la persona involucrada o afectada por estas noticias falsas podrá realizar su certificado de prueba de vida de una manera rápida y sencilla. Teniendo así la posibilidad de desmentir casi de inmediato la falsa noticia.</p>
+    <p>Se puede citar como antecedente emblemático de lo anteriormente citado el caso sucedido al creador de Ethereum, donde desacredito la noticia falsa de su muerte con una foto suya junto a un papel donde aparecía escrito el último bloque de ethreum minado hasta ese momento.</p>
   INFORMATIONSECURITY:
-    <h3>Seguridad de la Informaci&oacute;n con Karbon14</h3>
+    <h3>Seguridad de la Información con Karbon14</h3>
   INFORMATIONSECURITYTEXT:
-    <p>En la blockchain la informaci&oacute;n es almacenada en bloques, los cuales est&aacute;n enlazados los unos a los otros identificados por un hash generado junto a un timestamp. Toda esa informaci&oacute;n es inmutable, es decir, nadie puede modificarla. Y a&uacute;n m&aacute;s est&aacute; replicada a lo largo de todos los nodos que conforman la red.</p>
-    <p>Karbon 14 crear&aacute; un  contrato inteligente que ser&aacute; almacenado en la blockchain de Ethereum para lograr la privacidad y la seguridad de la informaci&oacute;n. Los contratos inteligentes son ideales para realizar micro-transacciones guiados por eventos verificables por la red.</p>
-    <p>Karbon14 es la primera aplicaci&oacute;n en utilizar los beneficios de la blockchain para realizar certificados de pruebas de vida. Al crear tu certificado de prueba vida con Karbon14 tus datos ser&aacute;n transformado en un c&oacute;digo hash y ese hash ser&aacute; guardado en un contrato inteligente. Cabe destacar que ning&uacute;n dato personal ser&aacute; guardado en el contrato inteligente, evitando as&iacute; la exposici&oacute;n de los datos del usuario.</p>
-    <p>Karbon14 crear&aacute; un protocolo de validaci&oacute;n de los hashes para autenticar los certificados de vida. Asi como tambien se crear&aacute;n diversas herramientas que usar&aacute;n el protocolo para permitir as&iacute; la validaci&oacute;n desde distintas plataformas."</p>
+    <p>En la blockchain la información es almacenada en bloques, los cuales están enlazados los unos a los otros identificados por un hash generado junto a un timestamp. Toda esa información es inmutable, es decir, nadie puede modificarla. Y aún más está replicada a lo largo de todos los nodos que conforman la red.</p>
+    <p>Karbon14 creará un  contrato inteligente que será almacenado en la blockchain de Ethereum para lograr la privacidad y la seguridad de la información. Los contratos inteligentes son ideales para realizar micro-transacciones guiados por eventos verificables por la red.</p>
+    <p>Karbon14 es la primera aplicación en utilizar los beneficios de la blockchain para realizar certificados de pruebas de vida. Al crear tu certificado de prueba vida con Karbon14 tus datos serán transformado en un código hash y ese hash será guardado en un contrato inteligente. <strong>Cabe destacar que ningún dato personal será guardado en el contrato inteligente, evitando así la exposición de los datos del usuario.</strong></p>
+    <p>Karbon14 creará un <strong>protocolo de validación</strong> de los hashes para autenticar los certificados de vida. Asi como tambien se crearán diversas herramientas que usarán el protocolo para permitir así la validación desde distintas plataformas.</p>
   BENEFITS:
-    <h3>Beneficios de Karbon14 </h3>
+    <h3>Beneficios de Karbon14</h3>
   BENEFITSTEXT:
-    <p>El hecho de contar con una aplicaci&oacute;n que realice certificados de pruebas de vida mediante una sistema descentralizado conlleva diversos beneficios para los distintos actores involucrados. A continuaci&oacute;n se enumeran brevemente&#58; </p>
-    <p><b>Acortar tiempos de espera</b>&#58; Los principales objetivos de Karbon14 es que los usuarios disminuyan los tiempos de espera, adquieran un servicio confiable y f&aacute;cil de utilizar, con la tranquilidad de que su informaci&oacute;n est&aacute; segura, con alta disponibilidad y perdurar&aacute; en el tiempo. Esto lo vamos a resolver utilizando la blockchain, que nos brindar&aacute; una red descentralizada.</p>
-    <p><b>Seguridad en la informaci&oacute;n brindada</b>&#58; Tal cual se mencion&oacute; en el aparto de la Seguridad, una aplicaci&oacute;n como Karbon14 asegurar&aacute; que la informaci&oacute;n de las personas sean inmodificables por terceros. Por lo tanto los usuarios y las entidades solicitantes podr&aacute;n estar seguros que los certificados son 100% reales y que la informaci&oacute;n de las personas es  fehaciente y est&aacute; completamente protegida. </p>
-    <p><b>Confianza para empresas o entidades</b>&#58; Esto lo resolveremos con un sistema de "scoring". Lo m&aacute;s destacable del sistema de 'scoring' es que va a ser totalmente descentralizado. Los certificados tendr&aacute;n un puntaje de acuerdo al nivel elegido, por lo tanto las instituciones solicitantes podr&aacute;n comprobar el puntaje del perfil de la persona, dando de esta manera la confianza necesaria para tomar como v&aacute;lidos estas certificaciones. </p>
+    <p>El hecho de contar con una aplicación que realice certificados de pruebas de vida mediante una sistema descentralizado conlleva diversos beneficios para los distintos actores involucrados. A continuación se enumeran brevemente:</p>
+    <p><strong>Acortar tiempos de espera:</strong>  Los principales objetivos de Karbon14 es que los usuarios disminuyan los tiempos de espera, adquieran un servicio confiable y fácil de utilizar, con la tranquilidad de que su información estará segura, con alta disponibilidad y perdurará en el tiempo. Esto lo vamos a resolver utilizando la blockchain, que nos brindará una red descentralizada.</p>
+    <p><strong>Seguridad en la información brindada:</strong> Tal cual se mencionó en el apartado de la Seguridad, una aplicación como Karbon14 asegurará que la información de las personas sea inmodificable por terceros. Por lo tanto los usuarios y las entidades solicitantes podrán estar seguros que los certificados sean 100% reales, que la información de las personas es fehaciente y está completamente protegida. </p>
+    <p><strong>Confianza para empresas o entidades:</strong> Esto lo resolveremos con un sistema de "scoring". Lo más destacable del sistema de "scoring" es que va a ser totalmente descentralizado. Los certificados tendrán un puntaje de acuerdo al nivel elegido, por lo tanto las instituciones solicitantes podrán comprobar el puntaje del perfil de la persona, dando de esta manera la confianza necesaria para tomar como válidos estas certificaciones.</p>
   HOWWORK:
-    <h3>&#191;C&oacute;mo funciona Karbon14?</h3>
+    <h3>¿Cómo funciona Karbon14?</h3>
   HOWWORKTEXT:
-    <p>Karbon14 utiliza los beneficios de la blockchain para realizar certificados pruebas de vida y al mismo tiempo aprovechar&aacute; el potencial de los contratos inteligentes para lograr la privacidad y la seguridad de toda la informaci&oacute;n de sus usuarios.</p>
-    <p>La idea de Karbon14 es poder crear los Certificados de Prueba de Vida que solicitan las diversas entidades a los usuarios. </p>
-    <p>B&aacute;sicamente un certificado de prueba de vida para Karbon14 consta de informaci&oacute;n brindada por el usuario, aprobada por las cripto escriban&iacute;as de karbon14 y persistiendo en la blockchain.</p>
-    <p>La escriban&iacute;a estar&aacute; compuesta por usuarios de la red que ejercer&aacute;n un rol de escribano, ejecutando esta acci&oacute;n por medio de un voto afirmativo o negativo. </p>
-    <p>Estos escribanos ejercer&aacute;n su voto sin saber quien es su contraparte, esto garantizar&aacute; que el voto no es consensuado, sino totalmente independiente por lo que los escribanos deber&aacute;n ser un n&uacute;mero impar. Para realizar este tr&aacute;mite los usuarios involucrados deber&aacute;n ofrecer una gratificaci&oacute;n monetaria en tokens de Karbon14. </p>
-    <p>Para la creaci&oacute;n de un certificado, Karbon 14 utilizar&aacute; diversas herramientas, veamoslos en profundidad a continuaci&oacute;n&#58; </p>
+    <p>Karbon14 utiliza los beneficios de la blockchain para realizar certificados de pruebas de vida y al mismo tiempo aprovechará el potencial de los contratos inteligentes para lograr la privacidad y la seguridad de toda la información de sus usuarios.</p>
+    <p>La idea de Karbon14 es poder crear los Certificados de Prueba de Vida que solicitan las diversas entidades a los usuarios.</p>
+    <p>Básicamente un certificado de prueba de vida para Karbon14 consta de información brindada por el usuario, aprobada por las cripto escribanías de karbon14 y persistiendo en la blockchain.</p>
+    <p>La escribanía estará compuesta por usuarios de la red que ejercerán un rol de escribano, ejecutando esta acción por medio de un voto afirmativo o negativo.</p>
+    <p>Estos escribanos ejercerán su voto sin saber quien es su contraparte, esto garantizará que el voto no es consensuado, sino totalmente independiente por lo que los escribanos deberán ser un número impar. Para realizar este trámite los usuarios involucrados deberán ofrecer una gratificación monetaria en tokens de Karbon14.</p>
+    <p>Para la creación de un certificado, Karbon14 utilizará diversas herramientas, veamoslos en profundidad a continuación:</p>
     <ul>
       <li>Certificado de Prueba de Vida </li>
       <li>Cripto Escribanos </li>
@@ -153,361 +415,104 @@ EN:
   CERTIFICATEPROOFLIFE:
     <h3>Certificados de Prueba de Vida</h3>
   CERTIFICATEPROOFLIFETEXT:
-    <p>El certificado de prueba de vida es de car&aacute;cter inmutable, por lo cual no puede verse alterado. Esta caracter&iacute;stica hace que pueda ser utilizados por entidades que requieran pruebas de vida para empezar a operar.</p>
-    <p>Otra caracter&iacute;stica que presenta los certificados de prueba es que poseen distintos niveles de validaci&oacute;n. Generando desde pruebas sencillas a pruebas m&aacute;s completas seg&uacute;n necesite el usuario o la entidad que va a validar esta prueba.</p>
-    <p>Los niveles de los certificados est&aacute;n relacionados con la entidad solicitante, ya que &eacute;sta tiene sus propios niveles de seguridad.</p>
-    <p>Por esta raz&oacute;n Karbon14 proveer&aacute; la posibilidad de crear distintos tipos de pruebas de vida. De acuerdo al nivel de seguridad solicitado, la prueba de vida requerir&aacute; tener menor o mayor cantidad de pasos para su realizaci&oacute;n.</p>
-    <p>Cada certificado de vida tendr&aacute; un puntaje de acuerdo al nivel elegido. Una vez validado en la red, contribuir&aacute; a sumar un puntaje en su perfil.  Con esto Karbon14 busca crear una reputaci&oacute;n para el usuario con sus pruebas de vida.</p>
+    <p>El certificado de prueba de vida es de carácter inmutable, por lo cual no puede verse alterado. Esta característica hace que pueda ser utilizados por entidades que requieran pruebas de vida para empezar a operar.</p>
+    <p>Otra característica que presenta los certificados de prueba es que poseen distintos niveles de validación. Generando desde pruebas sencillas a pruebas más completas según necesite el usuario o la entidad que va a validar esta prueba.</p>
+    <p>Los niveles de los certificados están relacionados con la entidad solicitante, ya que ésta tiene sus propios niveles de seguridad.</p>
+    <p>Por esta razón Karbon14 proveerá la posibilidad de crear distintos tipos de pruebas de vida. De acuerdo al nivel de seguridad solicitado, la prueba de vida requerirá tener menor o mayor cantidad de pasos para su realización.</p>
+    <p>Cada certificado de vida tendrá un puntaje de acuerdo al nivel elegido. Una vez validado en la red, contribuirá a sumar un puntaje en su perfil.  Con esto Karbon14 busca crear una reputación para el usuario con sus pruebas de vida.</p>
   CRYPTO:
     <h3>Cripto Escribano</h3>
   CRYPTOTEXT:
-    <p>Como en la vida cotidiana las entidades f&iacute;sicas gubernamentales son las que verifican que una persona sigue con vida, las cripto escriban&iacute;as cumplir&aacute;n el mismo rol pero en una red descentralizada. Es decir que su objetivo principal ser&aacute; la verificaci&oacute;n de las pruebas que le son enviadas.</p>
-    <p>Es importante destacar que cada vez que un usuario de Karbon14 requiera validar una nueva prueba de vida, dicha validaci&oacute;n para que sea efectuada en la blockchain requerir&aacute; de un m&iacute;nimo de 3 cripto escribanos para lograr su aprobaci&oacute;n, esta se dar&aacute; solo si hay un consenso positivo de los cripto escribanos en la votaci&oacute;n. </p>
-    <p>Karbon14 ofrecer&aacute; un listado de los escribanos registradas en el sistema. Los usuarios tendr&aacute;n a disposici&oacute;n esta lista y tendr&aacute;n a la orden cualquiera de estos escribanos para enviar sus pruebas de vida y su posterior validaci&oacute;n.</p>
+    <p>Como en la vida cotidiana las entidades físicas gubernamentales son las que verifican que una persona sigue con vida, las cripto escribanías cumplirán el mismo rol pero en una red descentralizada. Es decir que su objetivo principal será la verificación de las pruebas que le son enviadas.</p>
+    <p>Es importante destacar que cada vez que un usuario de Karbon14 requiera validar una nueva prueba de vida, dicha validación para que sea efectuada en la blockchain requerirá de un mínimo de 3 cripto escribanos para lograr su aprobación, esta se dará solo si hay un consenso positivo de los cripto escribanos en la votación.</p>
+    <p>Karbon14 ofrecerá un listado de los escribanos registradas en el sistema. Los usuarios tendrán a disposición esta lista y tendrán a la orden cualquiera de estos escribanos para enviar sus pruebas de vida y su posterior validación.</p>
   LICENSECRYPTO:
     <h3>Licencia Cripto Escribano</h3>
   LICENSECRYPTOTEXT:
-    <p>Karbon14 le dar&aacute; la posibilidad a cualquier usuario de ser un cripto escribano mediante la adquisici&oacute;n de una una licencia para tal fin, la cual ser&aacute; abonada con tokens de Karbon14.</p>
-    <p>Las escribanos tendr&aacute;n la capacidad de establecer el valor de la validaci&oacute;n de la prueba de vida. Este valor ser&aacute; cobrado al usuario con tokens de Karbon14. </p>
-    <p>As&iacute; el cripto escribano ser&aacute; un tenedor de tokens de Karbon14 y generar&aacute; ganancias a medida que valide pruebas de vida.</p>
+    <p>Karbon14 le dará la posibilidad a cualquier usuario de ser un cripto escribano mediante la adquisición de una una licencia para tal fin, la cual será abonada con tokens de Karbon14.</p>
+    <p>Las escribanos tendrán la capacidad de establecer el valor de la validación de la prueba de vida. Este valor será cobrado al usuario con tokens de Karbon14.</p>
+    <p>Así el cripto escribano será un tenedor de tokens de Karbon14 y generará ganancias a medida que valide pruebas de vida.</p>
   VALIDATORPROOFLIFE:
     <h3>Validador de pruebas de vidas</h3>
   VALIDATORPROOFLIFETEXT:
-    <p>Karbon14 crear&aacute; un validador de pruebas de vida que utilizar&aacute; el protocolo de validaci&oacute;n desarrollado para tal fin. En conjunto con el protocolo se desarrollar&aacute;n diferentes herramientas que hagan uso del mismo para poder brindar la posibilidad de validar el certificado de prueba de vida en m&uacute;ltiples plataformas y dispositivos. Permitiendo as&iacute; una f&aacute;cil adopci&oacute;n de la soluci&oacute;n planteada por Karbon14 para ser integrada en aplicaciones y desarrollos de terceros.</p>
+    <p>Karbon14 creará un validador de pruebas de vida que utilizará el protocolo de validación desarrollado para tal fin. En conjunto con el protocolo se desarrollarán diferentes herramientas que hagan uso del mismo para poder brindar la posibilidad de validar el certificado de prueba de vida en múltiples plataformas y dispositivos. Permitiendo así una fácil adopción de la solución planteada por Karbon14 para ser integrada en aplicaciones y desarrollos de terceros.</p>
   WALLET:
     <h3>Wallet Karbon14</h3>
   WALLETTEXT:
-    <p>Karbon14 crear&aacute; un aplicativo multiplataforma para que los usuarios puedan gestionar sus certificados de pruebas de vida, visualizarlos o crear una nueva de prueba de vida. La aplicaci&oacute;n se actualizar&aacute; agregando de manera incremental las nuevas caracter&iacute;sticas que se vayan desarrollando.</p>
+    <p>Karbon14 creará un aplicativo multiplataforma para que los usuarios puedan gestionar sus certificados de pruebas de vida, visualizarlos o crear una nueva de prueba de vida. La aplicación se actualizará agregando de manera incremental las nuevas características que se vayan desarrollando.</p>
   CASEUSES:
     <h3>Casos de uso</h3>
   CASEUSESTEXT:
-    <p>Existen varios casos de uso para Karbon14, vamos a mostrar algunos ejemplos en los cuales Karbon14 podr&iacute;a ser usado.</p>
+    <p>Existen varios casos de uso para Karbon14, vamos a mostrar algunos ejemplos en los cuales Karbon14 podría ser usado.</p>
   BIRTHCERTIFICATES:
-    Partidas de nacimiento
+    <h3>Partidas de nacimiento</h3>
   BIRTHCERTIFICATESTEXT:
-    <p>Se podr&iacute;a generar el primer certificado de prueba de vida desde el nacimiento. Esto lo puede llevar a cabo los agentes gubernamentales o en su defecto los mismos padres.</p>
+    <p>Se podría generar el primer certificado de prueba de vida desde el nacimiento. Esto lo puede llevar a cabo los agentes gubernamentales o en su defecto los mismos padres.</p>
   FAKENEWS:
     <h3>Noticias falsas</h3>
   FAKENEWSTEXT:
-    <p>Con la impronta que tiene las redes sociales sobre el manejo de la informaci&oacute;n muchas veces solemos ver noticias falsas que tiene que ver con el fallecimiento de personas p&uacute;blicas. 
-    Por ejemplo podemos tomar el caso del fundador de Ethereum, Vitalik Buterin, quien realiz&oacute; de forma manual su prueba de vida en Twitter. Esto podr&iacute;a ser desmentido f&aacute;cilmente con el uso de Karbon14.</p>
+    <p>Con la impronta que tiene las redes sociales sobre el manejo de la información muchas veces solemos ver noticias falsas que tiene que ver con el fallecimiento de personas públicas.</p>
+    <p>Por ejemplo podemos tomar el caso del fundador de Ethereum, Vitalik Buterin, quien realizó de forma manual su prueba de vida en Twitter. Esto podría ser desmentido fácilmente con el uso de Karbon14.</p>
   PROOFGOVERNMENTAGENT:
     <h3>Pruebas de vida para agente gubernamentales</h3>
   PROOFGOVERNMENTAGENTTEXT:
-   <p>Generalmente para conseguir o mantener algunos beneficios por parte del estado se les pide a las personas pruebas de vida, Karbon14 podr&iacute;a ser el que le provea al estado la prueba de vida solicitante.</p>
+   <p>Generalmente para conseguir o mantener algunos beneficios por parte del Estado se les pide a las personas pruebas de vida, Karbon14 podría ser el que le provea al Estado la prueba de vida solicitante.</p>
   RESUINGPROOF:
-    <h3>Agilizaci&oacute;n y reutilizaci&oacute;n de una prueba de vida </h3>
+    <h3>Agilización y reutilización de una prueba de vida</h3>
   RESUINGPROOFTEXT:
-    <p>Los sitios de transacciones de cripto monedas habitualmente solicitan al usuario pruebas de que la persona es quien dice ser, esto puede ser realizado f&aacute;cilmente con un certificado de vida de Karbon14. </p>
+    <p>Los sitios de transacciones de cripto monedas habitualmente solicitan al usuario pruebas de que la persona es quien dice ser, esto puede ser realizado fácilmente con un certificado de vida de Karbon14.</p>
   WHYINVEST:
-    <h3>&#191;Por qu&eacute; invertir en Karbon14?</h3>
+    <h3>¿Por qué invertir en Karbon14?</h3>
   WHYINVESTTEXT:
-    <p>Karbon14 es una herramienta &uacute;nica en el mercado, que viene a proponer algo totalmente disruptivo e innovador que ayudar&aacute; enormemente tanto a las personas como a las instituciones, a ahorrar mucho tiempo y mejorar los sistemas centralizados existentes actualmente. </p>
-    <p>Los gobiernos podr&aacute;n modernizar sus servicios, agilizar la gesti&oacute;n de tr&aacute;mites y sobre todo a brindar una experiencia superadora a los ciudadanos. Karbon14 permitir&aacute; descentralizar la generaci&oacute;n de documentos como los certificados de pruebas de vida. </p>
-    <p>Invertir en Karbon14 es sumarse a la primera plataforma descentralizada para realizar certificados de pruebas vida. Es un proyecto totalmente superador y con una potencialidad inmensa. </p>
-    <p>Al ser un territorio sin explorar y sin actores en el mercado hace que su l&iacute;mite no tenga un horizonte visible.</p>
+    <p>Karbon14 es una herramienta única en el mercado, que viene a proponer algo totalmente disruptivo e innovador que ayudará enormemente tanto a las personas como a las instituciones, a ahorrar mucho tiempo y mejorar los sistemas centralizados existentes actualmente.</p>
+    <p>Los gobiernos podrán modernizar sus servicios, agilizar la gestión de trámites y sobre todo a brindar una experiencia superadora a los ciudadanos. Karbon14 permitirá descentralizar la generación de documentos como los certificados de pruebas de vida.</p>
+    <p>Invertir en Karbon14 es sumarse a la primera plataforma descentralizada para realizar certificados de pruebas vida. Es un proyecto totalmente superador y con una potencialidad inmensa.</p>
+    <p>Al ser un territorio sin explorar y sin actores en el mercado hace que su límite no tenga un horizonte visible.</p>
   USEBUDGET:
     <h3>Uso del Presupuesto</h3>
   USEBUDGETTEXT:
-    <p>Los fondos recaudados durante el Per&iacute;odo de contribuci&oacute;n se utilizar&aacute;n &uacute;nicamente para el desarrollo de la aplicaci&oacute;n Karbon14.</p>
-    <p>A continuaci&oacute;n se describe un presupuesto estimativo que representa el escenario en el que se alcance la totalidad de la inversi&oacute;n buscada </p>
+    <p>Los fondos recaudados durante el Período de contribución se utilizarán únicamente para el desarrollo de la aplicación Karbon14. </p>
+    <p>A continuación se describe un presupuesto estimativo que representa el escenario en el que se alcance la totalidad de la inversión buscada:</p>
   CROWDSALE:
     <h4>Crowdsale</h4>
   DISTRIBUTIONCOMMUNITY:
     <h4><strong>50%  Comunidad</strong></h4>
   DISTRIBUTIONCOMMUNITYTEXT:
-    <p>Karbon14 tiene en claro que una comunidad fuerte puede lograr un proyecto muy grande. Por eso una gran parte ira destinada a escuchar a la comunidad, hablar, hacer reuniones, y todo tipo de acciones que haga que la comunidad se multiplique.</p>
+    <p>Karbon14 tiene en claro que una comunidad fuerte puede lograr un proyecto muy grande. Por eso una gran parte irá destinada a escuchar a la comunidad, hablar, hacer reuniones, y todo tipo de acciones que haga que la comunidad se multiplique.</p>
   DISTRIBUTIONDEVELOPMENT:
     <h4><strong>30% Desarrollo</strong></h4>
   DISTRIBUTIONDEVELOPMENTTEXT:
-    <p>Una importante parte del presupuesto se usar&aacute; para el desarrollo de las aplicaciones y todo lo requerido para lograr el mejor producto.</p>
+    <p>Una importante parte del presupuesto se usará para el desarrollo de las aplicaciones y todo lo requerido para lograr el mejor producto.</p>
   DISTRIBUTIONFOUNDERS:
     <h4><strong>10% Fundadores</strong></h4>
   DISTRIBUTIONMARKETING:
     <h4><strong>7% Marketing</strong></h4>
   DISTRIBUTIONMARKETINGTEXT:
-    <p>Este porcentaje del total recaudado cubrir&aacute; los eventos de construcci&oacute;n de la comunidad y ayudar&aacute; a llegar al p&uacute;blico en general a trav&eacute;s de los canales tradicionales y las redes sociales.</p>
+    <p>Este porcentaje servirá para la construcción de la comunidad y ayudará a llegar al público en general a través de los canales tradicionales y redes sociales.</p>
   DISTRIBUTIONAIRDROP:
     <h4><strong>3%  Airdrop</strong></h4>
   DISTRIBUTIONAIRDROPTEXT:
-    <p>A karbon14 le interesa que sus usuarios est&eacute;n m&aacute;s que conforme con la plataforma y sus fundadores, por eso mismo se pens&oacute; en destinar un 3% de los tokens generados estar&aacute;n destinados a la Airdrop</p>
+    <p>A karbon14 le interesa que sus usuarios estén más que conforme con la plataforma y sus fundadores, por eso mismo se pensó en destinar un 3% de los tokens generados a la Airdrop</p>
   LEGALNOTE:
     <h3>Nota legal</h3>
   LEGALNOTETEXT:
-    <p>Este Whitepaper describe las principales funcionalidades del primer prototipo de Karbon14. </p>
-    <p>Como tal puede estar sujeta a modificaciones en el transcurso del desarrollo de la aplicaci&oacute;n, principalmente por cuestiones de seguridad. </p>
-    <p>Por lo tanto la misma puede sufrir modificaciones, distando de esta manera en algunos 	puntos con la propuesta inicial arrojada en este Whitepaper. </p>
-    <p>Este Whitepaper no est&aacute; sujeto a ning&uacute;n requerimiento legal o legislaci&oacute;n. Todo lo citado en el, no est&aacute; sujeto a ning&uacute;n tipo de protecci&oacute;n a inversores o de seguridad en transferencias.  Esto aplica sin restricci&oacute;n para todo tipo de ley o legislaci&oacute;n. Karbon14 no asume responsabilidad o garant&iacute;as por la informaci&oacute;n compartida por el usuario. </p>
-    <p>Asimismo este Whitepaper no avala las solicitudes o declaraciones de garant&iacute;as por parte de cualquier inversor o de cualquier otra garant&iacute;a legal o contractual en cuanto a una relaci&oacute;n para con el inversor. </p>
-    <p>Cualquier predicci&oacute;n, data espec&iacute;fica, o estimativa contenida en este Whitepaper no constituyen declaraciones f&aacute;cticas, de acuerdo a la informaci&oacute;n provista y como puede resultar el desarrollo final de la implementaci&oacute;n.</p>
-    <p>Las declaraciones hechas no convalidan al usuario a hacer descargos legales en relaci&oacute;n a los descuentos, oferta y promociones de venta token en el Whitepaper mencionadas, en el caso que llegaren a diferir con como finalmente se llegase a implementar por Karbon14.</p>
-    <p>Una inversi&oacute;n representa un riesgo independiente para los fondos del inversor, cuya capitalizaci&oacute;n de regal&iacute;as resulta en un futuro incierto y del cual su desarrollo econ&oacute;mico es responsabilidad solo y plenamente de las decisiones del inversor. El inversor es tambi&eacute;n consciente de la p&eacute;rdida total de dicha inversi&oacute;n. Cualquier posibilidad de reclamo legal contra Karbon14 por lo anteriormente citado asi como tambien contra parte de sus miembros, empleados, representante o compa&#241;&iacute;as afiliadas queda excluido.</p>
+    <p>Este Whitepaper describe las principales funcionalidades del primer prototipo de Karbon14. Como tal puede estar sujeta a modificaciones en el transcurso del desarrollo de la aplicación, principalmente por cuestiones de seguridad.</p>
+    <p>Por lo tanto la misma puede sufrir modificaciones, distando de esta manera en algunos 	puntos con la propuesta inicial arrojada en este Whitepaper.</p>
+    <p>Este Whitepaper no está sujeto a ningún requerimiento legal o legislación. Todo lo citado en el, no está sujeto a ningún tipo de protección a inversores o de seguridad en transferencias.  Esto aplica sin restricción para todo tipo de ley o legislación. Karbon14 no asume responsabilidad o garantías por la información compartida por el usuario.</p>
+    <p>Asimismo este Whitepaper no avala las solicitudes o declaraciones de garantías por parte de cualquier inversor o de cualquier otra garantía legal o contractual en cuanto a una relación para con el inversor.</p>
+    <p>Cualquier predicción, data específica, o estimativa contenida en este Whitepaper no constituyen declaraciones fácticas, de acuerdo a la información provista y como puede resultar el desarrollo final de la implementación.</p>
+    <p>Las declaraciones hechas no convalidan al usuario a hacer descargos legales en relación a los descuentos, oferta y promociones de venta token en el Whitepaper mencionadas, en el caso que llegaren a diferir con como finalmente se llegase a implementar por Karbon14.</p>
+    <p>Una inversión representa un riesgo independiente para los fondos del inversor, cuya capitalización de regalías resulta en un futuro incierto y del cual su desarrollo económico es responsabilidad solo y plenamente de las decisiones del inversor. El inversor es también consciente de la pérdida total de dicha inversión.</p>
+    <p>Cualquier posibilidad de reclamo legal contra Karbon14 por lo anteriormente citado asi como tambien contra parte de sus miembros, empleados, representante o compañías afiliadas queda excluido.</p>
   GLOSSARY:
     <h3>Glosario</h3>
   PROOFLIFEGLOSSARYTEXT:
-    <p><strong>Prueba de Vida:</strong> Proceso en el cual se constata que los datos del pasado son congruentes con los datos del presente. Confirmando que la persona es quien dice ser, y que est&aacute; viva al momento de hacer el certificado de vida.</p>
+    <p><strong>Prueba de Vida:</strong> Proceso en el cual se constata que los datos del pasado son congruentes con los datos del presente. Confirmando que la persona es quien dice ser, y que está viva al momento de hacer el certificado de vida.</p>
   CERTIFICATEPROOFGLOSSARYTEXT:
-    <p><strong>Certificado de Vida:</strong> Un certificado de prueba de vida para Karbon14 es un documento que consta de informaci&oacute;n brindada por el usuario, aprobada por las cripto escriban&iacute;as de karbon14 y persistiendo en la blockchain</p>
+    <p><strong>Certificado de Vida:</strong> Un certificado de prueba de vida para Karbon14 es un documento que consta de información brindada por el usuario, aprobada por las cripto escribanías de karbon14 y persistiendo en la blockchain.</p>
   CRYPTONOTARYGLOSSARYTEXT:
-    <p><strong>Cripto Escribanos:</strong> Los Cripto Escribanos ser&aacute;n quienes certifiquen los datos enviados por los usuarios. Tendr&aacute;n las responsabilidad de aprobar o rechazar la informaci&oacute;n.</p>
+    <p><strong>Cripto Escribanos:</strong> Los Cripto Escribanos serán quienes certifiquen los datos enviados por los usuarios. Tendrán las responsabilidad de aprobar o rechazar la información.</p>
   WALLETGLOSSARYTEXT:
     <p><strong>Wallet Karbon14:</strong> Aplicativo multiplataforma para que los usuarios puedan gestionar sus pruebas de vida, visualizar o crear una nueva de prueba de vida.</p>
   VALIDATORGLOSSARYTEXT:
-    <p><strong>Validador de certificados pruebas de vidas:</strong> Herramienta que permitir&aacute; al usuario validar su certificado de prueba de vida generado por Karbon14.</p>
-
-
-
-ES:
-  INDEX:
-    <h2>Index</h2>
-  INDEXRESUME:
-    <h4><strong>Resumen del Proyecto</strong></h4>
-  INDEXINTRODUCTION:
-    <h4><strong>Introducci&oacute;n</strong></h4>
-  INDEXIWISK14:
-    <p>&#191;Qu&eacute; es Karbon 14?</p>
-  INDEXDEFPROBLEM:
-    <p>Definici&oacute;n del Problema</p>
-  INDEXWHYPROOFLIFE:
-    <p>&#191;Qu&eacute; son las Pruebas de Vida?</p>
-  INDEXSTAKEHOLDERS:
-    <p>Stakeholders o P&uacute;blico Interesado</p>
-  INDEXSECURITY:
-    <p>Seguridad de la Informaci&oacute;n con Karbon14</p>
-  INDEXBENEFITS:
-    <p>Beneficios de Karbon14</p>
-  INDEXHOWWORK:
-    <h4><strong>&#191;C&oacute;mo funciona Karbon14?</strong></h4>
-  INDEXCERTIFICATE:
-    <p>Certificados de Prueba de Vida</p>
-  INDEXCRYPTO:
-    <p>Cripto Escribano</p>
-  INDEXLICENSECRYPTO:
-    <p>Licencia Cripto Escribano</p>
-  INDEXEXPLORER:
-    <p>Explorador de pruebas de vidas</p>
-  INDEXWALLET:
-    <p>Wallet Karbon14</p>
-  INDEXUSECASES:
-    <h4><strong>Casos de uso</strong></h4>
-  INDEXBIRTH:
-    <p>Partidas de nacimiento</p>
-  INDEXFAKENEWS:
-    <p>Noticias falsas</p>
-  INDEXPFAGENTS:
-    <p>Pruebas de vida para agente gubernamentales</p>
-  INDEXRESUING:
-    <p>Agilizaci&oacute;n y reutilizaci&oacute;n de una prueba de vida</p>
-  INDEXTESTAMENT:
-    <p>Testamentos</p>
-  INDEXTEAM:
-    <h4><strong>Equipo</strong></h4>
-  INDEXROADMAP:
-    <h4><strong>Roadmap</strong></h4>
-  INDEXDISTRIBUTION:
-    <h4><strong>Distribuci&oacute;n Token</strong></h4>
-  INDEXSELLTOKENS:
-    <p>Venta de Karbon Tokens</p>
-  INDEXWHYINVEST:
-    <h4><strong>&#191;Por qu&eacute; invertir en Karbon14?</strong></h4>
-  INDEXBUDGET:
-    <h4><strong>Uso del Presupuesto</strong></h4>
-  INDEXLEGALNOTE:
-    <h4><strong>Notal Legal</strong></h4>
-  INDEXGLOSSARY:
-    <h4><strong>Glosario</strong></h4>
-  RESUME:
-    <h1>Resumen del proyecto</h1>
-  TITLE: 
-    <h1>Introduction</h1>
-  WISK14: 
-    <h3>&#191;Qu&eacute; es Karbon 14?</h3>
-  WISK14TEXT: 
-    <p>Karbon14 es un proyecto de c&oacute;digo abierto que tiene como objetivo crear la primera plataforma descentralizada para realizar certificados de pruebas de vida. <br>En nuestro dia  a dia cotidiano se nota cada vez m&aacute;s un incremento en el auge de las aplicaciones que requieren una validaci&oacute;n de los datos del usuario como algo indispensable para poder operar en la misma,  esto es simplemente una prueba de vida. La prueba de vida es un certificado indiscutible que confirma la existencia de la persona.</p>
-  DEFPROBLEM: 
-    <h3>Definition of problem</h3>
-  DEFPROBLEMTEXT: 
-    <p>El mundo digital de hoy en d&iacute;a carece de un sistema de identidad cre&iacute;ble que sea universalmente consumible y en el que puedan confiar las contrapartes de todas las industrias. </p>
-    <p>Lograr que todas las industrias, gobiernos y consumidores de cientos de jurisdicciones acuerden un marco es un desaf&iacute;o. </p>
-    <p>En la actualidad, el usuario demora mucho tiempo en poder brindar los datos a distintos tipos de solicitantes, porque en la mayor&iacute;a de los casos no est&aacute; preparado para realizar su prueba de vida. </p>
-    <p>Pero este problema ser&aacute; resuelto con Karbon14 teniendo sus diferentes tipos de prueba de vida en un solo lugar, evitando de esta manera, repetir una y otra vez el mismo procedimiento con las distintas entidades que lo necesiten
-    Karbon14 aspira que este certificado de vida sea un documento con validez en entidades gubernamentales. Gracias a Karbon14 se podr&iacute;a:</p>
-    <ul>
-      <li> Facilitar la posesi&oacute;n de la identidad para las personas </li>
-      <li> Facilitar la posesi&oacute;n de la identidad para las personas </li>
-      <li> Establecer el consenso masivo sobre la verificaci&oacute;n de identidades reales. </li>
-      <li> Dejar atr&aacute;s los sistemas centralizados, ya que no son confiables a largo plazo debido a riesgos pol&iacute;ticos y de seguridad </li>
-      <li> Dejar atr&aacute;s los sistemas centralizados, ya que no son confiables a largo plazo debido a riesgos pol&iacute;ticos y de seguridad </li>
-      <li> Mantener identidades validadas y actualizadas constantemente </li>
-      <li> Expandir la adopci&oacute;n masiva por las diferentes partes interesadas </li>
-    </ul>
-    <p>Los gobiernos de todo el mundo y la industria est&aacute;n buscando desesperadamente una soluci&oacute;n y Karbon14 puede ayudar a solucionarlo.</p>
-  WPROOFLIFE:
-    <h3>&#191;Qu&eacute; son las Pruebas de Vida?</h3>
-  WPROOFLIFETEXT:
-    <p>Karbon14 define como Prueba de Vida a el proceso para confirmar que la persona en cuesti&oacute;n realmente existe y que se encuentra con vida. Karbon14 va a constatar que los datos del pasado sean congruentes con los datos del presente. </p>
-    <p>Podr&iacute;amos tomar como referencia que los datos del pasado son certificados o documentos proporcionados por un agente gubernamental testificando su identidad, y que estos son congruentes con sus datos del presente brindados por el mismo usuario.</p>
-  PINTERESTED:
-    <h3>Stakeholders o P&uacute;blico Interesado</h3>
-  GOVERNMENTS:
-    <h3>Gobiernos</h3>
-  GOVERNMENTSTEXT:
-    <p>Los Gobiernos de cualquier tipo, Nacional, Provincial o Municipal, suele solicitar a los ciudadanos alg&uacute;n tipo de certificado o documento que corrobore la existencia de la persona a la hora de realizar un tr&aacute;mite o diligencia de cualquier tipo. </p>
-    <p>Por lo general el procedimiento se caracteriza por ser excesivamente burocr&aacute;tico, lento y poco eficiente. Generando un proceso altamente frustrante para las personas y con una enorme p&eacute;rdida de tiempo. </p>
-    <p>Una herramienta como Karbon14 permitir&aacute; a los gobiernos dejar atr&aacute;s el sistema centralizado y anal&oacute;gico con el que cuenta ahora y permitir&aacute; evitar el riesgo de perder los documentos f&iacute;sicos generados hoy por hoy por los ciudadanos. </p>
-    <p>Cabe destacar que lo anteriormente expresado ya ha pasado infinidad de veces cuando desastres clim&aacute;ticos o imponderables como incendios han afectado a edificios p&uacute;blicos encargados de almacenar estos documentos sensibles de sus ciudadanos dando como resultado su p&eacute;rdida parcial o total.</p>
-  EXCHANGECRYPTO:
-    <h3>Aplicaciones de Intercambio de Criptomonedas</h3>
-  EXCHANGECRYPTOTEXT:
-    <p>El constante avance de aplicaciones de intercambio de criptomonedas, hace que necesiten al momento de realizar la transacci&oacute;n, la validaci&oacute;n de los datos de los usuarios. Es decir una prueba de vida. </p>
-    <p>Una aplicaci&oacute;n como Karbon14 permitir&aacute; a las aplicaciones de criptomoneda incorporar un sistema de validaci&oacute;n seguro y f&aacute;cil de utilizar.</p>
-  USERS: 
-    <h3>Usuarios</h3>
-  USERSTEXT:
-    <p>Para los usuarios un sistema como Karbon14 los beneficiar&aacute; directamente en la agilidad a la hora de realizar los certificados de vida, lo cual representa un ahorro significativo de tiempo, ya que no tendr&aacute; que repetir una y otra vez el mismo procedimiento con las distintas entidades que lo necesiten.</p>
-  BANKS:
-    <h3>Fintech/ Bancos</h3>
-  BANKSTEXT:
-    <p>En la actualidad muchas entidades financieras, est&aacute;n haciendo cambios importantes en su Banca Digital, intentando en todo momento mejorar la experiencia del usuario. </p>
-    <p>Una de las formas de hacerlo es mediante la posibilidad de crear cuentas, acceder a pr&eacute;stamos o realizar transferencias completamente a trav&eacute;s de un medio digital, por lo general el Home Banking. Para tales requerimientos las entidades necesitan una prueba de vida o certificaci&oacute;n de la misma como requisito fundamental previo a operar. </p>
-    <p>Gracias a Karbon14 el mundo la banca digital podr&iacute;a mejorar a&uacute;n m&aacute;s la experiencia y el acercamiento de las personas hacia el uso digital del banco.</p>
-  MEDIA:
-    <h3>Medios de Comunicaci&oacute;n</h3>
-  MEDIATEXT:
-    <p>La instantaneidad y la descentralizaci&oacute;n de las redes sociales hace que sea posible que cualquiera pueda esparcir un rumor y hacerlo viral. De esta manera puede en cuesti&oacute;n de minutos difundir una noticia falsa sobre la muerte de alg&uacute;n personaje famoso o reconocido por la sociedad. </p>
-    <p>La vor&aacute;gine de las noticias puede hacer que los medios de comunicaci&oacute;n con tal de cubrir la noticia a tiempo, no compruebe la veracidad de la misma de forma correcta, incurriendo de esa manera en la cobertura de una noticia falsa. </p>
-    <p>Gracias a Karbon14 la persona involucrada o afectada por estas noticias falsas podr&aacute; realizar su certificado de prueba de vida de una  manera r&aacute;pida y sencilla. Teniendo as&iacute; la posibilidad de desmentir casi de inmediato. Se puede citar como antecedente emblem&aacute;tico de lo anteriormente citado el caso sucedido al creador de Ethereum, donde desacredito la noticia falsa de su muerte con una foto suya junto a un papel donde aparec&iacute;a escrito el &uacute;ltimo bloque de ethreum minado hasta ese momento.</p>
-  INFORMATIONSECURITY:
-    <h3>Seguridad de la Informaci&oacute;n con Karbon14</h3>
-  INFORMATIONSECURITYTEXT:
-    <p>En la blockchain la informaci&oacute;n es almacenada en bloques, los cuales est&aacute;n enlazados los unos a los otros identificados por un hash generado junto a un timestamp. Toda esa informaci&oacute;n es inmutable, es decir, nadie puede modificarla. Y a&uacute;n m&aacute;s est&aacute; replicada a lo largo de todos los nodos que conforman la red.</p>
-    <p>Karbon 14 crear&aacute; un  contrato inteligente que ser&aacute; almacenado en la blockchain de Ethereum para lograr la privacidad y la seguridad de la informaci&oacute;n. Los contratos inteligentes son ideales para realizar micro-transacciones guiados por eventos verificables por la red.</p>
-    <p>Karbon14 es la primera aplicaci&oacute;n en utilizar los beneficios de la blockchain para realizar certificados de pruebas de vida. Al crear tu certificado de prueba vida con Karbon14 tus datos ser&aacute;n transformado en un c&oacute;digo hash y ese hash ser&aacute; guardado en un contrato inteligente. Cabe destacar que ning&uacute;n dato personal ser&aacute; guardado en el contrato inteligente, evitando as&iacute; la exposici&oacute;n de los datos del usuario.</p>
-    <p>Karbon14 crear&aacute; un protocolo de validaci&oacute;n de los hashes para autenticar los certificados de vida. Asi como tambien se crear&aacute;n diversas herramientas que usar&aacute;n el protocolo para permitir as&iacute; la validaci&oacute;n desde distintas plataformas."</p>
-  BENEFITS:
-    <h3>Beneficios de Karbon14 </h3>
-  BENEFITSTEXT:
-    <p>El hecho de contar con una aplicaci&oacute;n que realice certificados de pruebas de vida mediante una sistema descentralizado conlleva diversos beneficios para los distintos actores involucrados. A continuaci&oacute;n se enumeran brevemente&#58; </p>
-    <p><b>Acortar tiempos de espera</b>&#58; Los principales objetivos de Karbon14 es que los usuarios disminuyan los tiempos de espera, adquieran un servicio confiable y f&aacute;cil de utilizar, con la tranquilidad de que su informaci&oacute;n est&aacute; segura, con alta disponibilidad y perdurar&aacute; en el tiempo. Esto lo vamos a resolver utilizando la blockchain, que nos brindar&aacute; una red descentralizada.</p>
-    <p><b>Seguridad en la informaci&oacute;n brindada</b>&#58; Tal cual se mencion&oacute; en el aparto de la Seguridad, una aplicaci&oacute;n como Karbon14 asegurar&aacute; que la informaci&oacute;n de las personas sean inmodificables por terceros. Por lo tanto los usuarios y las entidades solicitantes podr&aacute;n estar seguros que los certificados son 100% reales y que la informaci&oacute;n de las personas es  fehaciente y est&aacute; completamente protegida. </p>
-    <p><b>Confianza para empresas o entidades</b>&#58; Esto lo resolveremos con un sistema de "scoring". Lo m&aacute;s destacable del sistema de 'scoring' es que va a ser totalmente descentralizado. Los certificados tendr&aacute;n un puntaje de acuerdo al nivel elegido, por lo tanto las instituciones solicitantes podr&aacute;n comprobar el puntaje del perfil de la persona, dando de esta manera la confianza necesaria para tomar como v&aacute;lidos estas certificaciones. </p>
-  HOWWORK:
-    <h3>&#191;C&oacute;mo funciona Karbon14?</h3>
-  HOWWORKTEXT:
-    <p>Karbon14 utiliza los beneficios de la blockchain para realizar certificados pruebas de vida y al mismo tiempo aprovechar&aacute; el potencial de los contratos inteligentes para lograr la privacidad y la seguridad de toda la informaci&oacute;n de sus usuarios.</p>
-    <p>La idea de Karbon14 es poder crear los Certificados de Prueba de Vida que solicitan las diversas entidades a los usuarios. </p>
-    <p>B&aacute;sicamente un certificado de prueba de vida para Karbon14 consta de informaci&oacute;n brindada por el usuario, aprobada por las cripto escriban&iacute;as de karbon14 y persistiendo en la blockchain.</p>
-    <p>La escriban&iacute;a estar&aacute; compuesta por usuarios de la red que ejercer&aacute;n un rol de escribano, ejecutando esta acci&oacute;n por medio de un voto afirmativo o negativo. </p>
-    <p>Estos escribanos ejercer&aacute;n su voto sin saber quien es su contraparte, esto garantizar&aacute; que el voto no es consensuado, sino totalmente independiente por lo que los escribanos deber&aacute;n ser un n&uacute;mero impar. Para realizar este tr&aacute;mite los usuarios involucrados deber&aacute;n ofrecer una gratificaci&oacute;n monetaria en tokens de Karbon14. </p>
-    <p>Para la creaci&oacute;n de un certificado, Karbon 14 utilizar&aacute; diversas herramientas, veamoslos en profundidad a continuaci&oacute;n&#58; </p>
-    <ul>
-      <li>Certificado de Prueba de Vida </li>
-      <li>Cripto Escribanos </li>
-      <li>Licencia de Cripto Escribano </li>
-      <li>Validador de Pruebas de Vida </li>
-      <li>Wallet Karbon14 </li>
-    </ul>
-  CERTIFICATEPROOFLIFE:
-    <h3>Certificados de Prueba de Vida</h3>
-  CERTIFICATEPROOFLIFETEXT:
-    <p>El certificado de prueba de vida es de car&aacute;cter inmutable, por lo cual no puede verse alterado. Esta caracter&iacute;stica hace que pueda ser utilizados por entidades que requieran pruebas de vida para empezar a operar.</p>
-    <p>Otra caracter&iacute;stica que presenta los certificados de prueba es que poseen distintos niveles de validaci&oacute;n. Generando desde pruebas sencillas a pruebas m&aacute;s completas seg&uacute;n necesite el usuario o la entidad que va a validar esta prueba.</p>
-    <p>Los niveles de los certificados est&aacute;n relacionados con la entidad solicitante, ya que &eacute;sta tiene sus propios niveles de seguridad.</p>
-    <p>Por esta raz&oacute;n Karbon14 proveer&aacute; la posibilidad de crear distintos tipos de pruebas de vida. De acuerdo al nivel de seguridad solicitado, la prueba de vida requerir&aacute; tener menor o mayor cantidad de pasos para su realizaci&oacute;n.</p>
-    <p>Cada certificado de vida tendr&aacute; un puntaje de acuerdo al nivel elegido. Una vez validado en la red, contribuir&aacute; a sumar un puntaje en su perfil.  Con esto Karbon14 busca crear una reputaci&oacute;n para el usuario con sus pruebas de vida.</p>
-  CRYPTO:
-    <h3>Cripto Escribano</h3>
-  CRYPTOTEXT:
-    <p>Como en la vida cotidiana las entidades f&iacute;sicas gubernamentales son las que verifican que una persona sigue con vida, las cripto escriban&iacute;as cumplir&aacute;n el mismo rol pero en una red descentralizada. Es decir que su objetivo principal ser&aacute; la verificaci&oacute;n de las pruebas que le son enviadas.</p>
-    <p>Es importante destacar que cada vez que un usuario de Karbon14 requiera validar una nueva prueba de vida, dicha validaci&oacute;n para que sea efectuada en la blockchain requerir&aacute; de un m&iacute;nimo de 3 cripto escribanos para lograr su aprobaci&oacute;n, esta se dar&aacute; solo si hay un consenso positivo de los cripto escribanos en la votaci&oacute;n. </p>
-    <p>Karbon14 ofrecer&aacute; un listado de los escribanos registradas en el sistema. Los usuarios tendr&aacute;n a disposici&oacute;n esta lista y tendr&aacute;n a la orden cualquiera de estos escribanos para enviar sus pruebas de vida y su posterior validaci&oacute;n.</p>
-  LICENSECRYPTO:
-    <h3>Licencia Cripto Escribano</h3>
-  LICENSECRYPTOTEXT:
-    <p>Karbon14 le dar&aacute; la posibilidad a cualquier usuario de ser un cripto escribano mediante la adquisici&oacute;n de una una licencia para tal fin, la cual ser&aacute; abonada con tokens de Karbon14.</p>
-    <p>Las escribanos tendr&aacute;n la capacidad de establecer el valor de la validaci&oacute;n de la prueba de vida. Este valor ser&aacute; cobrado al usuario con tokens de Karbon14. </p>
-    <p>As&iacute; el cripto escribano ser&aacute; un tenedor de tokens de Karbon14 y generar&aacute; ganancias a medida que valide pruebas de vida.</p>
-  VALIDATORPROOFLIFE:
-    <h3>Validador de pruebas de vidas</h3>
-  VALIDATORPROOFLIFETEXT:
-    <p>Karbon14 crear&aacute; un validador de pruebas de vida que utilizar&aacute; el protocolo de validaci&oacute;n desarrollado para tal fin. En conjunto con el protocolo se desarrollar&aacute;n diferentes herramientas que hagan uso del mismo para poder brindar la posibilidad de validar el certificado de prueba de vida en m&uacute;ltiples plataformas y dispositivos. Permitiendo as&iacute; una f&aacute;cil adopci&oacute;n de la soluci&oacute;n planteada por Karbon14 para ser integrada en aplicaciones y desarrollos de terceros.</p>
-  WALLET:
-    <h3>Wallet Karbon14</h3>
-  WALLETTEXT:
-    <p>Karbon14 crear&aacute; un aplicativo multiplataforma para que los usuarios puedan gestionar sus certificados de pruebas de vida, visualizarlos o crear una nueva de prueba de vida. La aplicaci&oacute;n se actualizar&aacute; agregando de manera incremental las nuevas caracter&iacute;sticas que se vayan desarrollando.</p>
-  CASEUSES:
-    <h3>Casos de uso</h3>
-  CASEUSESTEXT:
-    <p>Existen varios casos de uso para Karbon14, vamos a mostrar algunos ejemplos en los cuales Karbon14 podr&iacute;a ser usado.</p>
-  BIRTHCERTIFICATES:
-    Partidas de nacimiento
-  BIRTHCERTIFICATESTEXT:
-    <p>Se podr&iacute;a generar el primer certificado de prueba de vida desde el nacimiento. Esto lo puede llevar a cabo los agentes gubernamentales o en su defecto los mismos padres.</p>
-  FAKENEWS:
-    <h3>Noticias falsas</h3>
-  FAKENEWSTEXT:
-    <p>Con la impronta que tiene las redes sociales sobre el manejo de la informaci&oacute;n muchas veces solemos ver noticias falsas que tiene que ver con el fallecimiento de personas p&uacute;blicas. 
-    Por ejemplo podemos tomar el caso del fundador de Ethereum, Vitalik Buterin, quien realiz&oacute; de forma manual su prueba de vida en Twitter. Esto podr&iacute;a ser desmentido f&aacute;cilmente con el uso de Karbon14.</p>
-  PROOFGOVERNMENTAGENT:
-    <h3>Pruebas de vida para agente gubernamentales</h3>
-  PROOFGOVERNMENTAGENTTEXT:
-   <p>Generalmente para conseguir o mantener algunos beneficios por parte del estado se les pide a las personas pruebas de vida, Karbon14 podr&iacute;a ser el que le provea al estado la prueba de vida solicitante.</p>
-  RESUINGPROOF:
-    <h3>Agilizaci&oacute;n y reutilizaci&oacute;n de una prueba de vida </h3>
-  RESUINGPROOFTEXT:
-    <p>Los sitios de transacciones de cripto monedas habitualmente solicitan al usuario pruebas de que la persona es quien dice ser, esto puede ser realizado f&aacute;cilmente con un certificado de vida de Karbon14. </p>
-  WHYINVEST:
-    <h3>&#191;Por qu&eacute; invertir en Karbon14?</h3>
-  WHYINVESTTEXT:
-    <p>Karbon14 es una herramienta &uacute;nica en el mercado, que viene a proponer algo totalmente disruptivo e innovador que ayudar&aacute; enormemente tanto a las personas como a las instituciones, a ahorrar mucho tiempo y mejorar los sistemas centralizados existentes actualmente. </p>
-    <p>Los gobiernos podr&aacute;n modernizar sus servicios, agilizar la gesti&oacute;n de tr&aacute;mites y sobre todo a brindar una experiencia superadora a los ciudadanos. Karbon14 permitir&aacute; descentralizar la generaci&oacute;n de documentos como los certificados de pruebas de vida. </p>
-    <p>Invertir en Karbon14 es sumarse a la primera plataforma descentralizada para realizar certificados de pruebas vida. Es un proyecto totalmente superador y con una potencialidad inmensa. </p>
-    <p>Al ser un territorio sin explorar y sin actores en el mercado hace que su l&iacute;mite no tenga un horizonte visible.</p>
-  USEBUDGET:
-    <h3>Uso del Presupuesto</h3>
-  USEBUDGETTEXT:
-    <p>Los fondos recaudados durante el Per&iacute;odo de contribuci&oacute;n se utilizar&aacute;n &uacute;nicamente para el desarrollo de la aplicaci&oacute;n Karbon14.</p>
-    <p>A continuaci&oacute;n se describe un presupuesto estimativo que representa el escenario en el que se alcance la totalidad de la inversi&oacute;n buscada </p>
-  CROWDSALE:
-    <h4>Crowdsale</h4>
-  DISTRIBUTIONCOMMUNITY:
-    <h4><strong>50%  Comunidad</strong></h4>
-  DISTRIBUTIONCOMMUNITYTEXT:
-    <p>Karbon14 tiene en claro que una comunidad fuerte puede lograr un proyecto muy grande. Por eso una gran parte ira destinada a escuchar a la comunidad, hablar, hacer reuniones, y todo tipo de acciones que haga que la comunidad se multiplique.</p>
-  DISTRIBUTIONDEVELOPMENT:
-    <h4><strong>30% Desarrollo</strong></h4>
-  DISTRIBUTIONDEVELOPMENTTEXT:
-    <p>Una importante parte del presupuesto se usar&aacute; para el desarrollo de las aplicaciones y todo lo requerido para lograr el mejor producto.</p>
-  DISTRIBUTIONFOUNDERS:
-    <h4><strong>10% Fundadores</strong></h4>
-  DISTRIBUTIONMARKETING:
-    <h4><strong>7% Marketing</strong></h4>
-  DISTRIBUTIONMARKETINGTEXT:
-    <p>Este porcentaje del total recaudado cubrir&aacute; los eventos de construcci&oacute;n de la comunidad y ayudar&aacute; a llegar al p&uacute;blico en general a trav&eacute;s de los canales tradicionales y las redes sociales.</p>
-  DISTRIBUTIONAIRDROP:
-    <h4><strong>3%  Airdrop</strong></h4>
-  DISTRIBUTIONAIRDROPTEXT:
-    <p>A karbon14 le interesa que sus usuarios est&eacute;n m&aacute;s que conforme con la plataforma y sus fundadores, por eso mismo se pens&oacute; en destinar un 3% de los tokens generados estar&aacute;n destinados a la Airdrop</p>
-  LEGALNOTE:
-    <h3>Nota legal</h3>
-  LEGALNOTETEXT:
-    <p>Este Whitepaper describe las principales funcionalidades del primer prototipo de Karbon14. </p>
-    <p>Como tal puede estar sujeta a modificaciones en el transcurso del desarrollo de la aplicaci&oacute;n, principalmente por cuestiones de seguridad. </p>
-    <p>Por lo tanto la misma puede sufrir modificaciones, distando de esta manera en algunos 	puntos con la propuesta inicial arrojada en este Whitepaper. </p>
-    <p>Este Whitepaper no est&aacute; sujeto a ning&uacute;n requerimiento legal o legislaci&oacute;n. Todo lo citado en el, no est&aacute; sujeto a ning&uacute;n tipo de protecci&oacute;n a inversores o de seguridad en transferencias.  Esto aplica sin restricci&oacute;n para todo tipo de ley o legislaci&oacute;n. Karbon14 no asume responsabilidad o garant&iacute;as por la informaci&oacute;n compartida por el usuario. </p>
-    <p>Asimismo este Whitepaper no avala las solicitudes o declaraciones de garant&iacute;as por parte de cualquier inversor o de cualquier otra garant&iacute;a legal o contractual en cuanto a una relaci&oacute;n para con el inversor. </p>
-    <p>Cualquier predicci&oacute;n, data espec&iacute;fica, o estimativa contenida en este Whitepaper no constituyen declaraciones f&aacute;cticas, de acuerdo a la informaci&oacute;n provista y como puede resultar el desarrollo final de la implementaci&oacute;n.</p>
-    <p>Las declaraciones hechas no convalidan al usuario a hacer descargos legales en relaci&oacute;n a los descuentos, oferta y promociones de venta token en el Whitepaper mencionadas, en el caso que llegaren a diferir con como finalmente se llegase a implementar por Karbon14.</p>
-    <p>Una inversi&oacute;n representa un riesgo independiente para los fondos del inversor, cuya capitalizaci&oacute;n de regal&iacute;as resulta en un futuro incierto y del cual su desarrollo econ&oacute;mico es responsabilidad solo y plenamente de las decisiones del inversor. El inversor es tambi&eacute;n consciente de la p&eacute;rdida total de dicha inversi&oacute;n. Cualquier posibilidad de reclamo legal contra Karbon14 por lo anteriormente citado asi como tambien contra parte de sus miembros, empleados, representante o compa&#241;&iacute;as afiliadas queda excluido.</p>
-  GLOSSARY:
-    <h3>Glosario</h3>
-  PROOFLIFEGLOSSARYTEXT:
-    <p><strong>Prueba de Vida:</strong> Proceso en el cual se constata que los datos del pasado son congruentes con los datos del presente. Confirmando que la persona es quien dice ser, y que est&aacute; viva al momento de hacer el certificado de vida.</p>
-  CERTIFICATEPROOFGLOSSARYTEXT:
-    <p><strong>Certificado de Vida:</strong> Un certificado de prueba de vida para Karbon14 es un documento que consta de informaci&oacute;n brindada por el usuario, aprobada por las cripto escriban&iacute;as de karbon14 y persistiendo en la blockchain</p>
-  CRYPTONOTARYGLOSSARYTEXT:
-    <p><strong>Cripto Escribanos:</strong> Los Cripto Escribanos ser&aacute;n quienes certifiquen los datos enviados por los usuarios. Tendr&aacute;n las responsabilidad de aprobar o rechazar la informaci&oacute;n.</p>
-  WALLETGLOSSARYTEXT:
-    <p><strong>Wallet Karbon14:</strong> Aplicativo multiplataforma para que los usuarios puedan gestionar sus pruebas de vida, visualizar o crear una nueva de prueba de vida.</p>
-  VALIDATORGLOSSARYTEXT:
-    <p><strong>Validador de certificados pruebas de vidas:</strong> Herramienta que permitir&aacute; al usuario validar su certificado de prueba de vida generado por Karbon14.</p>
+    <p><strong>Validador de certificados pruebas de vidas:</strong> Herramienta que permitirá al usuario validar su certificado de prueba de vida generado por Karbon14.</p>

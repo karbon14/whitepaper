@@ -6,13 +6,37 @@ export const styles = StyleSheet.create({
   document: {
     display: 'flex',
     flexDirection: 'column',
-    margin: '0 auto',
-    width: 794,
+    // width: 794,
   },
   cover: {
     width: '794px',
-    height: '1300px',
-    // height: '1122px',
+    height: '1350px',
+  },
+  coverBackground: {
+    height: '1350px',
+  },
+  logo: {
+    paddingTop: '480px',
+    display: 'block',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    width: '338px',
+    height: '90px',
+  },
+  coverTitle: {
+    margin: 'auto',
+    color: 'rgb(0, 0, 0)',
+    textAlign: 'center',
+    fontFamily: 'san_francisco_textregular',
+    fontSize: '62px',
+  },
+  coverSubtitle: {
+    margin: 'auto',
+    color: 'rgb(0, 0, 0)',
+    textAlign: 'center',
+    paddingTop: '20px',
+    fontFamily: 'Arial Narrow, sans-serif',
+    fontSize: '42px',
   },
   list: {
     listStyle: 'none',
