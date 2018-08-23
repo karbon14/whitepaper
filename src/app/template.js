@@ -3,16 +3,11 @@ export default ({ body, title }) => {
     <!DOCTYPE html>
     <html>
       <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>${title}</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
       </head>
-      <style>
-        body {
-          background-color: #4C4B4E;
-          font-family: Helvetica;
-        }
-      </style>
-      <body>
+      <body style="">
         <div id="root">${body}</div>
       </body>
     </html>

@@ -1,85 +1,55 @@
 import { Font, StyleSheet } from '@react-pdf/react-pdf'
 
 const isProduction = process.env.NODE_ENV === 'production'
-const fontUnit = (size) => isProduction ? size : `${size}pt`
 
 export const styles = StyleSheet.create({
-  title: {
-    display: 'block',
-    fontSize: fontUnit(24),
-    textAlign: 'center',
-  },
   document: {
     display: 'flex',
     flexDirection: 'column',
-    margin: '0 auto',
-    width: 794,
+    // width: 794,
   },
-  page: {
-    paddingTop: fontUnit(35),
-    paddingLeft: fontUnit(50),
-    paddingRight: fontUnit(50),
-    paddingBottom: fontUnit(65),
-    boxSizing: 'border-box',
-    backgroundColor: '#FFF',
-    width: 794,
-    height: 1122,
-    marginBottom: fontUnit(13),
-    boxShadow: '0px 5px 10px #000',
-    position: 'relative',
+  cover: {
+    width: '794px',
+    height: '1350px',
   },
-  text: {
-    margin: fontUnit(12),
-    fontSize: fontUnit(12),
-    textAlign: 'justify',
+  coverBackground: {
+    height: '1350px',
   },
-  header: {...{
+  logo: {
+    paddingTop: '480px',
     display: 'block',
-    fontSize: fontUnit(12),
-    color: 'grey',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    width: '338px',
+    height: '90px',
+  },
+  coverTitle: {
+    margin: 'auto',
+    color: 'rgb(0, 0, 0)',
     textAlign: 'center',
-    paddingTop: fontUnit(10),
-  }, ...isProduction ? {} : { marginBottom: fontUnit(16) } },
-  footer: {
-    display: 'block',
-    position: 'absolute',
-    fontSize: fontUnit(12),
-    bottom: 25,
-    left: 35,
-    right: 0,
+    fontFamily: 'san_francisco_textregular',
+    fontSize: '62px',
+  },
+  coverSubtitle: {
+    margin: 'auto',
+    color: 'rgb(0, 0, 0)',
     textAlign: 'center',
-    color: 'grey',
+    paddingTop: '20px',
+    fontFamily: 'Arial Narrow, sans-serif',
+    fontSize: '42px',
+  },
+  list: {
+    listStyle: 'none',
   },
   subtitle: {
     color: '#3c78d8',
-    fontSize: fontUnit(20),
-    display: 'block',
-    margin: '10px 0px',
+    fontSize: '16px',
+    marginTop: '20px',
+    marginBottom: '20px',
   },
   subsubtitle: {
-    fontWeight: 'bold',
-    fontSize: fontUnit(17),
-    display: 'block',
-    margin: '5px 0px',
-  },
-  list: {
-    flexDirection: 'row',
-    marginBottom: 5,
-  },
-  listLeftColumn: {
-    flexDirection: 'column',
-    marginRight: 10,
-  },
-  listRightColumn: {
-    flexDirection: 'column',
-    flexGrow: 9,
-  },
-  listBulletPoint: {
-    fontSize: 10,
-  },
-  listContent: {
-    fontSize: 10,
-    fontFamily: 'Lato',
+    color: '#000',
+    fontSize: '14px'
   },
   imageButerin: {
     height: '400px',
@@ -88,24 +58,9 @@ export const styles = StyleSheet.create({
     margin: '25px auto'
   },
   imageToken: {
-    height: '200px',
-    width: '200px',
+    height: '100%',
+    width: '100%',
     display: 'block',
-    margin: '25px 20px'
+    margin: '25px auto'
   },
-  pageNumber: {
-    position: 'absolute',
-    fontSize: 12,
-    bottom: 30,
-    left: 0,
-    right: 0,
-    textAlign: 'center',
-    color: 'grey',
-  },
-  bold: {
-    fontWeight: 900,
-    fontSize: fontUnit(12),
-  }
 })
-
-Font.register(`${__dirname}/fonts/Roboto-Regular.ttf`, { family: 'Roboto' })

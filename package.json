@@ -63,6 +63,7 @@
     "koa-bodyparser": "4.2.1",
     "react": "16.4.1",
     "react-dom": "16.4.1",
+    "wkhtmltopdf": "0.3.4",
     "yaml-import": "^0.2.3"
   }
 }

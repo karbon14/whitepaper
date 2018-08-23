@@ -1,9 +1,11 @@
 import React from 'react'
 import fs from 'fs'
 import path from 'path'
-import ReactPDF from '@react-pdf/react-pdf'
 import { Karbon14Whitepaper } from './whitepaper/whitepaper'
+import template from './app/template'
 import config from './config.json'
+import { renderToString } from 'react-dom/server'
+import wkhtmltopdf from 'wkhtmltopdf'
 
 const { langs, outputDir, whitepaper_name } = config
 
@@ -14,9 +16,20 @@ const createDistFolder = () => {
 }
 
 const getDistPath = () => path.join(__dirname, '..', outputDir)
+const footer = () => path.join(__dirname, '/app/footer.html')
 
 createDistFolder()
 
 langs.forEach((lang, key) => {
-  ReactPDF.render(<Karbon14Whitepaper key={key} lang={lang} />, `${getDistPath()}/${whitepaper_name}_${lang}.pdf`)
+  const whitepaperHTMLSecond = renderToString(<Karbon14Whitepaper key={key} lang={lang} />)
+  const whitepaperHTML = template({
+    body: whitepaperHTMLSecond,
+    title: 'Karbon14 - Whitepaper',
+  })
+
+  wkhtmltopdf(whitepaperHTML, { 
+    footerHtml: `${footer()}`,
+    output: `${getDistPath()}/${whitepaper_name}_${lang}.pdf`,
+  })
+  // `${getDistPath()}/${whitepaper_name}_${lang}.pdf`
 })
