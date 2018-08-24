@@ -6,14 +6,13 @@ export const styles = StyleSheet.create({
   document: {
     display: 'flex',
     flexDirection: 'column',
-    // width: 794,
   },
   cover: {
     width: '794px',
-    height: '1350px',
+    height: '1300px',
   },
   coverBackground: {
-    height: '1350px',
+    height: '1270px',
   },
   logo: {
     paddingTop: '480px',
