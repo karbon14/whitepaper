@@ -4,7 +4,6 @@ import yimp from 'yaml-import/lib'
 import path from 'path'
 import { styles } from './styles'
 
-const index = yimp.read(path.join(__dirname, 'sections/index.yml'))
 const resume = yimp.read(path.join(__dirname, 'sections/resume.yml'))
 const introduction = yimp.read(path.join(__dirname, 'sections/introduction.yml'))
 
