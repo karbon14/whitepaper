@@ -6,28 +6,30 @@ export const styles = StyleSheet.create({
   document: {
     display: 'flex',
     flexDirection: 'column',
+    width: '850px',
+    margin: 'auto',
+    fontSize: '22px',
   },
   cover: {
-    width: '794px',
-    height: '1300px',
+    pageBreakAfter: 'always',
   },
-  coverBackground: {
-    height: '1270px',
+  fontIndex: {
+    fontSize: '18px',
   },
   logo: {
-    paddingTop: '480px',
+    paddingTop: '380px',
     display: 'block',
     marginLeft: 'auto',
     marginRight: 'auto',
-    width: '338px',
-    height: '90px',
+    width: '6s76px',
+    height: '180px',
   },
   coverTitle: {
     margin: 'auto',
     color: 'rgb(0, 0, 0)',
     textAlign: 'center',
     fontFamily: 'san_francisco_textregular',
-    fontSize: '62px',
+    fontSize: '72px',
   },
   coverSubtitle: {
     margin: 'auto',
@@ -35,20 +37,28 @@ export const styles = StyleSheet.create({
     textAlign: 'center',
     paddingTop: '20px',
     fontFamily: 'Arial Narrow, sans-serif',
-    fontSize: '42px',
+    fontSize: '52px',
   },
   list: {
     listStyle: 'none',
   },
-  subtitle: {
+  documentWhitepaper: {
+    fontSize: '22px',
+    pageBreakAfter: 'always',
+  },
+  title: {
     color: '#3c78d8',
-    fontSize: '16px',
-    marginTop: '20px',
-    marginBottom: '20px',
+    fontSize: '38px',
+    fontWeight: 'bold',
+  },
+  subtitle: {
+    fontWeight: 'bold',
+    fontSize: '32px',
   },
   subsubtitle: {
+    fontWeight: '400',
     color: '#000',
-    fontSize: '14px'
+    fontSize: '26px'
   },
   imageButerin: {
     height: '400px',
@@ -62,4 +72,16 @@ export const styles = StyleSheet.create({
     display: 'block',
     margin: '25px auto'
   },
+  tableToken: {
+    width: '65%',
+    borderCollapse: 'collapse',
+  },
+  tdLeft: {
+    border: '1px solid black',
+    textAlign: 'center',
+  },
+  tdRight: {
+    border: '1px solid black',
+    textAlign: 'center',
+  }
 })
