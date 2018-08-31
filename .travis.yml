@@ -4,8 +4,10 @@ before_install:
   sudo apt-get update
   sudo apt-get install xvfb
   sudo apt-get install libfontconfig
-  wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.trusty_amd64.deb
-  sudo dpkg -i  wkhtmltox_0.12.5-1.trusty_amd64.deb 
-  sudo apt -f install
+  wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.4/wkhtmltox-0.12.4_linux-generic-amd64.tar.xz
+  tar xf  wkhtmltox-0.12.4_linux-generic-amd64.tar.xz
+  cd ./wkhtmltox/bin/
+  sudo cp -R ./* /usr/bin/
+  wkhtmltopdf -V
 script:
   - npm run build
