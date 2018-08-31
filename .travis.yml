@@ -2,7 +2,9 @@ language: node_js
 sudo: required
 before_install:
   sudo apt-get update
-  sudo apt-get install xvfb libfontconfig wkhtmltopdf
+  sudo apt-get install xvfb
+  sudo apt-get install libfontconfig
+  sudo apt-get install wkhtmltopdf
 script:
   - npm run build
 after_success:
