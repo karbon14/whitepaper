@@ -1,0 +1,21 @@
+language: node_js
+sudo: required
+before_install:
+  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+  - sudo apt-get update
+  - sudo apt-get install gcc-5 g++-5
+  - sudo rm /usr/bin/g++
+  - sudo ln -s /usr/bin/g++-5 /usr/bin/g++
+  - sudo apt-get install xvfb
+  - sudo apt-get install libfontconfig
+  - wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.4/wkhtmltox-0.12.4_linux-generic-amd64.tar.xz
+  - sudo tar xvf wkhtmltox-0.12.4_linux-generic-amd64.tar.xz
+  - sudo mv wkhtmltox/bin/wkhtmlto* /usr/bin/
+script:
+  - npm run build
+after_success:
+  - '[[ $TRAVIS_BRANCH = "master" && $TRAVIS_PULL_REQUEST_BRANCH = "" ]] &&
+    (npm install -g travis-deploy-once && travis-deploy-once "npm run semantic-release")'
+
+
+
