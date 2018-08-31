@@ -10,13 +10,13 @@ const introduction = yimp.read(path.join(__dirname, 'sections/introduction.yml')
 
 export const Karbon14Whitepaper = ({ lang }) => (
   <div style={styles.document}>
-    <div style={styles.coverBackground}>
+    <div style={styles.cover}>
       <img style={styles.logo} src="https://karbon14.org/logo.svg" />
-      <h1 style={styles.coverTitle}>Whitepaper Karbon14</h1>
-      <h2 style={styles.coverSubtitle}>Version 1.0</h2>
+      <h1 style={styles.coverTitle}>Whitepaper</h1>
+      <h2 style={styles.coverSubtitle}> {introduction[lang].VERSION} </h2>
     </div>
 
-    <div style={styles.cover}>
+    <div style={{...styles.cover, ...styles.fontIndex}}>
       <span dangerouslySetInnerHTML={{__html: introduction[lang].INDEX}} />
 
       <ul style={styles.list}>
@@ -51,8 +51,6 @@ export const Karbon14Whitepaper = ({ lang }) => (
           <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXRESUING}} /> </li>
         </ul>
 
-        <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXTEAM}} /> </li>
-
         <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXROADMAP}} /> </li>
 
         <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXDISTRIBUTION}} /> </li>
@@ -73,11 +71,13 @@ export const Karbon14Whitepaper = ({ lang }) => (
       </ul>
     </div>
 
-    <div style={styles.documentWhitepaper}>
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].RESUME}} />
+    <div style={styles.cover}>
+      <span dangerouslySetInnerHTML={{__html: introduction[lang].RESUME}} style={styles.title} />
       <span dangerouslySetInnerHTML={{__html: resume[lang]}} />
+    </div>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].TITLE}} />
+    <div style={styles.documentWhitepaper}>
+      <span dangerouslySetInnerHTML={{__html: introduction[lang].TITLE}} style={styles.title} />
 
       <span dangerouslySetInnerHTML={{__html: introduction[lang].WISK14}} style={styles.subtitle} />
       <span dangerouslySetInnerHTML={{__html: introduction[lang].WISK14TEXT}} />
@@ -108,13 +108,15 @@ export const Karbon14Whitepaper = ({ lang }) => (
 
       <img style={styles.imageButerin} src="https://cdn1.imggmi.com/uploads/2018/8/14/9c3ef3be6e0139c71e080c2b1920e972-full.jpg" />
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].INFORMATIONSECURITY}} style={styles.subtitle} />
+      <span dangerouslySetInnerHTML={{__html: introduction[lang].INFORMATIONSECURITY}} style={styles.subsubtitle} />
       <span dangerouslySetInnerHTML={{__html: introduction[lang].INFORMATIONSECURITYTEXT}} />
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].BENEFITS}} style={styles.subtitle} />
+      <span dangerouslySetInnerHTML={{__html: introduction[lang].BENEFITS}} style={styles.subsubtitle} />
       <span dangerouslySetInnerHTML={{__html: introduction[lang].BENEFITSTEXT}} />
+    </div>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].HOWWORK}} style={styles.subtitle} />
+    <div style={styles.documentWhitepaper}>
+      <span dangerouslySetInnerHTML={{__html: introduction[lang].HOWWORK}} style={styles.title} />
       <span dangerouslySetInnerHTML={{__html: introduction[lang].HOWWORKTEXT}} />
 
       <span dangerouslySetInnerHTML={{__html: introduction[lang].CERTIFICATEPROOFLIFE}} style={styles.subsubtitle} />
@@ -131,8 +133,10 @@ export const Karbon14Whitepaper = ({ lang }) => (
 
       <span dangerouslySetInnerHTML={{__html: introduction[lang].WALLET}} style={styles.subsubtitle} />
       <span dangerouslySetInnerHTML={{__html: introduction[lang].WALLETTEXT}} />
+    </div>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].CASEUSES}} style={styles.subtitle} />
+    <div style={styles.documentWhitepaper}>
+      <span dangerouslySetInnerHTML={{__html: introduction[lang].CASEUSES}} style={styles.title} />
       <span dangerouslySetInnerHTML={{__html: introduction[lang].CASEUSESTEXT}} />
 
       <span dangerouslySetInnerHTML={{__html: introduction[lang].BIRTHCERTIFICATES}} style={styles.subsubtitle} />
@@ -146,16 +150,45 @@ export const Karbon14Whitepaper = ({ lang }) => (
 
       <span dangerouslySetInnerHTML={{__html: introduction[lang].RESUINGPROOF}} style={styles.subsubtitle} />
       <span dangerouslySetInnerHTML={{__html: introduction[lang].RESUINGPROOFTEXT}} />
+    </div>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].WHYINVEST}} style={styles.subtitle} />
+    <div style={styles.documentWhitepaper}>
+      <span dangerouslySetInnerHTML={{__html: introduction[lang].WHYINVEST}} style={styles.title} />
       <span dangerouslySetInnerHTML={{__html: introduction[lang].WHYINVESTTEXT}} />
+    </div>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].USEBUDGET}} style={styles.subtitle} />
+    <div style={styles.documentWhitepaper}>
+      <span dangerouslySetInnerHTML={{__html: introduction[lang].USEBUDGET}} style={styles.title} />
       <span dangerouslySetInnerHTML={{__html: introduction[lang].USEBUDGETTEXT}} />
 
       <span dangerouslySetInnerHTML={{__html: introduction[lang].CROWDSALE}} style={styles.subtitle} />
 
-      <img style={styles.imageToken} src="https://cdn1.imggmi.com/uploads/2018/8/15/84ac984fdae2efb408cd33a9746bc670-full.jpg" />
+      <table style={styles.tableToken}>
+        <tr>
+          <td style={styles.tdLeft}>Total token crowdsale</td>
+          <td style={styles.tdRight}>2.000.000.000</td>
+        </tr>
+        <tr>
+          <td style={styles.tdLeft}>Soft cap</td>
+          <td style={styles.tdRight}>U$D 5.000.000</td>
+        </tr>
+        <tr>
+          <td style={styles.tdLeft}>Hard cap</td>
+          <td style={styles.tdRight}>U$D 20.000.000</td>
+        </tr>
+        <tr>
+          <td style={styles.tdLeft}>Value token</td>
+          <td style={styles.tdRight}>U$S 0.01</td>
+        </tr>
+        <tr>
+          <td style={styles.tdLeft}>Token type</td>
+          <td style={styles.tdRight}>ERC-20</td>
+        </tr>
+        <tr>
+          <td style={styles.tdLeft}>Token name</td>
+          <td style={styles.tdRight}>K14</td>
+        </tr>
+      </table>
 
       <span dangerouslySetInnerHTML={{__html: introduction[lang].DISTRIBUTIONCOMMUNITY}} />
       <span dangerouslySetInnerHTML={{__html: introduction[lang].DISTRIBUTIONCOMMUNITYTEXT}} />
@@ -170,11 +203,15 @@ export const Karbon14Whitepaper = ({ lang }) => (
 
       <span dangerouslySetInnerHTML={{__html: introduction[lang].DISTRIBUTIONAIRDROP}} />
       <span dangerouslySetInnerHTML={{__html: introduction[lang].DISTRIBUTIONAIRDROPTEXT}} />
+    </div>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].LEGALNOTE}} style={styles.subtitle} />
+    <div style={styles.documentWhitepaper}>
+      <span dangerouslySetInnerHTML={{__html: introduction[lang].LEGALNOTE}} style={styles.title} />
       <span dangerouslySetInnerHTML={{__html: introduction[lang].LEGALNOTETEXT}} />
+    </div>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].GLOSSARY}} style={styles.subtitle} />
+    <div>
+      <span dangerouslySetInnerHTML={{__html: introduction[lang].GLOSSARY}} style={styles.title} />
       <span dangerouslySetInnerHTML={{__html: introduction[lang].PROOFLIFEGLOSSARYTEXT}} />
       <span dangerouslySetInnerHTML={{__html: introduction[lang].CERTIFICATEPROOFGLOSSARYTEXT}} />
       <span dangerouslySetInnerHTML={{__html: introduction[lang].CRYPTONOTARYGLOSSARYTEXT}} />
