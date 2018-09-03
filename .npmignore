@@ -1,0 +1,15 @@
+.github
+node_modules
+src
+.babelrc
+.editconfig
+.eslintrc.json
+.gitignore
+.npmrc
+.nvmrc
+.releaserc.json
+.travis.yml
+browser-sync.json
+nodemon.json
+package-lock.json
+package.json
