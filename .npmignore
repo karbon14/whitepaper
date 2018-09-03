@@ -15,5 +15,5 @@ package-lock.json
 package.json
 wkhtmltox
 .editorconfig
-browser-sync.js
 wkhtmltox-0.12.4_linux-generic-amd64.tar
+browser-sync.js
