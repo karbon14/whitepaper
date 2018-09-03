@@ -1,0 +1,10 @@
+node_modules
+src
+.babelrc
+.editconfig
+.eslintrc.json
+.gitignore
+.npmrc
+.nvmrc
+browser-sync.json
+nodemon.json

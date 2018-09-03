@@ -60,9 +60,7 @@
     "nodemon": "1.18.3",
     "prettier": "1.14.0",
     "prop-types": "15.6.2",
-    "semantic-release": "15.9.12"
-  },
-  "dependencies": {
+    "semantic-release": "15.9.12",
     "@babel/polyfill": "7.0.0-beta.55",
     "@react-pdf/react-pdf": "1.0.0-alpha.8",
     "koa-bodyparser": "4.2.1",
