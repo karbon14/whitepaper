@@ -17,3 +17,5 @@ wkhtmltox
 .editorconfig
 browser-sync.js
 *.tar.xz
+whitepaper/index.html
+whitepaper/style.css

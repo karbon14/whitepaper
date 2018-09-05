@@ -24,6 +24,9 @@ export const styles = StyleSheet.create({
     width: '6s76px',
     height: '180px',
   },
+  unstyleLink: {
+    textDecoration: 'none',
+  },
   coverTitle: {
     margin: 'auto',
     color: 'rgb(0, 0, 0)',
@@ -56,7 +59,7 @@ export const styles = StyleSheet.create({
     fontSize: '32px',
   },
   subsubtitle: {
-    fontWeight: '400',
+    fontWeight: 'bold',
     color: '#000',
     fontSize: '26px'
   },

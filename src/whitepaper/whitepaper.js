@@ -15,153 +15,203 @@ export const Karbon14Whitepaper = ({ lang }) => (
       <h1 style={styles.coverTitle}>Whitepaper</h1>
       <h2 style={styles.coverSubtitle}> {introduction[lang].VERSION} </h2>
     </div>
-
     <div style={{...styles.cover, ...styles.fontIndex}}>
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].INDEX}} />
-
+      <h2>{introduction[lang].INDEX}</h2>
       <ul style={styles.list}>
-        <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXRESUME}} /> </li>
+        <li>
+          <h2> <a href="#indexResume" style={styles.unstyleLink}> {introduction[lang].INDEXRESUME} </a> </h2>
+        </li>
 
-        <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXINTRODUCTION}} /> </li>
+        <li>
+          <h2> <a href="#indexIntroduction" style={styles.unstyleLink}> {introduction[lang].INDEXINTRODUCTION} </a> </h2>
+        </li>
         <ul style={styles.list}>
-          <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXIWISK14}} /> </li>
-          <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXDEFPROBLEM}} /> </li>
+          <li>
+            <p> <a href="#indexWisk14" style={styles.unstyleLink}> {introduction[lang].INDEXIWISK14} </a> </p>
+          </li>
+          <li>
+            <p> <a href="#indexDefProblem" style={styles.unstyleLink}> {introduction[lang].INDEXDEFPROBLEM} </a> </p>
+          </li>
           <ul style={styles.list}>
-            <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXWHYPROOFLIFE}} /> </li>
+            <li>
+              <p> <a href="#indexWhyProofLife" style={styles.unstyleLink}> {introduction[lang].INDEXWHYPROOFLIFE} </a> </p>
+            </li>
           </ul>
-          <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXSTAKEHOLDERS}} /> </li>
-          <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXSECURITY}} /> </li>
-          <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXBENEFITS}} /> </li>
+          <li>
+            <p> <a href="#indexStakeholders" style={styles.unstyleLink}> {introduction[lang].INDEXSTAKEHOLDERS} </a> </p>
+          </li>
+          <li>
+            <p> <a href="#indexSecurity" style={styles.unstyleLink}> {introduction[lang].INDEXSECURITY} </a> </p>
+          </li>
+          <li>
+            <p> <a href="#indexBenefits" style={styles.unstyleLink}> {introduction[lang].INDEXBENEFITS} </a> </p>
+          </li>
         </ul>
 
-        <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXHOWWORK}} /> </li>
+        <li>
+          <h2> <a href="#indexHowWork" style={styles.unstyleLink}> {introduction[lang].INDEXHOWWORK} </a> </h2>
+        </li>
         <ul style={styles.list}>
-          <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXCERTIFICATE}} /> </li>
-          <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXCRYPTO}} /> </li>
-          <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXLICENSECRYPTO}} /> </li>
-          <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXEXPLORER}} /> </li>
-          <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXWALLET}} /> </li>
+          <li>
+            <p> <a href="#indexCertificate" style={styles.unstyleLink}> {introduction[lang].INDEXCERTIFICATE} </a> </p>
+          </li>
+          <li>
+            <p> <a href="#indexCrypto" style={styles.unstyleLink}> {introduction[lang].INDEXCRYPTO} </a> </p>
+          </li>
+          <li>
+            <p> <a href="#indexLicenseCrypto" style={styles.unstyleLink}> {introduction[lang].INDEXLICENSECRYPTO} </a> </p>
+          </li>
+          <li>
+            <p> <a href="#indexExplorer" style={styles.unstyleLink}> {introduction[lang].INDEXEXPLORER} </a> </p>
+          </li>
+          <li>
+            <p> <a href="#indexWallet" style={styles.unstyleLink}> {introduction[lang].INDEXWALLET} </a> </p>
+          </li>
         </ul>
 
-        <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXUSECASES}} /> </li>
+        <li>
+          <h2> <a href="#indexUseCases" style={styles.unstyleLink}> {introduction[lang].INDEXUSECASES} </a> </h2>
+        </li>
         <ul style={styles.list}>
-          <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXBIRTH}} /> </li>
-          <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXFAKENEWS}} /> </li>
-          <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXPFAGENTS}} /> </li>
-          <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXRESUING}} /> </li>
+          <li>
+            <p> <a href="#indexBirth" style={styles.unstyleLink}> {introduction[lang].INDEXBIRTH} </a> </p>
+          </li>
+          <li>
+            <p> <a href="#indexFakeNew" style={styles.unstyleLink}> {introduction[lang].INDEXFAKENEWS} </a> </p>
+          </li>
+          <li>
+            <p> <a href="#indexPFAgents" style={styles.unstyleLink}> {introduction[lang].INDEXPFAGENTS} </a> </p>
+          </li>
+          <li>
+            <p> <a href="#indexReusing" style={styles.unstyleLink}> {introduction[lang].INDEXRESUING} </a> </p>
+          </li>
         </ul>
 
-        <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXROADMAP}} /> </li>
+        <li>
+          <h2> <a href="#indexRoadmap" style={styles.unstyleLink}> {introduction[lang].INDEXROADMAP} </a> </h2>
+        </li>
 
-        <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXDISTRIBUTION}} /> </li>
+        <li>
+          <h2> <a href="#indexDistribution" style={styles.unstyleLink}> {introduction[lang].INDEXDISTRIBUTION} </a> </h2>
+        </li>
         <ul style={styles.list}>
-          <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXSELLTOKENS}} /> </li>
+          <li>
+            <p> <a href="#indexSellTokens" style={styles.unstyleLink}> {introduction[lang].INDEXSELLTOKENS} </a> </p>
+          </li>
         </ul>
 
-        <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXWHYINVEST}} /> </li>
-
-        <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXBUDGET}} /> </li>
+        <li>
+          <h2> <a href="#indexWhyInvest" style={styles.unstyleLink}> {introduction[lang].INDEXWHYINVEST} </a> </h2>
+        </li>
+        <li>
+          <h2> <a href="#indexBudget" style={styles.unstyleLink}> {introduction[lang].INDEXBUDGET} </a> </h2>
+        </li>
         <ul style={styles.list}>
-          <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXCROWDSALE}} /> </li>
+          <li>
+            <p> <a href="#indexCrowdsale" style={styles.unstyleLink}> {introduction[lang].INDEXCROWDSALE} </a> </p>
+          </li>
         </ul>
 
-        <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXLEGALNOTE}} /> </li>
+        <li>
+          <h2> <a href="#indexLegalNote" style={styles.unstyleLink}> {introduction[lang].INDEXLEGALNOTE} </a> </h2>
+        </li>
 
-        <li><span dangerouslySetInnerHTML={{__html: introduction[lang].INDEXGLOSSARY}} /> </li>
+        <li>
+          <h2> <a href="#indexGlossary" style={styles.unstyleLink}> {introduction[lang].INDEXGLOSSARY} </a> </h2>
+        </li>
       </ul>
     </div>
 
     <div style={styles.cover}>
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].RESUME}} style={styles.title} />
-      <span dangerouslySetInnerHTML={{__html: resume[lang]}} />
+      <h2 style={styles.title} id="indexResume">{introduction[lang].RESUME}</h2>
+      <p dangerouslySetInnerHTML={{__html: resume[lang]}}></p>
     </div>
 
     <div style={styles.documentWhitepaper}>
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].TITLE}} style={styles.title} />
+      <h2 style={styles.title} id="indexIntroduction">{introduction[lang].introduction}</h2>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].WISK14}} style={styles.subtitle} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].WISK14TEXT}} />
+      <h3 style={styles.subtitle} id="indexWisk14">{introduction[lang].wisK14}</h3>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].wisK14TEXT}}></p>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].DEFPROBLEM}} style={styles.subtitle} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].DEFPROBLEMTEXT}} />
+      <h3 style={styles.subtitle} id="indexDefProblem">{introduction[lang].defProblem}</h3>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].defProblemTEXT}}></p>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].WPROOFLIFE}} style={styles.subsubtitle} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].WPROOFLIFETEXT}} />
+      <h3 style={styles.subsubtitle} id="indexWhyProofLife">{introduction[lang].wProofLife}</h3>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].wProofLifeTEXT}}></p>      
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].PINTERESTED}} style={styles.subtitle} />
+      <h3 style={styles.subtitle} id="indexStakeholders">{introduction[lang].pinterested}</h3>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].GOVERNMENTS}} style={styles.subsubtitle} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].GOVERNMENTSTEXT}} />
+      <h3 style={styles.subsubtitle}>{introduction[lang].governments}</h3>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].governmentsText}}></p>      
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].EXCHANGECRYPTO}} style={styles.subsubtitle} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].EXCHANGECRYPTOTEXT}} />
+      <h3 style={styles.subsubtitle}>{introduction[lang].exchangeCrypto}</h3>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].exchangeCryptoText}}></p>      
 
+      <h3 style={styles.subsubtitle}>{introduction[lang].users}</h3>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].usersText}}></p>      
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].USERS}} style={styles.subsubtitle} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].USERSTEXT}} />
+      <h3 style={styles.subsubtitle}>{introduction[lang].banks}</h3>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].banksText}}></p>      
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].BANKS}} style={styles.subsubtitle} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].BANKSTEXT}} />
-
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].MEDIA}} style={styles.subsubtitle} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].MEDIATEXT}} />
+      <h3 style={styles.subsubtitle}>{introduction[lang].mediaTitle}</h3>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].mediaText}}></p>      
 
       <img style={styles.imageButerin} src="https://cdn1.imggmi.com/uploads/2018/8/14/9c3ef3be6e0139c71e080c2b1920e972-full.jpg" />
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].INFORMATIONSECURITY}} style={styles.subsubtitle} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].INFORMATIONSECURITYTEXT}} />
+      <h3 style={styles.subsubtitle} id="indexSecurity">{introduction[lang].informationSecurity}</h3>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].informationSecurityText}}></p>      
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].BENEFITS}} style={styles.subsubtitle} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].BENEFITSTEXT}} />
+      <h3 style={styles.subsubtitle} id="indexBenefits">{introduction[lang].benefits}</h3>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].benefitsText}}></p>      
     </div>
 
     <div style={styles.documentWhitepaper}>
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].HOWWORK}} style={styles.title} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].HOWWORKTEXT}} />
+      <h2 style={styles.title} id="indexHowWork">{introduction[lang].howWork}</h2>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].howWorkText}}></p>  
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].CERTIFICATEPROOFLIFE}} style={styles.subsubtitle} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].CERTIFICATEPROOFLIFETEXT}} />
+      <h3 style={styles.subsubtitle} id="indexCertificate">{introduction[lang].certificateProofLife}</h3>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].certificateProofLifeText}}></p>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].CRYPTO}} style={styles.subsubtitle} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].CRYPTOTEXT}} />
+      <h3 style={styles.subsubtitle} id="indexCrypto">{introduction[lang].crypto}</h3>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].cryptoText}}></p>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].LICENSECRYPTO}} style={styles.subsubtitle} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].LICENSECRYPTOTEXT}} />
+      <h3 style={styles.subsubtitle} id="indexLicenseCrypto">{introduction[lang].licenseCrypto}</h3>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].licenseCryptoText}}></p>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].VALIDATORPROOFLIFE}} style={styles.subsubtitle} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].VALIDATORPROOFLIFETEXT}} />
+      <h3 style={styles.subsubtitle} id="indexExplorer">{introduction[lang].validatorProofLife}</h3>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].validatorProofLifeText}}></p>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].WALLET}} style={styles.subsubtitle} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].WALLETTEXT}} />
+      <h3 style={styles.subsubtitle} id="indexWallet">{introduction[lang].wallet}</h3>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].walletText}}></p>
     </div>
 
     <div style={styles.documentWhitepaper}>
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].CASEUSES}} style={styles.title} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].CASEUSESTEXT}} />
+      <h2 style={styles.title} id="indexUseCases">{introduction[lang].useCases}</h2>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].useCasesText}}></p>  
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].BIRTHCERTIFICATES}} style={styles.subsubtitle} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].BIRTHCERTIFICATESTEXT}} />
+      <h3 style={styles.subsubtitle} id="indexBirth">{introduction[lang].birthCertificates}</h3>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].birthCertificatesText}}></p>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].FAKENEWS}} style={styles.subsubtitle} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].FAKENEWSTEXT}} />
+      <h3 style={styles.subsubtitle} id="indexFakeNew">{introduction[lang].fakeNews}</h3>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].fakeNewsText}}></p>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].PROOFGOVERNMENTAGENT}} style={styles.subsubtitle} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].PROOFGOVERNMENTAGENTTEXT}} />
+      <h3 style={styles.subsubtitle} id="indexPFAgents">{introduction[lang].proofGovernmentAgent}</h3>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].proofGovernmentAgentText}}></p>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].RESUINGPROOF}} style={styles.subsubtitle} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].RESUINGPROOFTEXT}} />
+      <h3 style={styles.subsubtitle} id="indexReusing">{introduction[lang].reusingProof}</h3>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].reusingProofText}}></p>
     </div>
 
     <div style={styles.documentWhitepaper}>
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].WHYINVEST}} style={styles.title} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].WHYINVESTTEXT}} />
+      <h2 style={styles.title} id="indexWhyInvest">{introduction[lang].whyInvest}</h2>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].whyInvestText}}></p>  
     </div>
 
     <div style={styles.documentWhitepaper}>
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].USEBUDGET}} style={styles.title} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].USEBUDGETTEXT}} />
+      <h2 style={styles.title} id="indexBudget">{introduction[lang].useBudget}</h2>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].useBudgetText}}></p>  
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].CROWDSALE}} style={styles.subtitle} />
+      <h3 style={styles.subtitle} id="indexCrowdsale">{introduction[lang].crowdsale}</h3>
 
       <table style={styles.tableToken}>
         <tr>
@@ -190,33 +240,33 @@ export const Karbon14Whitepaper = ({ lang }) => (
         </tr>
       </table>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].DISTRIBUTIONCOMMUNITY}} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].DISTRIBUTIONCOMMUNITYTEXT}} />
+      <h4 style={styles.subsubtitle}>{introduction[lang].distributionCommunity}</h4>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].distributionCommunityText}}></p>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].DISTRIBUTIONDEVELOPMENT}} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].DISTRIBUTIONDEVELOPMENTTEXT}} />
+      <h4 style={styles.subsubtitle}>{introduction[lang].distributionDevelopment}</h4>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].distributionDevelopmentText}}></p>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].DISTRIBUTIONFOUNDERS}} />
+      <h4 style={styles.subsubtitle}>{introduction[lang].distributionFounders}</h4>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].DISTRIBUTIONMARKETING}} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].DISTRIBUTIONMARKETINGTEXT}} />
+      <h4 style={styles.subsubtitle}>{introduction[lang].distributionMarketing}</h4>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].distributionMarketingText}}></p>
 
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].DISTRIBUTIONAIRDROP}} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].DISTRIBUTIONAIRDROPTEXT}} />
+      <h4 style={styles.subsubtitle}>{introduction[lang].distributionAirdrop}</h4>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].distributionAirdropText}}></p>
     </div>
 
     <div style={styles.documentWhitepaper}>
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].LEGALNOTE}} style={styles.title} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].LEGALNOTETEXT}} />
+      <h2 style={styles.title} id="indexLegalNote">{introduction[lang].legalNote}</h2>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].legalNoteText}}></p>
     </div>
 
     <div>
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].GLOSSARY}} style={styles.title} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].PROOFLIFEGLOSSARYTEXT}} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].CERTIFICATEPROOFGLOSSARYTEXT}} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].CRYPTONOTARYGLOSSARYTEXT}} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].WALLETGLOSSARYTEXT}} />
-      <span dangerouslySetInnerHTML={{__html: introduction[lang].VALIDATORGLOSSARYTEXT}} />
+      <h2 style={styles.title} id="indexGlossary">{introduction[lang].glossary}</h2>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].proofLifeGlossaryText}}></p>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].certificateProofGlossaryText}}></p>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].cryptoNotaryGlossaryText}}></p>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].walletGlossaryText}}></p>
+      <p dangerouslySetInnerHTML={{__html: introduction[lang].validatorGlossaryText}}></p>
     </div>
 
   </div>
