@@ -33,6 +33,6 @@ langs.forEach((lang, key) => {
     T: '50px',
     B: '50px',
     L: '20px',
-    R: '20px',
+    R: '20px'
   })
 })
