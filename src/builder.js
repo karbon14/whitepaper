@@ -30,9 +30,11 @@ langs.forEach((lang, key) => {
   wkhtmltopdf(whitepaperHTML, { 
     footerHtml: `${footer()}`,
     output: `${getDistPath()}/${whitepaper_name}_${lang}.pdf`,
-    T: '50px',
-    B: '50px',
-    L: '20px',
-    R: '20px'
+    marginTop: '0px',
+    marginBottom: '0px',
+    marginLeft: '0px',
+    marginRight: '0px',
+    pageWidth: '290px',
+    pageHeight: '419px',
   })
 })
