@@ -5,15 +5,9 @@ const isBuild = process.env.BUILD
 
 export const styles = StyleSheet.create({
   document: {
-    // display: 'flex',
-    // flexDirection: 'column',
     width: '595px',
-    height: '842px',
-    // margin: 'auto',
-    fontSize: '22px',
   },
   coverImage: {
-    width: '595px',
     height: '838px',
     pageBreakAfter: 'always',
     backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/cover.png'" : "'/cover.png'"})`,
@@ -21,7 +15,6 @@ export const styles = StyleSheet.create({
     backgroundRepeat: 'no-repeat'
   },
   index: {
-    width: '595px',
     height: '838px',
     backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/index.png'" : "'/index.png'"})`,
     backgroundSize: '100% 100%',
@@ -71,7 +64,7 @@ export const styles = StyleSheet.create({
     display: 'block',
     marginLeft: 'auto',
     marginRight: 'auto',
-    width: '6s76px',
+    width: '676px',
     height: '180px',
   },
   unstyleLink: {
@@ -117,8 +110,28 @@ export const styles = StyleSheet.create({
     paddingLeft: '98px',
   },
   documentWhitepaper: {
+    height: '832px',
     pageBreakAfter: 'always',
     position: 'relative',
+  },
+  footer: {
+    position: 'absolute',
+    right: '25px',
+    bottom: '0px',
+  },
+  footerFrom: {
+    fontFamily: 'Titillium Web',
+    fontSize: '12px',
+    fontWeight: 'bold',
+    fontStyle: 'normal',
+    fontStretch: 'normal',
+    lineHeight: 'normal',
+    letterSpacing: 'normal',
+    textAlign: 'right',
+    color: '#231994',
+  },
+  footerTo: {
+    fontWeight: '300',
   },
   titleCover: {
     backgroundSize: '100% 100%',
@@ -148,8 +161,6 @@ export const styles = StyleSheet.create({
     marginLeft: '23px',
     marginRight: '22px',
     marginTop: '44px',
-    width: '520px',
-    height: '519px',
   },
   introductionContainer: {
     marginLeft: '26px',
@@ -216,14 +227,11 @@ export const styles = StyleSheet.create({
     backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/Karbon14Wallet.jpeg'" : "'/Karbon14Wallet.jpeg'"})`,
   },
   logoK14: {
-    backgroundSize: '100% 100%',
+    backgroundSize: '283px 70px',
     backgroundRepeat: 'no-repeat',
     backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/logo.png'" : "'/logo.png'"})`,
-    height: '70px',
-    width: '238px',
-    position: 'absolute',
-    left: '180px',
-    top: '30px',
+    height: '100%',
+    backgroundPosition: 'center'
   },
   useBudgetContainer: {
     width: '595px',
@@ -295,6 +303,7 @@ export const styles = StyleSheet.create({
     lineHeight: '1.13',
   },
   massMediaContainer: {
+    height: '230px',
     backgroundColor: '#f7f4f4',
     position: 'relative'
   },

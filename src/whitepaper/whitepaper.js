@@ -121,7 +121,9 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <p style={styles.resumeFirst} dangerouslySetInnerHTML={{__html: resume[lang].first}}></p>
         <p style={styles.resumeSecond} dangerouslySetInnerHTML={{__html: resume[lang].second}}></p>
       </div>
-
+      <div style={styles.footer}>
+        <p style={styles.footerFrom}>Page 3 <span style={styles.footerTo}>| 20</span></p>
+      </div>
     </div>
 
     <div style={styles.documentWhitepaper}>
@@ -307,20 +309,25 @@ export const Karbon14Whitepaper = ({ lang }) => (
     </div>
 
     <div style={styles.documentWhitepaper}>
-      <h2 style={styles.title} id="indexUseCases">{introduction[lang].useCases}</h2>
-      <p dangerouslySetInnerHTML={{__html: introduction[lang].useCasesText}}></p>  
+      <div style={styles.titleCover}>
+        <h2 style={styles.title} id="indexUseCases">{introduction[lang].useCases}</h2>
+      </div>
 
-      <h3 style={styles.subsubtitle} id="indexBirth">{introduction[lang].birthCertificates}</h3>
-      <p dangerouslySetInnerHTML={{__html: introduction[lang].birthCertificatesText}}></p>
+      <div style={styles.introductionContainer}>
+        <p dangerouslySetInnerHTML={{__html: introduction[lang].useCasesText}}></p>  
 
-      <h3 style={styles.subsubtitle} id="indexFakeNew">{introduction[lang].fakeNews}</h3>
-      <p dangerouslySetInnerHTML={{__html: introduction[lang].fakeNewsText}}></p>
+        <h3 style={styles.subsubtitle} id="indexBirth">{introduction[lang].birthCertificates}</h3>
+        <p dangerouslySetInnerHTML={{__html: introduction[lang].birthCertificatesText}}></p>
 
-      <h3 style={styles.subsubtitle} id="indexPFAgents">{introduction[lang].proofGovernmentAgent}</h3>
-      <p dangerouslySetInnerHTML={{__html: introduction[lang].proofGovernmentAgentText}}></p>
+        <h3 style={styles.subsubtitle} id="indexFakeNew">{introduction[lang].fakeNews}</h3>
+        <p dangerouslySetInnerHTML={{__html: introduction[lang].fakeNewsText}}></p>
 
-      <h3 style={styles.subsubtitle} id="indexReusing">{introduction[lang].reusingProof}</h3>
-      <p dangerouslySetInnerHTML={{__html: introduction[lang].reusingProofText}}></p>
+        <h3 style={styles.subsubtitle} id="indexPFAgents">{introduction[lang].proofGovernmentAgent}</h3>
+        <p dangerouslySetInnerHTML={{__html: introduction[lang].proofGovernmentAgentText}}></p>
+
+        <h3 style={styles.subsubtitle} id="indexReusing">{introduction[lang].reusingProof}</h3>
+        <p dangerouslySetInnerHTML={{__html: introduction[lang].reusingProofText}}></p>
+      </div>
     </div>
 
     <div style={styles.documentWhitepaper}>

@@ -1,6 +1,6 @@
 EN:
   VERSIONWP:
-    V1.0
+    V 1.0
   INDEX:
     Index
   INDEXRESUME:
@@ -116,9 +116,8 @@ EN:
   banks:
     Fintech/Banks
   banksText:
-    Currently a lot of Banks, are making major changes in Digital Banking, always trying to improve user experience.<br/>
-    One of the ways to do this, is through the possibility to create an account, accessing loans or making transfers, completely by a digital medium, usually called Home Banking. For such a thing, Banks needs a Proof of Life or certification of it as a fundamental requirement prior to operating.<br/>
-    Thanks to Karbon14 digital banking world could further improve the experience and the approach of people towards the digital use of it.<br/>
+    Currently a lot of Banks, are making major changes in Digital Banking, always trying to improve user experience. One of the ways to do this, is through the possibility to create an account, accessing loans or making transfers, completely by a digital medium, usually called Home Banking. <br/>
+    <br/>For such a thing, Banks needs a Proof of Life or certification of it as a fundamental requirement prior to operating. Thanks to Karbon14 digital banking world could further improve the experience and the approach of people towards the digital use of it.
   mediaTitle:
     Mass Media
   mediaText:
@@ -284,7 +283,7 @@ EN:
 
 ES:
   VERSIONWP:
-    V1.0
+    V 1.0
   INDEX:
     Índice
   INDEXRESUME:
@@ -400,9 +399,8 @@ ES:
   banks:
     Fintech/ Bancos
   banksText:
-    En la actualidad muchas entidades financieras, están haciendo cambios importantes en su Banca Digital, intentando en todo momento mejorar la experiencia del usuario.</br>
-    Una de las formas de hacerlo es mediante la posibilidad de crear cuentas, acceder a préstamos o realizar transferencias completamente a través de un medio digital, por lo general el Home Banking. Para tales requerimientos las entidades necesitan una prueba de vida o certificación de la misma como requisito fundamental previo a operar.</br>
-    Gracias a Karbon14 el mundo la banca digital podría mejorar aún más la experiencia y el acercamiento de las personas hacia el uso digital del banco.</br>
+    En la actualidad muchas entidades financieras, están haciendo cambios importantes en su Banca Digital, intentando en todo momento mejorar la experiencia del usuario. Una de las formas de hacerlo es mediante la posibilidad de crear cuentas, acceder a préstamos o realizar transferencias completamente a través de un medio digital, por lo general el Home Banking. <br/>
+    <br/>Para tales requerimientos las entidades necesitan una prueba de vida o certificación de la misma como requisito fundamental previo a operar. Gracias a Karbon14 el mundo la banca digital podría mejorar aún más la experiencia y el acercamiento de las personas hacia el uso digital del banco.</br>
   mediaTitle:
     Medios de Comunicación
   mediaText:
