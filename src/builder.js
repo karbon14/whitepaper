@@ -16,19 +16,16 @@ const createDistFolder = () => {
 }
 
 const getDistPath = () => path.join(__dirname, '..', outputDir)
-const footer = () => path.join(__dirname, '/app/footer.html')
 
 createDistFolder()
-
 langs.forEach((lang, key) => {
   const whitepaperHTMLSecond = renderToString(<Karbon14Whitepaper key={key} lang={lang} />)
   const whitepaperHTML = template({
     body: whitepaperHTMLSecond,
     title: 'Karbon14 - Whitepaper',
   })
-
+  
   wkhtmltopdf(whitepaperHTML, { 
-    footerHtml: `${footer()}`,
     output: `${getDistPath()}/${whitepaper_name}_${lang}.pdf`,
     marginTop: '0px',
     marginBottom: '0px',

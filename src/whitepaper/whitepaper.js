@@ -121,6 +121,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <p style={styles.resumeFirst} dangerouslySetInnerHTML={{__html: resume[lang].first}}></p>
         <p style={styles.resumeSecond} dangerouslySetInnerHTML={{__html: resume[lang].second}}></p>
       </div>
+
     </div>
 
     <div style={styles.documentWhitepaper}>
@@ -243,7 +244,8 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h3 style={styles.bigNumber}>1.</h3>
         <h3 style={styles.subsubtitle} id="indexCertificate">{introduction[lang].certificateProofLife}</h3>
         <span style={styles.littleRectangle}></span>
-        <span style={styles.rectangle}></span>
+
+        <div style={{...styles.howWorkImage, ...styles.certificateProofLifeImage}}></div>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].certificateProofLifeText}}></p>
       </div>
     </div>
@@ -257,7 +259,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h3 style={styles.bigNumber}>2.</h3>
         <h3 style={styles.subsubtitle} id="indexCrypto">{introduction[lang].crypto}</h3>
         <span style={styles.littleRectangle}></span>
-        <span style={styles.rectangle}></span>
+        <div style={{...styles.howWorkImage, ...styles.cryptoNotariesImage}}></div>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].cryptoText}}></p>
       </div>
     </div>
@@ -271,7 +273,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h3 style={styles.bigNumber}>3.</h3>
         <h3 style={styles.subsubtitle} id="indexLicenseCrypto">{introduction[lang].licenseCrypto}</h3>
         <span style={styles.littleRectangle}></span>
-        <span style={styles.rectangle}></span>
+        <div style={{...styles.howWorkImage, ...styles.criptoNotaryLicenseImage}}></div>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].licenseCryptoText}}></p>
       </div>
     </div>
@@ -285,7 +287,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h3 style={styles.bigNumber}>4.</h3>
         <h3 style={styles.subsubtitle} id="indexExplorer">{introduction[lang].validatorProofLife}</h3>
         <span style={styles.littleRectangle}></span>
-        <span style={styles.rectangle}></span>
+        <div style={{...styles.howWorkImage, ...styles.proofLifeValidatorImage}}></div>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].validatorProofLifeText}}></p>
       </div>
     </div>
@@ -299,7 +301,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h3 style={styles.bigNumber}>5.</h3>
         <h3 style={styles.subsubtitle} id="indexWallet">{introduction[lang].wallet}</h3>
         <span style={styles.littleRectangle}></span>
-        <span style={styles.rectangle}></span>
+        <div style={{...styles.howWorkImage, ...styles.karbon14WalletImage}}></div>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].walletText}}></p>
       </div>
     </div>
@@ -353,55 +355,64 @@ export const Karbon14Whitepaper = ({ lang }) => (
 
       <div style={styles.paddingBudgetUse}>
         <div>
-          <h4 style={{...styles.subsubtitle, ...styles.displayInline}}>{introduction[lang].distributionCommunity}: </h4>
-          <p style={{...styles.displayInline, ...styles.useBudgetFont}} dangerouslySetInnerHTML={{__html: introduction[lang].distributionCommunityText}}></p>
+          <p style={{...styles.useBudgetFont}}>
+            <span style={{...styles.subsubtitle}} dangerouslySetInnerHTML={{__html: introduction[lang].distributionCommunity}} />:&nbsp;
+            {introduction[lang].distributionCommunityText}
+          </p>
         </div>
 
         <div>
-          <h4 style={{...styles.subsubtitle, ...styles.displayInline}}>{introduction[lang].distributionDevelopment}: </h4>
-          <p style={{...styles.displayInline, ...styles.useBudgetFont}} dangerouslySetInnerHTML={{__html: introduction[lang].distributionDevelopmentText}}></p>
+          <p style={{...styles.useBudgetFont}}>
+            <span style={{...styles.subsubtitle}} dangerouslySetInnerHTML={{__html: introduction[lang].distributionDevelopment}} />:&nbsp;
+            {introduction[lang].distributionDevelopmentText}
+          </p>
         </div>
         
         <div>
-          <h4 style={{...styles.subsubtitle, ...styles.displayInline}}>{introduction[lang].distributionFounders}</h4>
+          <p style={{...styles.useBudgetFont}}>
+            <span style={{...styles.subsubtitle}} dangerouslySetInnerHTML={{__html: introduction[lang].distributionFounders}} />
+          </p>
         </div>
 
         <div>
-          <h4 style={{...styles.subsubtitle, ...styles.displayInline}}>{introduction[lang].distributionMarketing}: </h4>
-          <p style={{...styles.displayInline, ...styles.useBudgetFont}} dangerouslySetInnerHTML={{__html: introduction[lang].distributionMarketingText}}></p>
+          <p style={{...styles.useBudgetFont}}>
+            <span style={{...styles.subsubtitle}} dangerouslySetInnerHTML={{__html: introduction[lang].distributionMarketing}} />:&nbsp;
+            {introduction[lang].distributionMarketingText}
+          </p>
         </div>
 
         <div>
-          <h4 style={{...styles.subsubtitle, ...styles.displayInline}}>{introduction[lang].distributionAirdrop}: </h4>
-          <p style={{...styles.displayInline, ...styles.useBudgetFont}} dangerouslySetInnerHTML={{__html: introduction[lang].distributionAirdropText}}></p>
+          <p style={{...styles.useBudgetFont}}>
+            <span style={{...styles.subsubtitle}} dangerouslySetInnerHTML={{__html: introduction[lang].distributionAirdrop}} />:&nbsp;
+            {introduction[lang].distributionAirdropText}
+          </p>
         </div>
-        <br/>
-        <h3 style={styles.subtitle}>Crowdsale</h3>
+        <h3 style={{...styles.subtitle, ...styles.marginCrowdsale}}>Crowdsale</h3>
 
         <table style={styles.tableToken}>
           <tr>
-            <td style={{...styles.tdLeft, ...styles.tableTitle}}>Total token crowdsale</td>
-            <td style={{...styles.tdRight, ...styles.tableTitle}}>2.000.000.000</td>
+            <td style={{...styles.tdLeftBorderTwo, ...styles.tableTitle}}>Total token crowdsale</td>
+            <td style={{...styles.tdRightBorderTwo, ...styles.tableTitle}}>3,600,000,000 K14</td>
           </tr>
           <tr>
             <td style={{...styles.tdLeft, ...styles.tableFont}}>Soft cap</td>
-            <td style={{...styles.tdRight, ...styles.tableFont}}>U$D 5.000.000</td>
+            <td style={{...styles.tdRight, ...styles.tableFont}}>15,000 ETH</td>
           </tr>
           <tr>
             <td style={{...styles.tdLeft, ...styles.tableFont}}>Hard cap</td>
-            <td style={{...styles.tdRight, ...styles.tableFont}}>U$D 20.000.000</td>
+            <td style={{...styles.tdRight, ...styles.tableFont}}>60,000 ETH</td>
           </tr>
           <tr>
-            <td style={{...styles.tdLeft, ...styles.tableFont}}>Value token</td>
-            <td style={{...styles.tdRight, ...styles.tableFont}}>U$S 0.01</td>
+            <td style={{...styles.tdLeft, ...styles.tableFont}}>Token value</td>
+            <td style={{...styles.tdRight, ...styles.tableFont}}>1 ETH = 30,000 K14</td>
           </tr>
           <tr>
             <td style={{...styles.tdLeft, ...styles.tableFont}}>Token type</td>
             <td style={{...styles.tdRight, ...styles.tableFont}}>ERC-20</td>
           </tr>
           <tr>
-            <td style={{...styles.tdLeft, ...styles.tableFont}}>Token name</td>
-            <td style={{...styles.tdRight, ...styles.tableFont}}>K14</td>
+            <td style={{...styles.tdLeftWithoutBorder, ...styles.tableFont}}>Token name</td>
+            <td style={{...styles.tdRightWithoutBorder, ...styles.tableFont}}>K14</td>
           </tr>
         </table>
       </div>

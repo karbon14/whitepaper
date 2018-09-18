@@ -35,9 +35,9 @@ export const styles = StyleSheet.create({
     paddingLeft: '98px',
     width: '461px',
     height: '65px',
-    fontFamily: 'TitilliumWeb',
+    fontFamily: 'Titillium Web',
     fontSize: '20px',
-    fontWeight: '600',
+    fontWeight: 'bold',
     fontStyle: 'normal',
     fontStretch: 'normal',
     letterSpacing: '1.1px',
@@ -48,9 +48,9 @@ export const styles = StyleSheet.create({
   },
   indexSubTitle: {
     // paddingLeft: '60px',
-    fontFamily: 'TitilliumWeb',
+    fontFamily: 'Titillium Web',
     fontSize: '16px',
-    fontWeight: '600',
+    fontWeight: 'bold',
     fontStyle: 'normal',
     fontStretch: 'normal',
     letterSpacing: '0.9px',
@@ -80,7 +80,7 @@ export const styles = StyleSheet.create({
   coverTitle: {
     width: '295px',
     marginBottom: '0px',
-    fontFamily: 'TitilliumWeb',
+    fontFamily: 'Titillium Web',
     fontSize: '33px',
     fontWeight: '300',
     fontStyle: 'normal',
@@ -94,7 +94,7 @@ export const styles = StyleSheet.create({
   coverSubtitle: {
     width: '89px',
     height: '61px',
-    fontFamily: 'TitilliumWeb',
+    fontFamily: 'Titillium Web',
     fontSize: '24px',
     fontWeight: '300',
     fontStyle: 'normal',
@@ -118,6 +118,7 @@ export const styles = StyleSheet.create({
   },
   documentWhitepaper: {
     pageBreakAfter: 'always',
+    position: 'relative',
   },
   titleCover: {
     backgroundSize: '100% 100%',
@@ -137,7 +138,7 @@ export const styles = StyleSheet.create({
     color: '#4a4a4a',
   },
   resumeSecond: {
-    fontFamily: 'TitilliumWeb',
+    fontFamily: 'Titillium Web',
     fontSize: '18px',
     fontWeight: 'bold',
     lineHeight: '1',
@@ -167,7 +168,7 @@ export const styles = StyleSheet.create({
   bigNumber: {
     width: '49px',
     height: '27px',
-    fontFamily: 'TitilliumWeb',
+    fontFamily: 'Titillium Web',
     fontSize: '50px',
     fontWeight: 'bold',
     fontStyle: 'normal',
@@ -176,6 +177,10 @@ export const styles = StyleSheet.create({
     letterSpacing: '1px',
     color: '#4a4a4a',
     marginBottom: '0px'
+  },
+  marginCrowdsale: {
+    marginTop: '25px',
+    marginBottom: '5px',
   },
   littleRectangle: {
     display: 'block',
@@ -188,10 +193,32 @@ export const styles = StyleSheet.create({
     height: '142px',
     backgroundColor: 'rgba(216, 216, 216, 0.2)',
   },
-  logoK14: {
-    backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/logo.png'" : "'/logo.png'"})`,
+  howWorkImage: {
+    width: '540px',
+    height: '225px',
     backgroundSize: '100% 100%',
     backgroundRepeat: 'no-repeat',
+    marginTop: '17px',
+  },
+  certificateProofLifeImage: {
+    backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/ProofLifeCertificates.jpeg'" : "'/ProofLifeCertificates.jpeg'"})`,
+  },
+  cryptoNotariesImage: {
+    backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/CryptoNotaries.jpeg'" : "'/CryptoNotaries.jpeg'"})`,
+  },
+  criptoNotaryLicenseImage: {
+    backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/CriptoNotaryLicense.jpeg'" : "'/CriptoNotaryLicense.jpeg'"})`,
+  },
+  proofLifeValidatorImage: {
+    backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/ProofLifeValidator.jpeg'" : "'/ProofLifeValidator.jpeg'"})`,
+  },
+  karbon14WalletImage: {
+    backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/Karbon14Wallet.jpeg'" : "'/Karbon14Wallet.jpeg'"})`,
+  },
+  logoK14: {
+    backgroundSize: '100% 100%',
+    backgroundRepeat: 'no-repeat',
+    backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/logo.png'" : "'/logo.png'"})`,
     height: '70px',
     width: '238px',
     position: 'absolute',
@@ -205,7 +232,7 @@ export const styles = StyleSheet.create({
   useBudgetDescription: {
     width: '430px',
     height: '143px',
-    fontFamily: 'TitilliumWeb',
+    fontFamily: 'Titillium Web',
     fontSize: '14px',
     fontWeight: '300',
     fontStyle: 'normal',
@@ -218,19 +245,6 @@ export const styles = StyleSheet.create({
     width: '11px',
     height: '11px',
     backgroundColor: '#321f93',
-  },
-  useBudgetFont: {
-    width: '80px',
-    height: '19px',
-    fontFamily: 'TitilliumWeb',
-    fontSize: '12px',
-    fontWeight: 'normal',
-    fontStyle: 'normal',
-    fontStretch: 'normal',
-    lineHeight: 'normal',
-    letterSpacing: 'normal',
-    textAlign: 'right',
-    color: '#4a4a4a',
   },
   displayInline: {
     display: 'inline',
@@ -246,7 +260,7 @@ export const styles = StyleSheet.create({
     color: '#4a4a4a',
   },
   introductionTextSecond: {
-    fontFamily: 'TitilliumWeb',
+    fontFamily: 'Titillium Web',
     fontSize: '16px',
     fontWeight: 'bold',
     lineHeight: '1.13',
@@ -256,9 +270,9 @@ export const styles = StyleSheet.create({
     paddingTop: '30px',
   },
   title: {
-    fontFamily: 'TitilliumWeb',
+    fontFamily: 'Titillium Web',
     fontSize: '20px',
-    fontWeight: '600',
+    fontWeight: 'bold',
     fontStyle: 'normal',
     fontStretch: 'normal',
     lineHeight: 'normal',
@@ -268,14 +282,14 @@ export const styles = StyleSheet.create({
     paddingTop: '20px',
   },
   subtitle: {
-    fontFamily: 'TitilliumWeb',
+    fontFamily: 'Titillium Web',
     fontSize: '16px',
     fontWeight: 'bold',
     lineHeight: '1.13',
     color: '#25b3dc',
   },
   subsubtitle: {
-    fontFamily: 'TitilliumWeb',
+    fontFamily: 'Titillium Web',
     fontSize: '16px',
     fontWeight: 'bold',
     lineHeight: '1.13',
@@ -314,16 +328,30 @@ export const styles = StyleSheet.create({
     width: '550px',
     height: '186px',
   },
+  tdLeftBorderTwo: {
+    borderBottom: '2px solid #e3e9e9',
+    textAlign: 'left',
+  },
+  tdRightBorderTwo: {
+    borderBottom: '2px solid #e3e9e9',
+    textAlign: 'right',
+  },
   tdLeft: {
     borderBottom: '1px solid #e3e9e9',
+    textAlign: 'left',
+  },
+  tdLeftWithoutBorder: {
     textAlign: 'left',
   },
   tdRight: {
     borderBottom: '1px solid #e3e9e9',
     textAlign: 'right',
   },
+  tdRightWithoutBorder: {
+    textAlign: 'right',
+  },
   tableFont: {
-    fontFamily: 'TitilliumWeb',
+    fontFamily: 'Titillium Web',
     fontSize: '14px',
     fontWeight: '300',
     fontStyle: 'normal',
@@ -335,7 +363,7 @@ export const styles = StyleSheet.create({
   tableTitle: {
     fontWeight: 'bold',
     letterSpacing: '0.9px',
-    fontFamily: 'TitilliumWeb',
+    fontFamily: 'Titillium Web',
     fontSize: '14px',
     fontStyle: 'normal',
     fontStretch: 'normal',
