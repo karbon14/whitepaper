@@ -349,46 +349,85 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h2 style={styles.title} id="indexBudget">{introduction[lang].useBudget}</h2>
       </div>
       <div style={styles.useBudgetContainer}>
-        <p style={styles.useBudgetDescription} dangerouslySetInnerHTML={{__html: introduction[lang].useBudgetText}}></p> 
-        {/* <div>
-          <ol>
-            <li>
-              <span style={styles.rectangleCommunity}></span>
-              <p style={styles.useBudgetFont}>50% Comunidad</p>
-            </li> 
-          </ol>
-        </div>  */}
+        <div style={styles.useBudgetProvisionContainer}>
+          <div style={styles.useBudgetProvisionFirst} />
+          <div style={styles.useBudgetProvisionSecond} />
+          <div style={styles.useBudgetProvisionThird} />
+          <div style={styles.useBudgetProvisionFourth} />
+          <div style={styles.useBudgetProvisionFifth} />
+        </div>
+ 
+        <div style={styles.useBudgetDescriptionContainer}>
+          <div style={styles.useBudgetDescriptionTextContainer}>
+            <p style={styles.useBudgetDescription} dangerouslySetInnerHTML={{__html: introduction[lang].useBudgetText}}></p>
+          </div >
+
+          <div style={styles.useBudgetLabelsContainer}>
+            <ol style={styles.useBudgetLabelsContainerList}>
+              <li style={styles.useBudgetLabelsList}>
+                <p style={{...styles.useBudgetFont, ...styles.useBudgetFontValue }}>
+                  <span style={{ ...styles.rectangleCommunity, ...styles.rectangleCommunityValueFirst }}></span>
+                  {introduction[lang].distributionCommunity}
+                </p>
+              </li>
+              <li style={styles.useBudgetLabelsList}>
+                <p style={{...styles.useBudgetFont, ...styles.useBudgetFontValue }}>
+                  <span style={{ ...styles.rectangleCommunity, ...styles.rectangleCommunityValueSecond }}></span>
+                  {introduction[lang].distributionDevelopment}
+                </p>
+              </li>
+              <li style={styles.useBudgetLabelsList}>
+                <p style={{...styles.useBudgetFont, ...styles.useBudgetFontValue }}>
+                  <span style={{ ...styles.rectangleCommunity, ...styles.rectangleCommunityValueThird }}></span>
+                  {introduction[lang].distributionFounders}
+                </p>
+              </li>
+              <li style={styles.useBudgetLabelsList}>
+                <p style={{...styles.useBudgetFont, ...styles.useBudgetFontValue }}>
+                  <span style={{ ...styles.rectangleCommunity, ...styles.rectangleCommunityValueFourth }}></span>
+                  {introduction[lang].distributionMarketing}
+                </p>
+              </li>
+              <li style={styles.useBudgetLabelsList}>
+                <p style={{...styles.useBudgetFont, ...styles.useBudgetFontValue }}>
+                  <span style={{ ...styles.rectangleCommunity, ...styles.rectangleCommunityValueFifth }}></span>
+                  {introduction[lang].distributionAirdrop}
+                </p>
+              </li>
+            </ol>
+          </div>
+        </div>
       </div>
 
       <div style={styles.paddingBudgetUse}>
-        <div>
+        <div style={{...styles.useBudgetItem}}>
           <p style={{...styles.useBudgetFont}}>
             <span style={{...styles.subsubtitle}} dangerouslySetInnerHTML={{__html: introduction[lang].distributionCommunity}} />:&nbsp;
             {introduction[lang].distributionCommunityText}
           </p>
         </div>
 
-        <div>
+        <div style={{...styles.useBudgetItem}}>
           <p style={{...styles.useBudgetFont}}>
             <span style={{...styles.subsubtitle}} dangerouslySetInnerHTML={{__html: introduction[lang].distributionDevelopment}} />:&nbsp;
             {introduction[lang].distributionDevelopmentText}
           </p>
         </div>
         
-        <div>
+        <div style={{...styles.useBudgetItem}}>
           <p style={{...styles.useBudgetFont}}>
             <span style={{...styles.subsubtitle}} dangerouslySetInnerHTML={{__html: introduction[lang].distributionFounders}} />
           </p>
         </div>
 
-        <div>
+        <div style={{...styles.useBudgetItem}}>
           <p style={{...styles.useBudgetFont}}>
             <span style={{...styles.subsubtitle}} dangerouslySetInnerHTML={{__html: introduction[lang].distributionMarketing}} />:&nbsp;
             {introduction[lang].distributionMarketingText}
           </p>
         </div>
 
-        <div>
+        <div style={{...styles.useBudgetItem}}>
           <p style={{...styles.useBudgetFont}}>
             <span style={{...styles.subsubtitle}} dangerouslySetInnerHTML={{__html: introduction[lang].distributionAirdrop}} />:&nbsp;
             {introduction[lang].distributionAirdropText}

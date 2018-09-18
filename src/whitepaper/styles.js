@@ -1,6 +1,4 @@
-import { Font, StyleSheet } from '@react-pdf/react-pdf'
-
-const isProduction = process.env.NODE_ENV === 'production'
+import { StyleSheet } from '@react-pdf/react-pdf'
 const isBuild = process.env.BUILD
 
 export const styles = StyleSheet.create({
@@ -10,13 +8,13 @@ export const styles = StyleSheet.create({
   coverImage: {
     height: '838px',
     pageBreakAfter: 'always',
-    backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/cover.png'" : "'/cover.png'"})`,
+    backgroundImage: `url(${isBuild === 'TRUE' ? "'file://" + __dirname + "/images/cover.png'" : "'/cover.png'"})`,
     backgroundSize: '100% 100%',
-    backgroundRepeat: 'no-repeat'
+    backgroundRepeat: 'no-repeat',
   },
   index: {
     height: '838px',
-    backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/index.png'" : "'/index.png'"})`,
+    backgroundImage: `url(${isBuild === 'TRUE' ? "'file://" + __dirname + "/images/index.png'" : "'/index.png'"})`,
     backgroundSize: '100% 100%',
     backgroundRepeat: 'no-repeat',
   },
@@ -34,20 +32,19 @@ export const styles = StyleSheet.create({
     fontStyle: 'normal',
     fontStretch: 'normal',
     letterSpacing: '1.1px',
-    color: '#ffffff'
+    color: '#ffffff',
   },
   indexSubTitleLink: {
-    color: '#23b2c6'
+    color: '#23b2c6',
   },
   indexSubTitle: {
-    // paddingLeft: '60px',
     fontFamily: 'Titillium Web',
     fontSize: '16px',
     fontWeight: 'bold',
     fontStyle: 'normal',
     fontStretch: 'normal',
     letterSpacing: '0.9px',
-    color: '#23b2c6'
+    color: '#23b2c6',
   },
   indexText: {
     fontFamily: 'Roboto',
@@ -57,7 +54,7 @@ export const styles = StyleSheet.create({
     fontStretch: 'normal',
     lineHeight: '0px',
     letterSpacing: '1px',
-    color: '#ffffff'
+    color: '#ffffff',
   },
   logo: {
     paddingTop: '380px',
@@ -96,14 +93,14 @@ export const styles = StyleSheet.create({
     letterSpacing: 'normal',
     color: '#9ba7e0',
     paddingLeft: '101px',
-    marginTop: '0px'
+    marginTop: '0px',
   },
   list: {
     listStyle: 'none',
     fontFamily: 'Roboto',
     paddingLeft: '30px',
     lineHeight: '1.43px',
-    letterSpacing: '1px'
+    letterSpacing: '1px',
   },
   listContainer: {
     listStyle: 'none',
@@ -136,7 +133,7 @@ export const styles = StyleSheet.create({
   titleCover: {
     backgroundSize: '100% 100%',
     backgroundRepeat: 'no-repeat',
-    backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/title.png'" : "'/title.png'"})`,
+    backgroundImage: `url(${isBuild === 'TRUE' ? "'file://" + __dirname + "/images/title.png'" : "'/title.png'"})`,
     width: '595px',
     height: '68px',
   },
@@ -174,7 +171,7 @@ export const styles = StyleSheet.create({
     lineHeight: '1.38',
     letterSpacing: '1px',
     color: '#4a4a4a',
-    fontFamily: 'roboto'
+    fontFamily: 'roboto',
   },
   bigNumber: {
     width: '49px',
@@ -187,7 +184,7 @@ export const styles = StyleSheet.create({
     lineHeight: '0.36',
     letterSpacing: '1px',
     color: '#4a4a4a',
-    marginBottom: '0px'
+    marginBottom: '0px',
   },
   marginCrowdsale: {
     marginTop: '25px',
@@ -212,34 +209,85 @@ export const styles = StyleSheet.create({
     marginTop: '17px',
   },
   certificateProofLifeImage: {
-    backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/ProofLifeCertificates.jpeg'" : "'/ProofLifeCertificates.jpeg'"})`,
+    backgroundImage: `url(${
+      isBuild === 'TRUE'
+        ? "'file://" + __dirname + "/images/ProofLifeCertificates.jpeg'"
+        : "'/ProofLifeCertificates.jpeg'"
+    })`,
   },
   cryptoNotariesImage: {
-    backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/CryptoNotaries.jpeg'" : "'/CryptoNotaries.jpeg'"})`,
+    backgroundImage: `url(${
+      isBuild === 'TRUE' ? "'file://" + __dirname + "/images/CryptoNotaries.jpeg'" : "'/CryptoNotaries.jpeg'"
+    })`,
   },
   criptoNotaryLicenseImage: {
-    backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/CriptoNotaryLicense.jpeg'" : "'/CriptoNotaryLicense.jpeg'"})`,
+    backgroundImage: `url(${
+      isBuild === 'TRUE' ? "'file://" + __dirname + "/images/CriptoNotaryLicense.jpeg'" : "'/CriptoNotaryLicense.jpeg'"
+    })`,
   },
   proofLifeValidatorImage: {
-    backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/ProofLifeValidator.jpeg'" : "'/ProofLifeValidator.jpeg'"})`,
+    backgroundImage: `url(${
+      isBuild === 'TRUE' ? "'file://" + __dirname + "/images/ProofLifeValidator.jpeg'" : "'/ProofLifeValidator.jpeg'"
+    })`,
   },
   karbon14WalletImage: {
-    backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/Karbon14Wallet.jpeg'" : "'/Karbon14Wallet.jpeg'"})`,
+    backgroundImage: `url(${
+      isBuild === 'TRUE' ? "'file://" + __dirname + "/images/Karbon14Wallet.jpeg'" : "'/Karbon14Wallet.jpeg'"
+    })`,
   },
   logoK14: {
     backgroundSize: '283px 70px',
     backgroundRepeat: 'no-repeat',
-    backgroundImage:  `url(${isBuild === 'TRUE' ? "'file://"+__dirname+"/images/logo.png'" : "'/logo.png'"})`,
+    backgroundImage: `url(${isBuild === 'TRUE' ? "'file://" + __dirname + "/images/logo.png'" : "'/logo.png'"})`,
     height: '100%',
-    backgroundPosition: 'center'
+    backgroundPosition: 'center',
   },
   useBudgetContainer: {
-    width: '595px',
+    width: 'calc(100% - 44px)',
+    marginBottom: '22px',
+    padding: '35px 22px 22px 22px',
     backgroundColor: 'rgba(216, 216, 216, 0.2)',
   },
+  useBudgetProvisionContainer: {
+    width: '100%',
+    height: '10px',
+    display: '-webkit-box',
+  },
+  useBudgetProvisionFirst: {
+    backgroundColor: '#321f93',
+    width: '50%',
+    height: '100%',
+  },
+  useBudgetProvisionSecond: {
+    backgroundColor: '#6c5fb0',
+    width: '30%',
+    height: '100%',
+  },
+  useBudgetProvisionThird: {
+    backgroundColor: '#c5c1de',
+    width: '10%',
+    height: '100%',
+  },
+  useBudgetProvisionFourth: {
+    backgroundColor: '#d8d6e7',
+    width: '7%',
+    height: '100%',
+  },
+  useBudgetProvisionFifth: {
+    backgroundColor: '#e8e7f0',
+    width: '3%',
+    height: '100%',
+  },
+  useBudgetDescriptionContainer: {
+    display: '-webkit-box',
+  },
+  useBudgetDescriptionTextContainer: {
+    marginTop: '15px',
+    minWidth: '70%',
+    maxWidth: '70%',
+  },
   useBudgetDescription: {
-    width: '430px',
-    height: '143px',
+    minHeight: '80px',
     fontFamily: 'Titillium Web',
     fontSize: '14px',
     fontWeight: '300',
@@ -248,14 +296,53 @@ export const styles = StyleSheet.create({
     lineHeight: '1.43',
     letterSpacing: '1px',
     color: '#4a4a4a',
+    margin: '0px',
+  },
+  useBudgetLabelsContainer: {
+    width: '30%',
+    marginTop: '15px',
+  },
+  useBudgetLabelsContainerList: {
+    listStyle: 'none',
+    padding: 'inherit',
+    margin: '0px',
+    paddingLeft: '10px',
+  },
+  useBudgetLabelsList: {
+    width: '100%',
+    height: '17px',
+    float: 'left',
   },
   rectangleCommunity: {
     width: '11px',
     height: '11px',
     backgroundColor: '#321f93',
+    display: 'block',
+    lineHeight: '1.38',
+    margin: '3px 5px 3px 0',
+    float: 'left',
   },
-  displayInline: {
-    display: 'inline',
+  useBudgetFontValue: {
+    margin: '0px',
+    textAlign: 'left',
+  },
+  rectangleCommunityValueFirst: {
+    backgroundColor: '#321f93',
+  },
+  rectangleCommunityValueSecond: {
+    backgroundColor: '#6c5fb0',
+  },
+  rectangleCommunityValueThird: {
+    backgroundColor: '#c5c1de',
+  },
+  rectangleCommunityValueFourth: {
+    backgroundColor: '#d8d6e7',
+  },
+  rectangleCommunityValueFifth: {
+    backgroundColor: '#e8e7f0',
+  },
+  useBudgetItem: {
+    marginTop: '10px',
   },
   useBudgetFont: {
     fontFamily: 'Roboto',
@@ -263,9 +350,10 @@ export const styles = StyleSheet.create({
     fontWeight: '300',
     fontStyle: 'normal',
     fontStretch: 'normal',
-    lineHeight: '1.38',
+    lineHeight: '1.46',
     letterSpacing: '1px',
     color: '#4a4a4a',
+    margin: '0px',
   },
   introductionTextSecond: {
     fontFamily: 'Titillium Web',
@@ -305,7 +393,7 @@ export const styles = StyleSheet.create({
   massMediaContainer: {
     height: '230px',
     backgroundColor: '#f7f4f4',
-    position: 'relative'
+    position: 'relative',
   },
   mediaTitleStyle: {
     position: 'absolute',
@@ -320,12 +408,12 @@ export const styles = StyleSheet.create({
     height: '4px',
     backgroundColor: '#26b3da',
     display: 'block',
-  },  
+  },
   imageToken: {
     height: '100%',
     width: '100%',
     display: 'block',
-    margin: '25px auto'
+    margin: '25px auto',
   },
   paddingBudgetUse: {
     paddingLeft: '21px',
@@ -378,5 +466,5 @@ export const styles = StyleSheet.create({
     fontStretch: 'normal',
     lineHeight: '2.14',
     color: '#4a4a4a',
-  }
+  },
 })
