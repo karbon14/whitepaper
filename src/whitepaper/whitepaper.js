@@ -15,7 +15,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
       <h2 style={styles.coverSubtitle}> {introduction[lang].VERSIONWP} </h2>
     </div>
 
-    <div style={{...styles.index, ...styles.fontIndex, ...styles.documentWhitepaper}}>
+    <div style={{...styles.documentWhitepaper, ...styles.index, ...styles.fontIndex}}>
       <h2 style={styles.indexTitle}>{introduction[lang].INDEX}</h2>
       <ul style={styles.listContainer}>
         <li>
