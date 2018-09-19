@@ -15,7 +15,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
       <h2 style={styles.coverSubtitle}> {introduction[lang].VERSIONWP} </h2>
     </div>
 
-    <div style={{...styles.index, ...styles.fontIndex}}>
+    <div style={{...styles.index, ...styles.fontIndex, ...styles.documentWhitepaper}}>
       <h2 style={styles.indexTitle}>{introduction[lang].INDEX}</h2>
       <ul style={styles.listContainer}>
         <li>
@@ -111,6 +111,9 @@ export const Karbon14Whitepaper = ({ lang }) => (
           <h2 style={styles.indexSubTitle}> <a href="#indexGlossary" style={{...styles.unstyleLink, ...styles.indexSubTitleLink}}> {introduction[lang].INDEXGLOSSARY} </a> </h2>
         </li>
       </ul>
+      <div style={styles.footer}>
+        <p style={{...styles.footerFrom, ...styles.colorWhite}}>{introduction[lang].page} 2 <span style={{...styles.footerTo, ...styles.colorFooterTo}}>| 20</span></p>
+      </div>
     </div>
 
     <div style={styles.documentWhitepaper}>
@@ -122,7 +125,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <p style={styles.resumeSecond} dangerouslySetInnerHTML={{__html: resume[lang].second}}></p>
       </div>
       <div style={styles.footer}>
-        <p style={styles.footerFrom}>Page 3 <span style={styles.footerTo}>| 20</span></p>
+        <p style={styles.footerFrom}>{introduction[lang].page} 3 <span style={styles.footerTo}>| 20</span></p>
       </div>
     </div>
 
@@ -139,6 +142,9 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <p dangerouslySetInnerHTML={{__html: introduction[lang].defProblemTEXTFirst}}></p>
 
         <p style={styles.introductionTextSecond} dangerouslySetInnerHTML={{__html: introduction[lang].defProblemTEXTSecond}}></p>
+      </div>
+      <div style={styles.footer}>
+        <p style={styles.footerFrom}>{introduction[lang].page} 4 <span style={styles.footerTo}>| 20</span></p>
       </div>
     </div>
 
@@ -158,6 +164,9 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <p style={styles.introductionTextSecond} dangerouslySetInnerHTML={{__html: introduction[lang].governmentsTextSecond}}></p>      
         <p dangerouslySetInnerHTML={{__html: introduction[lang].governmentsTextThird}}></p>      
       </div>
+      <div style={styles.footer}>
+        <p style={styles.footerFrom}>{introduction[lang].page} 5 <span style={styles.footerTo}>| 20</span></p>
+      </div>
     </div>
 
     <div style={styles.documentWhitepaper}>
@@ -176,6 +185,9 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h3 style={{...styles.subsubtitle, ...styles.paddingTop}}>{introduction[lang].banks}</h3>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].banksText}}></p>      
       </div>
+      <div style={styles.footer}>
+        <p style={styles.footerFrom}>{introduction[lang].page} 6 <span style={styles.footerTo}>| 20</span></p>
+      </div>
     </div>
 
     <div style={styles.documentWhitepaper}>
@@ -191,6 +203,9 @@ export const Karbon14Whitepaper = ({ lang }) => (
 
         <p dangerouslySetInnerHTML={{__html: introduction[lang].mediaText}}></p>      
       </div>
+      <div style={styles.footer}>
+        <p style={styles.footerFrom}>{introduction[lang].page} 7 <span style={styles.footerTo}>| 20</span></p>
+      </div>
     </div>
 
     <div style={styles.documentWhitepaper}>
@@ -203,6 +218,9 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <p dangerouslySetInnerHTML={{__html: introduction[lang].informationSecurityTextFirst}}></p>      
         <p style={styles.introductionTextSecond} dangerouslySetInnerHTML={{__html: introduction[lang].informationSecurityTextSecond}}></p>      
         <p dangerouslySetInnerHTML={{__html: introduction[lang].informationSecurityTextThird}}></p>      
+      </div>
+      <div style={styles.footer}>
+        <p style={styles.footerFrom}>{introduction[lang].page} 8 <span style={styles.footerTo}>| 20</span></p>
       </div>
     </div>
 
@@ -224,6 +242,9 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h3 style={styles.subsubtitle}>{introduction[lang].trustCompaniesEntities}</h3>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].trustCompaniesEntitiesText}}></p>      
       </div>
+      <div style={styles.footer}>
+        <p style={styles.footerFrom}>{introduction[lang].page} 9 <span style={styles.footerTo}>| 20</span></p>
+      </div>
     </div>
 
     <div style={styles.documentWhitepaper}>
@@ -235,6 +256,9 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <p dangerouslySetInnerHTML={{__html: introduction[lang].howWorkTextFirst}}></p>  
         <h3 style={styles.subsubtitle} dangerouslySetInnerHTML={{__html: introduction[lang].howWorkTextSecond}}></h3>  
         <p dangerouslySetInnerHTML={{__html: introduction[lang].howWorkTextThird}}></p>  
+      </div>
+      <div style={styles.footer}>
+        <p style={styles.footerFrom}>{introduction[lang].page} 10 <span style={styles.footerTo}>| 20</span></p>
       </div>
     </div>
 
@@ -250,6 +274,9 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <div style={{...styles.howWorkImage, ...styles.certificateProofLifeImage}}></div>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].certificateProofLifeText}}></p>
       </div>
+      <div style={styles.footer}>
+        <p style={styles.footerFrom}>{introduction[lang].page} 11 <span style={styles.footerTo}>| 20</span></p>
+      </div>
     </div>
 
     <div style={styles.documentWhitepaper}>
@@ -263,6 +290,9 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <span style={styles.littleRectangle}></span>
         <div style={{...styles.howWorkImage, ...styles.cryptoNotariesImage}}></div>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].cryptoText}}></p>
+      </div>
+      <div style={styles.footer}>
+        <p style={styles.footerFrom}>{introduction[lang].page} 12 <span style={styles.footerTo}>| 20</span></p>
       </div>
     </div>
 
@@ -278,6 +308,9 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <div style={{...styles.howWorkImage, ...styles.criptoNotaryLicenseImage}}></div>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].licenseCryptoText}}></p>
       </div>
+      <div style={styles.footer}>
+        <p style={styles.footerFrom}>{introduction[lang].page} 13 <span style={styles.footerTo}>| 20</span></p>
+      </div>
     </div>
 
     <div style={styles.documentWhitepaper}>
@@ -292,6 +325,9 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <div style={{...styles.howWorkImage, ...styles.proofLifeValidatorImage}}></div>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].validatorProofLifeText}}></p>
       </div>
+      <div style={styles.footer}>
+        <p style={styles.footerFrom}>{introduction[lang].page} 14 <span style={styles.footerTo}>| 20</span></p>
+      </div>
     </div>
 
     <div style={styles.documentWhitepaper}>
@@ -305,6 +341,9 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <span style={styles.littleRectangle}></span>
         <div style={{...styles.howWorkImage, ...styles.karbon14WalletImage}}></div>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].walletText}}></p>
+      </div>
+      <div style={styles.footer}>
+        <p style={styles.footerFrom}>{introduction[lang].page} 15 <span style={styles.footerTo}>| 20</span></p>
       </div>
     </div>
 
@@ -328,6 +367,9 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h3 style={styles.subsubtitle} id="indexReusing">{introduction[lang].reusingProof}</h3>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].reusingProofText}}></p>
       </div>
+      <div style={styles.footer}>
+        <p style={styles.footerFrom}>{introduction[lang].page} 16 <span style={styles.footerTo}>| 20</span></p>
+      </div>
     </div>
 
     <div style={styles.documentWhitepaper}>
@@ -341,6 +383,9 @@ export const Karbon14Whitepaper = ({ lang }) => (
       <div style={styles.introductionContainer}>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].whyInvestTextFirst}}></p>  
         <p style={styles.resumeSecond} dangerouslySetInnerHTML={{__html: introduction[lang].whyInvestTextSecond}}></p>  
+      </div>
+      <div style={styles.footer}>
+        <p style={styles.footerFrom}>{introduction[lang].page} 17 <span style={styles.footerTo}>| 20</span></p>
       </div>
     </div>
 
@@ -396,8 +441,8 @@ export const Karbon14Whitepaper = ({ lang }) => (
               </li>
             </ol>
           </div>
+          </div>
         </div>
-      </div>
 
       <div style={styles.paddingBudgetUse}>
         <div style={{...styles.useBudgetItem}}>
@@ -462,6 +507,9 @@ export const Karbon14Whitepaper = ({ lang }) => (
           </tr>
         </table>
       </div>
+      <div style={styles.footer}>
+        <p style={styles.footerFrom}>{introduction[lang].page} 18 <span style={styles.footerTo}>| 20</span></p>
+      </div>
     </div>
 
     <div style={styles.documentWhitepaper}>
@@ -470,6 +518,9 @@ export const Karbon14Whitepaper = ({ lang }) => (
       </div>
       <div style={styles.introductionContainer}>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].legalNoteText}}></p>
+      </div>
+      <div style={styles.footer}>
+        <p style={styles.footerFrom}>{introduction[lang].page} 19 <span style={styles.footerTo}>| 20</span></p>
       </div>
     </div>
 
@@ -492,6 +543,9 @@ export const Karbon14Whitepaper = ({ lang }) => (
 
         <h3 style={styles.subsubtitle}>{introduction[lang].validatorGlossary}</h3>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].validatorGlossaryText}}></p>
+      </div>
+      <div style={styles.footer}>
+        <p style={styles.footerFrom}>{introduction[lang].page} 20 <span style={styles.footerTo}>| 20</span></p>
       </div>
     </div>
 

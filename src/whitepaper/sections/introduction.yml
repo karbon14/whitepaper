@@ -1,6 +1,8 @@
 EN:
   VERSIONWP:
     V 1.0
+  page:
+    Page
   INDEX:
     Index
   INDEXRESUME:
@@ -283,6 +285,8 @@ EN:
 ES:
   VERSIONWP:
     V 1.0
+  page:
+    Página
   INDEX:
     Índice
   INDEXRESUME:

@@ -113,7 +113,7 @@ export const styles = StyleSheet.create({
   },
   footer: {
     position: 'absolute',
-    right: '25px',
+    right: '33px',
     bottom: '0px',
   },
   footerFrom: {
@@ -127,8 +127,25 @@ export const styles = StyleSheet.create({
     textAlign: 'right',
     color: '#231994',
   },
+  footerFromWhite: {
+    fontFamily: 'Titillium Web',
+    fontSize: '12px',
+    fontWeight: 'bold',
+    fontStyle: 'normal',
+    fontStretch: 'normal',
+    lineHeight: 'normal',
+    letterSpacing: 'normal',
+    textAlign: 'right',
+    color: '#ffffff'
+  },
+  colorWhite: {
+    color: '#ffffff'
+  },
   footerTo: {
     fontWeight: '300',
+  },
+  colorFooterTo: {
+    color: '#9ba7e0'
   },
   titleCover: {
     backgroundSize: '100% 100%',
