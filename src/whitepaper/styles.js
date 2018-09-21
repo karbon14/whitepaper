@@ -198,10 +198,6 @@ export const styles = StyleSheet.create({
     color: '#4a4a4a',
     marginBottom: '0px',
   },
-  marginCrowdsale: {
-    marginTop: '25px',
-    marginBottom: '5px',
-  },
   littleRectangle: {
     display: 'block',
     width: '18px',
