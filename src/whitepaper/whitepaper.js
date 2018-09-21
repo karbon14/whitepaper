@@ -478,7 +478,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
             {introduction[lang].distributionAirdropText}
           </p>
         </div>
-        <h3 style={{...styles.subtitle, ...styles.marginCrowdsale}}>Crowdsale</h3>
+        <h3 style={{...styles.subtitle}}>Crowdsale</h3>
 
         <table style={styles.tableToken}>
           <tr>
