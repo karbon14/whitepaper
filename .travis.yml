@@ -15,7 +15,7 @@ script:
   - npm run build
 after_success:
   - '[[ $TRAVIS_BRANCH = "master" && $TRAVIS_PULL_REQUEST_BRANCH = "" ]] &&
-    (npm run travis-deploy-once "npm run semantic-release")'
+    (npm install -g travis-deploy-once && travis-deploy-once "npm run semantic-release")'
 
 
 
