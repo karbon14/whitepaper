@@ -120,7 +120,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
       <div style={styles.titleCover}>
         <h2 style={styles.title} id="indexResume">{introduction[lang].RESUME}</h2>
       </div>
-      <div style={styles.resumeContainer}>
+      <div style={styles.pageContainer}>
         <p style={styles.resumeFirst} dangerouslySetInnerHTML={{__html: resume[lang].first}}></p>
         <p style={styles.resumeSecond} dangerouslySetInnerHTML={{__html: resume[lang].second}}></p>
       </div>
@@ -134,7 +134,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h2 style={styles.title}>{introduction[lang].introduction}</h2>
       </div>
 
-      <div style={styles.introductionContainer}>
+      <div style={styles.pageContainer}>
         <h3 style={styles.subtitle} id="indexWisk14">{introduction[lang].wisK14}</h3>
         <p style={styles.introductionText} dangerouslySetInnerHTML={{__html: introduction[lang].wisK14TEXT}}></p>
 
@@ -153,7 +153,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h2 style={styles.title}>{introduction[lang].introduction}</h2>
       </div>
 
-      <div style={styles.introductionContainer}>
+      <div style={styles.pageContainer}>
         <h3 style={styles.subtitle} id="indexWhyProofLife">{introduction[lang].wProofLife}</h3>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].wProofLifeTEXT}}></p>      
 
@@ -174,7 +174,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h2 style={styles.title}>{introduction[lang].introduction}</h2>
       </div>
 
-      <div style={styles.introductionContainer}>
+      <div style={styles.pageContainer}>
         <h3 style={styles.subsubtitle}>{introduction[lang].exchangeCrypto}</h3>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].exchangeCryptoTextFirst}}></p>      
         <p style={styles.introductionTextSecond} dangerouslySetInnerHTML={{__html: introduction[lang].exchangeCryptoTextSecond}}></p>      
@@ -194,7 +194,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
       <div style={styles.titleCover}>
         <h2 style={styles.title}>{introduction[lang].introduction}</h2>
       </div>
-      <div style={styles.introductionContainer}>
+      <div style={styles.pageContainer}>
         <div style={styles.massMediaContainer}>
           <img style={styles.imageButerin} src="https://cdn1.imggmi.com/uploads/2018/8/14/9c3ef3be6e0139c71e080c2b1920e972-full.jpg" />
           <h3 style={{...styles.subsubtitle, ...styles.mediaTitleStyle}}>{introduction[lang].mediaTitle}</h3>
@@ -213,7 +213,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h2 style={styles.title}>{introduction[lang].introduction}</h2>
       </div>
 
-      <div style={styles.introductionContainer}>
+      <div style={styles.pageContainer}>
         <h3 style={styles.subtitle} id="indexSecurity">{introduction[lang].informationSecurity}</h3>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].informationSecurityTextFirst}}></p>      
         <p style={styles.introductionTextSecond} dangerouslySetInnerHTML={{__html: introduction[lang].informationSecurityTextSecond}}></p>      
@@ -229,7 +229,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h2 style={styles.title} id="indexBenefits">{introduction[lang].introduction}</h2>
       </div>
 
-      <div style={styles.introductionContainer}>
+      <div style={styles.pageContainer}>
         <h3 style={styles.subtitle}>{introduction[lang].benefits}</h3>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].benefitsText}}></p>    
 
@@ -252,7 +252,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h2 style={styles.title}>{introduction[lang].howWork}</h2>
       </div>
 
-      <div style={styles.introductionContainer}>
+      <div style={styles.pageContainer}>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].howWorkTextFirst}}></p>  
         <h3 style={styles.subsubtitle} dangerouslySetInnerHTML={{__html: introduction[lang].howWorkTextSecond}}></h3>  
         <p dangerouslySetInnerHTML={{__html: introduction[lang].howWorkTextThird}}></p>  
@@ -266,7 +266,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
       <div style={styles.titleCover}>
         <h2 style={styles.title}>{introduction[lang].howWork}</h2>
       </div>
-      <div style={styles.introductionContainer}>
+      <div style={{...styles.pageContainer, ...styles.paddingTopZero}}>
         <h3 style={styles.bigNumber}>1.</h3>
         <h3 style={styles.subsubtitle} id="indexCertificate">{introduction[lang].certificateProofLife}</h3>
         <span style={styles.littleRectangle}></span>
@@ -284,7 +284,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h2 style={styles.title}>{introduction[lang].howWork}</h2>
       </div>
 
-      <div style={styles.introductionContainer}>
+      <div style={{...styles.pageContainer, ...styles.paddingTopZero}}>
         <h3 style={styles.bigNumber}>2.</h3>
         <h3 style={styles.subsubtitle} id="indexCrypto">{introduction[lang].crypto}</h3>
         <span style={styles.littleRectangle}></span>
@@ -301,7 +301,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h2 style={styles.title}>{introduction[lang].howWork}</h2>
       </div>
 
-      <div style={styles.introductionContainer}>
+      <div style={{...styles.pageContainer, ...styles.paddingTopZero}}>
         <h3 style={styles.bigNumber}>3.</h3>
         <h3 style={styles.subsubtitle} id="indexLicenseCrypto">{introduction[lang].licenseCrypto}</h3>
         <span style={styles.littleRectangle}></span>
@@ -318,7 +318,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h2 style={styles.title}>{introduction[lang].howWork}</h2>
       </div>
 
-      <div style={styles.introductionContainer}>
+      <div style={{...styles.pageContainer, ...styles.paddingTopZero}}>
         <h3 style={styles.bigNumber}>4.</h3>
         <h3 style={styles.subsubtitle} id="indexExplorer">{introduction[lang].validatorProofLife}</h3>
         <span style={styles.littleRectangle}></span>
@@ -335,7 +335,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h2 style={styles.title}>{introduction[lang].howWork}</h2>
       </div>
 
-      <div style={styles.introductionContainer}>
+      <div style={{...styles.pageContainer, ...styles.paddingTopZero}}>
         <h3 style={styles.bigNumber}>5.</h3>
         <h3 style={styles.subsubtitle} id="indexWallet">{introduction[lang].wallet}</h3>
         <span style={styles.littleRectangle}></span>
@@ -352,7 +352,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <h2 style={styles.title} id="indexUseCases">{introduction[lang].useCases}</h2>
       </div>
 
-      <div style={styles.introductionContainer}>
+      <div style={styles.pageContainer}>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].useCasesText}}></p>  
 
         <h3 style={styles.subsubtitle} id="indexBirth">{introduction[lang].birthCertificates}</h3>
@@ -380,7 +380,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <div style={styles.logoK14}></div>
       </div>
 
-      <div style={styles.introductionContainer}>
+      <div style={styles.pageContainer}>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].whyInvestTextFirst}}></p>  
         <p style={styles.resumeSecond} dangerouslySetInnerHTML={{__html: introduction[lang].whyInvestTextSecond}}></p>  
       </div>
@@ -444,7 +444,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
           </div>
         </div>
 
-      <div style={styles.paddingBudgetUse}>
+      <div style={{...styles.pageContainer, ...styles.paddingTopZero}}>
         <div style={{...styles.useBudgetItem}}>
           <p style={{...styles.useBudgetFont}}>
             <span style={{...styles.subsubtitle}} dangerouslySetInnerHTML={{__html: introduction[lang].distributionCommunity}} />:&nbsp;
@@ -516,7 +516,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
       <div style={styles.titleCover}>
         <h2 style={styles.title} id="indexLegalNote">{introduction[lang].legalNote}</h2>
       </div>
-      <div style={styles.introductionContainer}>
+      <div style={styles.pageContainer}>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].legalNoteText}}></p>
       </div>
       <div style={styles.footer}>
@@ -528,7 +528,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
       <div style={styles.titleCover}>
         <h2 style={styles.title} id="indexGlossary">{introduction[lang].glossary}</h2>
       </div>
-      <div style={styles.introductionContainer}>
+      <div style={styles.pageContainer}>
         <h3 style={styles.subsubtitle}>{introduction[lang].proofLifeGlossary}</h3>
         <p dangerouslySetInnerHTML={{__html: introduction[lang].proofLifeGlossaryText}}></p>
 

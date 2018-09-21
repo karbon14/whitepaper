@@ -171,16 +171,11 @@ export const styles = StyleSheet.create({
     lineHeight: '1',
     color: '#24b5a9',
   },
-  resumeContainer: {
-    marginLeft: '23px',
-    marginRight: '22px',
-    marginTop: '44px',
-  },
-  introductionContainer: {
-    marginLeft: '26px',
-    marginRight: '22px',
-    marginTop: '44px',
-    width: '520px',
+  pageContainer: {
+    paddingLeft: '26px',
+    paddingRight: '25px',
+    paddingTop: '44px',
+    width: '530px',
     fontSize: '13px',
     fontWeight: '300',
     fontStyle: 'normal',
@@ -432,14 +427,12 @@ export const styles = StyleSheet.create({
     display: 'block',
     margin: '25px auto',
   },
-  paddingBudgetUse: {
-    paddingLeft: '21px',
-    width: '550px',
+  paddingTopZero: {
+    paddingTop: '0px',
   },
   tableToken: {
-    width: '65%',
     borderCollapse: 'collapse',
-    width: '550px',
+    width: '530px',
     height: '186px',
   },
   tdLeftBorderTwo: {
