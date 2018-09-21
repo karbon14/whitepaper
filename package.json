@@ -11,7 +11,8 @@
     "lint": "eslint -f table src",
     "lint:fix": "eslint --fix -f table src",
     "precommit": "lint-staged",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "lint-staged": {
     "linters": {
@@ -41,8 +42,10 @@
     "@babel/cli": "7.0.0-beta.55",
     "@babel/core": "7.0.0-beta.55",
     "@babel/node": "7.0.0-beta.55",
+    "@babel/polyfill": "7.0.0-beta.55",
     "@babel/preset-env": "7.0.0-beta.55",
     "@babel/preset-react": "7.0.0-beta.55",
+    "@react-pdf/react-pdf": "1.0.0-alpha.8",
     "@semantic-release/git": "7.0.3",
     "@semantic-release/github": "5.0.3",
     "@semantic-release/npm": "5.0.4",
@@ -54,18 +57,17 @@
     "eslint-plugin-react": "7.10.0",
     "husky": "0.14.3",
     "koa": "2.5.2",
+    "koa-bodyparser": "4.2.1",
     "koa-router": "7.4.0",
     "koa-static": "5.0.0",
     "lint-staged": "7.2.0",
     "nodemon": "1.18.3",
     "prettier": "1.14.0",
     "prop-types": "15.6.2",
-    "semantic-release": "15.9.12",
-    "@babel/polyfill": "7.0.0-beta.55",
-    "@react-pdf/react-pdf": "1.0.0-alpha.8",
-    "koa-bodyparser": "4.2.1",
     "react": "16.4.1",
     "react-dom": "16.4.1",
+    "semantic-release": "15.9.12",
+    "travis-deploy-once": "5.0.8",
     "wkhtmltopdf": "0.3.4",
     "yaml-import": "^0.2.3"
   }
