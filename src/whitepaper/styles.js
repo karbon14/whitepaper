@@ -1,250 +1,30 @@
 import { StyleSheet } from '@react-pdf/react-pdf'
-const isBuild = process.env.BUILD
+const isBuild = process.env.BUILD === 'true' ? true : false
 
 export const styles = StyleSheet.create({
-  document: {
-    width: '595px',
-  },
-  coverImage: {
-    height: '838px',
-    pageBreakAfter: 'always',
-    backgroundImage: `url(${isBuild === 'TRUE' ? "'file://" + __dirname + "/images/cover.png'" : "'/cover.png'"})`,
-    backgroundSize: '100% 100%',
-    backgroundRepeat: 'no-repeat',
-  },
-  index: {
-    height: '838px',
-    backgroundImage: `url(${isBuild === 'TRUE' ? "'file://" + __dirname + "/images/index.png'" : "'/index.png'"})`,
-    backgroundSize: '100% 100%',
-    backgroundRepeat: 'no-repeat',
-  },
-  fontIndex: {
-    fontSize: '18px',
+  positionListIndex: {
+    marginLeft: '130px',
+    marginTop: '42px',
   },
   indexTitle: {
-    paddingTop: '35px',
-    paddingLeft: '98px',
-    width: '461px',
-    height: '65px',
+    paddingTop: '46px',
+    paddingLeft: '131px',
     fontFamily: 'Titillium Web',
-    fontSize: '20px',
+    fontSize: '30px',
     fontWeight: 'bold',
-    fontStyle: 'normal',
-    fontStretch: 'normal',
     letterSpacing: '1.1px',
-    color: '#ffffff',
-  },
-  indexSubTitleLink: {
-    color: '#23b2c6',
-  },
-  indexSubTitle: {
-    fontFamily: 'Titillium Web',
-    fontSize: '16px',
-    fontWeight: 'bold',
-    fontStyle: 'normal',
-    fontStretch: 'normal',
-    letterSpacing: '0.9px',
-    color: '#23b2c6',
-  },
-  indexText: {
-    fontFamily: 'Roboto',
-    fontSize: '14px',
-    fontWeight: '300',
-    fontStyle: 'normal',
-    fontStretch: 'normal',
-    lineHeight: '0px',
-    letterSpacing: '1px',
-    color: '#ffffff',
-  },
-  logo: {
-    paddingTop: '380px',
-    display: 'block',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-    width: '676px',
-    height: '180px',
-  },
-  unstyleLink: {
-    textDecoration: 'none',
-  },
-  coverTitle: {
-    width: '295px',
-    marginBottom: '0px',
-    fontFamily: 'Titillium Web',
-    fontSize: '33px',
-    fontWeight: '300',
-    fontStyle: 'normal',
-    fontStretch: 'normal',
-    lineHeight: 'normal',
-    letterSpacing: '1.9px',
-    color: '#23b2c6',
-    paddingTop: '424px',
-    paddingLeft: '95px',
-  },
-  coverSubtitle: {
-    width: '89px',
-    height: '61px',
-    fontFamily: 'Titillium Web',
-    fontSize: '24px',
-    fontWeight: '300',
-    fontStyle: 'normal',
-    fontStretch: 'normal',
-    lineHeight: 'normal',
-    letterSpacing: 'normal',
-    color: '#9ba7e0',
-    paddingLeft: '101px',
-    marginTop: '0px',
-  },
-  list: {
-    listStyle: 'none',
-    fontFamily: 'Roboto',
-    paddingLeft: '30px',
-    lineHeight: '1.43px',
-    letterSpacing: '1px',
-  },
-  listContainer: {
-    listStyle: 'none',
-    paddingLeft: '98px',
-  },
-  documentWhitepaper: {
-    height: '832px',
-    pageBreakAfter: 'always',
-    position: 'relative',
-  },
-  footer: {
-    position: 'absolute',
-    right: '33px',
-    bottom: '0px',
-  },
-  footerFrom: {
-    fontFamily: 'Titillium Web',
-    fontSize: '12px',
-    fontWeight: 'bold',
-    fontStyle: 'normal',
-    fontStretch: 'normal',
-    lineHeight: 'normal',
-    letterSpacing: 'normal',
-    textAlign: 'right',
-    color: '#231994',
-  },
-  footerFromWhite: {
-    fontFamily: 'Titillium Web',
-    fontSize: '12px',
-    fontWeight: 'bold',
-    fontStyle: 'normal',
-    fontStretch: 'normal',
-    lineHeight: 'normal',
-    letterSpacing: 'normal',
-    textAlign: 'right',
-    color: '#ffffff'
-  },
-  colorWhite: {
-    color: '#ffffff'
-  },
-  footerTo: {
-    fontWeight: '300',
-  },
-  colorFooterTo: {
-    color: '#9ba7e0'
-  },
-  titleCover: {
-    backgroundSize: '100% 100%',
-    backgroundRepeat: 'no-repeat',
-    backgroundImage: `url(${isBuild === 'TRUE' ? "'file://" + __dirname + "/images/title.png'" : "'/title.png'"})`,
-    width: '595px',
-    height: '68px',
-  },
-  resumeFirst: {
-    fontFamily: 'Roboto',
-    fontSize: '13px',
-    fontWeight: '300',
-    fontStyle: 'normal',
-    fontStretch: 'normal',
-    lineHeight: '1.38',
-    letterSpacing: '1px',
-    color: '#4a4a4a',
-  },
-  resumeSecond: {
-    fontFamily: 'Titillium Web',
-    fontSize: '18px',
-    fontWeight: 'bold',
-    lineHeight: '1',
-    color: '#24b5a9',
-  },
-  pageContainer: {
-    paddingLeft: '26px',
-    paddingRight: '25px',
-    paddingTop: '44px',
-    width: '530px',
-    fontSize: '13px',
-    fontWeight: '300',
-    fontStyle: 'normal',
-    fontStretch: 'normal',
-    lineHeight: '1.38',
-    letterSpacing: '1px',
-    color: '#4a4a4a',
-    fontFamily: 'roboto',
-  },
-  bigNumber: {
-    width: '49px',
-    height: '27px',
-    fontFamily: 'Titillium Web',
-    fontSize: '50px',
-    fontWeight: 'bold',
-    fontStyle: 'normal',
-    fontStretch: 'normal',
-    lineHeight: '0.36',
-    letterSpacing: '1px',
-    color: '#4a4a4a',
-    marginBottom: '0px',
-  },
-  littleRectangle: {
-    display: 'block',
-    width: '18px',
-    border: 'solid 1px #25b3d8',
+    color: '#FFF',
+    margin: 0,
   },
   bigRectangle: {
     position: 'relative',
-    width: '595px',
-    height: '142px',
+    width: '100%',
+    height: '185px',
     backgroundColor: 'rgba(216, 216, 216, 0.2)',
-  },
-  howWorkImage: {
-    width: '540px',
-    height: '225px',
-    backgroundSize: '100% 100%',
-    backgroundRepeat: 'no-repeat',
-    marginTop: '17px',
-  },
-  certificateProofLifeImage: {
-    backgroundImage: `url(${
-      isBuild === 'TRUE'
-        ? "'file://" + __dirname + "/images/ProofLifeCertificates.jpeg'"
-        : "'/ProofLifeCertificates.jpeg'"
-    })`,
-  },
-  cryptoNotariesImage: {
-    backgroundImage: `url(${
-      isBuild === 'TRUE' ? "'file://" + __dirname + "/images/CryptoNotaries.jpeg'" : "'/CryptoNotaries.jpeg'"
-    })`,
-  },
-  criptoNotaryLicenseImage: {
-    backgroundImage: `url(${
-      isBuild === 'TRUE' ? "'file://" + __dirname + "/images/CriptoNotaryLicense.jpeg'" : "'/CriptoNotaryLicense.jpeg'"
-    })`,
-  },
-  proofLifeValidatorImage: {
-    backgroundImage: `url(${
-      isBuild === 'TRUE' ? "'file://" + __dirname + "/images/ProofLifeValidator.jpeg'" : "'/ProofLifeValidator.jpeg'"
-    })`,
-  },
-  karbon14WalletImage: {
-    backgroundImage: `url(${
-      isBuild === 'TRUE' ? "'file://" + __dirname + "/images/Karbon14Wallet.jpeg'" : "'/Karbon14Wallet.jpeg'"
-    })`,
+    marginBottom: '-28px',
   },
   logoK14: {
-    backgroundSize: '283px 70px',
+    backgroundSize: '378px 88px',
     backgroundRepeat: 'no-repeat',
     backgroundImage: `url(${isBuild === 'TRUE' ? "'file://" + __dirname + "/images/logo.png'" : "'/logo.png'"})`,
     height: '100%',
@@ -362,69 +142,6 @@ export const styles = StyleSheet.create({
     letterSpacing: '1px',
     color: '#4a4a4a',
     margin: '0px',
-  },
-  introductionTextSecond: {
-    fontFamily: 'Titillium Web',
-    fontSize: '16px',
-    fontWeight: 'bold',
-    lineHeight: '1.13',
-    color: '#24b699',
-  },
-  paddingTop: {
-    paddingTop: '30px',
-  },
-  title: {
-    fontFamily: 'Titillium Web',
-    fontSize: '20px',
-    fontWeight: 'bold',
-    fontStyle: 'normal',
-    fontStretch: 'normal',
-    lineHeight: 'normal',
-    letterSpacing: '1.1px',
-    color: '#ffffff',
-    paddingLeft: '70px',
-    paddingTop: '20px',
-  },
-  subtitle: {
-    fontFamily: 'Titillium Web',
-    fontSize: '16px',
-    fontWeight: 'bold',
-    lineHeight: '1.13',
-    color: '#25b3dc',
-  },
-  subsubtitle: {
-    fontFamily: 'Titillium Web',
-    fontSize: '16px',
-    fontWeight: 'bold',
-    lineHeight: '1.13',
-  },
-  massMediaContainer: {
-    height: '230px',
-    backgroundColor: '#f7f4f4',
-    position: 'relative',
-  },
-  mediaTitleStyle: {
-    position: 'absolute',
-    left: '237px',
-    bottom: '5px',
-  },
-  imageButerin: {
-    width: '218px',
-  },
-  rectangle: {
-    width: '520px',
-    height: '4px',
-    backgroundColor: '#26b3da',
-    display: 'block',
-  },
-  imageToken: {
-    height: '100%',
-    width: '100%',
-    display: 'block',
-    margin: '25px auto',
-  },
-  paddingTopZero: {
-    paddingTop: '0px',
   },
   tableToken: {
     borderCollapse: 'collapse',

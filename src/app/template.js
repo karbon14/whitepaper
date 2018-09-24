@@ -8,7 +8,13 @@ export default ({ body, title }) => {
         <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600" rel="stylesheet">
       </head>
-      <body style="margin: 0; padding: 0;">
+      <body>
+      <style>
+        * {
+          padding: 0px;
+          margin: 0px;
+        }
+      </style>
         <div id="root">${body}</div>
       </body>
     </html>
