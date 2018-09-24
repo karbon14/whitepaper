@@ -31,14 +31,14 @@ export const styles = StyleSheet.create({
     backgroundPosition: 'center',
   },
   useBudgetContainer: {
-    width: 'calc(100% - 44px)',
+    margin: '0 auto',
     marginBottom: '22px',
-    padding: '35px 22px 22px 22px',
+    padding: '45px 30px 22px 30px',
     backgroundColor: 'rgba(216, 216, 216, 0.2)',
   },
   useBudgetProvisionContainer: {
-    width: '100%',
-    height: '10px',
+    height: '15px',
+    margin: '0 auto',
     display: '-webkit-box',
   },
   useBudgetProvisionFirst: {
@@ -68,6 +68,7 @@ export const styles = StyleSheet.create({
   },
   useBudgetDescriptionContainer: {
     display: '-webkit-box',
+    margin: '0 auto',
   },
   useBudgetDescriptionTextContainer: {
     marginTop: '15px',
@@ -100,6 +101,7 @@ export const styles = StyleSheet.create({
     width: '100%',
     height: '17px',
     float: 'left',
+    paddingLeft: '30px',
   },
   rectangleCommunity: {
     width: '11px',
