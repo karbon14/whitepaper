@@ -16,11 +16,7 @@
   },
   "lint-staged": {
     "linters": {
-      "*.{js}": [
-        "npm run lint:fix",
-        "npm run build",
-        "git add"
-      ]
+      "*.{js}": ["npm run lint:fix","npm run build","git add"]
     },
     "ignore": [
       "package.json",
