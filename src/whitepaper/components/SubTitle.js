@@ -6,7 +6,7 @@ const styles = {
     fontFamily: 'Titillium Web',
     fontSize: '22px',
     fontWeight: 'bold',
-    lineFeight: 1.13,
+    lineHeight: 1.13,
     color: '#4a4a4a',
   },
 }

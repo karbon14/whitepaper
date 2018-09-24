@@ -27,8 +27,11 @@ const styles = {
 
 export const PageFooter = ({ textPage, currentPage, totalPage, contrast }) => (
   <div style={styles.footer}>
-    <p style={contrast ? { ...styles.footerFrom, ...styles.contastPage } :  { ...styles.footerFrom } }>
-      {textPage} {currentPage} <span style={contrast ? { ...styles.footerTo, ...styles.contrastTotal } :  { ...styles.footerTo }}>| {totalPage}</span>
+    <p style={contrast ? Object.assign(styles.footerFrom, styles.contastPage) : styles.footerFrom}>
+      {textPage} {currentPage}{' '}
+      <span style={contrast ? Object.assign(styles.footerTo, styles.contrastTotal) : styles.footerTo}>
+        | {totalPage}
+      </span>
     </p>
   </div>
 )
@@ -37,6 +40,5 @@ PageFooter.propTypes = {
   textPage: PropTypes.string,
   currentPage: PropTypes.number,
   totalPage: PropTypes.number,
-  contrast: PropTypes.bool
+  contrast: PropTypes.bool,
 }
-

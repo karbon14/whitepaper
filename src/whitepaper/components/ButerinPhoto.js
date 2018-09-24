@@ -25,13 +25,16 @@ const styles = {
 
 export const ButerinPhoto = ({ children }) => (
   <div>
-     <div style={styles.massMediaContainer}>
-      <img style={styles.imageButerin} src="https://cdn1.imggmi.com/uploads/2018/8/14/9c3ef3be6e0139c71e080c2b1920e972-full.jpg" />
-      <div style={{...styles.mediaTitleStyle}}>
+    <div style={styles.massMediaContainer}>
+      <img
+        style={styles.imageButerin}
+        src="https://cdn1.imggmi.com/uploads/2018/8/14/9c3ef3be6e0139c71e080c2b1920e972-full.jpg"
+      />
+      <div style={styles.mediaTitleStyle}>
         <SubTitle>{children}</SubTitle>
       </div>
     </div>
-    <span style={styles.rectangle}></span>
+    <span style={styles.rectangle} />
   </div>
 )
 

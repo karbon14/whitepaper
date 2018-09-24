@@ -80,13 +80,12 @@ EN:
     Right now, users need a long time to provide the information to the different petitioners, because in most cases they are not prepared to create their Proof of Life.<br/>
     <br/>But this problem will be solved with Karbon14 having his different types of Proof of Life in one place, avoiding in this way, repeating again and again the same procedure with the different entities that need the certificate.
     Karbon14 aspires that this Proof of Life Certificate will be a valid document in governmental entities. Thanks to Karbon14 we could:<br/>
-    <ol>
-      <li> Facilitate the possession of identity for people </li>
-      <li> Establish massive consensus on the verification of real identities </li>
-      <li> Leaving behind centralized systems, as they are not reliable in the long term due to political and security risks </li>
-      <li> Maintain identities constantly validated and updated </li>
-      <li> Expand mass adoption by different stakeholders </li>
-    </ol>
+  defProblemTEXTFirstList: 
+    - Facilitate the possession of identity for people
+    - Establish massive consensus on the verification of real identities
+    - Leaving behind centralized systems, as they are not reliable in the long term due to political and security risks
+    - Maintain identities constantly validated and updated
+    - Expand mass adoption by different stakeholders
   defProblemTEXTSecond:
     Governments around the world and industries are desperately looking for a solution and Karbon14 can help solve it.<br/>
   wProofLife:
@@ -158,16 +157,14 @@ EN:
     <br/>​​Karbon14 idea is to be able to create Proof of Life Certificates that the different entities request from the users. Basically a Proof of Life Certificate for Karbon14 consists in information provided by the user, approved by the crypto notaries from karbon14 and persisting in the blockchain.<br/>
     <br/>​​To this end, a notary system will be implemented, which will approve family relations. In order to create this process, the user will be asked for a birth certificate or, failing that, verifiable documents to authenticate the family relationship. The notary will be composed by network users who will exercise the role of notaries, executing this action by means of an affirmative or negative vote. These notaries will exercise their vote without knowing who their counterpart is, this will guarantee that the vote is not consensual, but totally independent so notaries should be an odd number. To do this procedure, users involved must offer a monetary reward in Karbon14 tokens.<br/>
   howWorkTextSecond:
-    To create the certificate, Karbon14 will use different tools, let's see them below:<br/><br/>
+    To create the certificate, Karbon14 will use different tools, let's see them below
   howWorkTextThird:
-    <ol>
-      <li>Proof of Life Certificate</li>
-      <li>Cripto Notaries</li>
-      <li>Cripto Notary License</li>
-      <li>Proof of Life Explorers</li>
-      <li>Karbon14 Wallet</li>
-      <li>Family Tree</li>
-    </ol>
+    - Proof of Life Certificate
+    - Cripto Notaries
+    - Cripto Notary License
+    - Proof of Life Explorers
+    - Karbon14 Wallet
+    - Family Tree
   certificateProofLife:
     Proof of Life Certificates
   certificateProofLifeText:
@@ -364,13 +361,12 @@ ES:
     En la actualidad, el usuario demora mucho tiempo en poder brindar los datos a distintos tipos de solicitantes, porque en la mayoría de los casos no está preparado para realizar su prueba de vida.<br/>
     <br/>Pero este problema será resuelto con Karbon14 teniendo sus diferentes tipos de prueba de vida en un solo lugar, evitando de esta manera, repetir una y otra vez el mismo procedimiento con las distintas entidades que lo necesiten.
     Karbon14 aspira que este certificado de vida sea un documento con validez en entidades gubernamentales. Gracias a Karbon14 se podría:<br/>
-    <ol>
-      <li> Facilitar la posesión de la identidad para las personas </li>
-      <li> Establecer el consenso masivo sobre la verificación de identidades reales </li>
-      <li> Dejar atrás los sistemas centralizados, ya que no son confiables a largo plazo debido a riesgos políticos y de seguridad </li>
-      <li> Mantener identidades validadas y actualizadas constantemente </li>
-      <li> Expandir la adopción masiva por las diferentes partes interesadas </li>
-    </ol>
+  defProblemTEXTFirstList:
+    - Facilitar la posesión de la identidad para las personas
+    - Establecer el consenso masivo sobre la verificación de identidades reales
+    - Dejar atrás los sistemas centralizados, ya que no son confiables a largo plazo debido a riesgos políticos y de seguridad
+    - Mantener identidades validadas y actualizadas constantemente
+    - Expandir la adopción masiva por las diferentes partes interesadas
   defProblemTEXTSecond:
     Los gobiernos de todo el mundo y la industria están buscando desesperadamente una solución y Karbon14 puede ayudar a solucionarlo.<br/>
   wProofLife:
@@ -442,15 +438,13 @@ ES:
     <br/>La idea de Karbon14 es poder crear los Certificados de Prueba de Vida que solicitan las diversas entidades a los usuarios. Básicamente un certificado de prueba de vida para Karbon14 consta de información brindada por el usuario, aprobada por las cripto escribanías de karbon14 y persistiendo en la blockchain.<br/>
     <br/>La escribanía estará compuesta por usuarios de la red que ejercerán un rol de escribano, ejecutando esta acción por medio de un voto afirmativo o negativo. Estos escribanos ejercerán su voto sin saber quien es su contraparte, esto garantizará que el voto no es consensuado, sino totalmente independiente por lo que los escribanos deberán ser un número impar. Para realizar este trámite los usuarios involucrados deberán ofrecer una gratificación monetaria en tokens de Karbon14.<br/>
   howWorkTextSecond:
-    <br/>Para la creación de un certificado, Karbon14 utilizará diversas herramientas, veamoslos en profundidad a continuación:<br/>
+    Para la creación de un certificado, Karbon14 utilizará diversas herramientas, veamoslos en profundidad a continuación
   howWorkTextThird:
-    <ol>
-      <li>Certificado de Prueba de Vida </li>
-      <li>Cripto Escribanos </li>
-      <li>Licencia de Cripto Escribano </li>
-      <li>Validador de Pruebas de Vida </li>
-      <li>Wallet Karbon14 </li>
-    </ol>
+    - Certificado de Prueba de Vida
+    - Cripto Escribanos
+    - Licencia de Cripto Escribano
+    - Validador de Pruebas de Vida
+    - Wallet Karbon14
   certificateProofLife:
     Certificados de Prueba de Vida
   certificateProofLifeText:

@@ -26,7 +26,7 @@ export const styles = StyleSheet.create({
   logoK14: {
     backgroundSize: '378px 88px',
     backgroundRepeat: 'no-repeat',
-    backgroundImage: `url(${isBuild === 'TRUE' ? "'file://" + __dirname + "/images/logo.png'" : "'/logo.png'"})`,
+    backgroundImage: `url(${isBuild ? "'file://" + __dirname + "/images/logo.png'" : "'/logo.png'"})`,
     height: '100%',
     backgroundPosition: 'center',
   },

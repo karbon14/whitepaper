@@ -17,6 +17,7 @@ import { TitleText } from './components/TitleText'
 import { SubTitle } from './components/SubTitle'
 import { ButerinPhoto } from './components/ButerinPhoto'
 import { CoverTitle } from './components/CoverTitle'
+import { ListItems } from './components/ListItems'
 
 const resume = yimp.read(path.join(__dirname, 'sections/resume.yml'))
 const introduction = yimp.read(path.join(__dirname, 'sections/introduction.yml'))
@@ -108,6 +109,8 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <br/>
         <TitleText>{introduction[lang].defProblem}</TitleText>
         <Text>{introduction[lang].defProblemTEXTFirst}</Text>
+        <br/>
+        <ListItems>{introduction[lang].defProblemTEXTFirstList}</ListItems>        
         <br/>
         <Legend>{introduction[lang].defProblemTEXTSecond}</Legend>
       </PageContainer>
@@ -210,8 +213,10 @@ export const Karbon14Whitepaper = ({ lang }) => (
 
       <PageContainer>
         <Text>{introduction[lang].howWorkTextFirst}</Text>
+        <br/>
         <SubTitle>{introduction[lang].howWorkTextSecond}</SubTitle>
-        <p dangerouslySetInnerHTML={{__html: introduction[lang].howWorkTextThird}}></p>  
+        <br/><br/>
+        <ListItems>{introduction[lang].howWorkTextThird}</ListItems>
       </PageContainer>
 
       <PageFooter textPage={introduction[lang].page} currentPage={10} totalPage={totalPage} />
