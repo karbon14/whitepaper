@@ -17,7 +17,7 @@ const styles = {
   footerTo: {
     fontWeight: '300',
   },
-  contastPage: {
+  contrastPage: {
     color: '#FFF',
   },
   contrastTotal: {
@@ -25,11 +25,11 @@ const styles = {
   },
 }
 
-export const PageFooter = ({ textPage, currentPage, totalPage, contrast }) => (
+export const PageFooter = ({ textPage, currentPage, totalPage, contrast = false }) => (
   <div style={styles.footer}>
-    <p style={contrast ? Object.assign(styles.footerFrom, styles.contastPage) : styles.footerFrom}>
+    <p style={contrast ? Object.assign({}, styles.footerFrom, styles.contrastPage) : styles.footerFrom}>
       {textPage} {currentPage}{' '}
-      <span style={contrast ? Object.assign(styles.footerTo, styles.contrastTotal) : styles.footerTo}>
+      <span style={contrast ? Object.assign({}, styles.footerTo, styles.contrastTotal) : styles.footerTo}>
         | {totalPage}
       </span>
     </p>

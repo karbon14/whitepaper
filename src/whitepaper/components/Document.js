@@ -13,6 +13,7 @@ const styles = {
     width: WIDTH_96PPI,
     margin: 'auto',
     paddingTop: isBuild ? '0px' : '20px',
+    paddingBottom: isBuild ? '0px' : '20px',
   },
 }
 

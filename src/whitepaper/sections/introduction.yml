@@ -228,24 +228,21 @@ EN:
     The funds raised during the Contribution Period will be used only for the development of the Karbon14 application. The following is an estimated budget that represents the scenario in which all of the investment sought is achieved:<br/>
   crowdsale:
     Crowdsale
-  distributionCommunity:
-    50%  Community
-  distributionCommunityText:
-    Is sure that a strong community can achieve a very large project. That is why a big part of it will go to listen to the community, talk, have meetings, and all kinds of actions that will make the community to multiply.
-  distributionDevelopment:
-    30% Development
-  distributionDevelopmentText:
-    An important part of the budget will be used for the development of the applications and everything required to achieve the best product.
-  distributionFounders:
-    10% Founders
-  distributionMarketing:
-    7% Marketing
-  distributionMarketingText:
-    This percentage will be use to the construction of the community and will help reach the general public through traditional channels and social networks.
-  distributionAirdrop:
-    3%  Airdrop
-  distributionAirdropText:
-    A karbon14 is interested that its users are more than satisfied with the platform and its founders, for that reason it was thought to allocate 3% of the generated tokens will to the Airdrop
+  distribution:
+    - 
+      - 50%  Community
+      - Is sure that a strong community can achieve a very large project. That is why a big part of it will go to listen to the community, talk, have meetings, and all kinds of actions that will make the community to multiply.
+    -
+      - 30% Development
+      - An important part of the budget will be used for the development of the applications and everything required to achieve the best product.
+    -
+      - 10% Founders
+    -
+      - 7% Marketing
+      - This percentage will be use to the construction of the community and will help reach the general public through traditional channels and social networks.
+    -
+      - 3%  Airdrop
+      - A karbon14 is interested that its users are more than satisfied with the platform and its founders, for that reason it was thought to allocate 3% of the generated tokens will to the Airdrop
   legalNote:
     Legal Statement
   legalNoteText:
@@ -507,24 +504,21 @@ ES:
     Los fondos recaudados durante el Período de contribución se utilizarán únicamente para el desarrollo de la aplicación Karbon14. A continuación se describe un presupuesto estimativo que representa el escenario en el que se alcance la totalidad de la inversión buscada:<br/>
   crowdsale:
     Crowdsale
-  distributionCommunity:
-    50%  Comunidad
-  distributionCommunityText:
-    Karbon14 tiene en claro que una comunidad fuerte puede lograr un proyecto muy grande. Por eso una gran parte irá destinada a escuchar a la comunidad, hablar, hacer reuniones, y todo tipo de acciones que haga que la comunidad se multiplique.
-  distributionDevelopment:
-    30% Desarrollo
-  distributionDevelopmentText:
-    Una importante parte del presupuesto se usará para el desarrollo de las aplicaciones y todo lo requerido para lograr el mejor producto.
-  distributionFounders:
-    10% Fundadores
-  distributionMarketing:
-    7% Marketing
-  distributionMarketingText:
-    Este porcentaje servirá para la construcción de la comunidad y ayudará a llegar al público en general a través de los canales tradicionales y redes sociales.
-  distributionAirdrop:
-    3%  Airdrop
-  distributionAirdropText:
-    A karbon14 le interesa que sus usuarios estén más que conforme con la plataforma y sus fundadores, por eso mismo se pensó en destinar un 3% de los tokens generados a la Airdrop
+  distribution:
+    -
+      - 50%  Comunidad
+      - Karbon14 tiene en claro que una comunidad fuerte puede lograr un proyecto muy grande. Por eso una gran parte irá destinada a escuchar a la comunidad, hablar, hacer reuniones, y todo tipo de acciones que haga que la comunidad se multiplique.
+    -
+      - 30% Desarrollo
+      - Una importante parte del presupuesto se usará para el desarrollo de las aplicaciones y todo lo requerido para lograr el mejor producto.
+    -
+      - 10% Fundadores
+    -
+      - 7% Marketing
+      - Este porcentaje servirá para la construcción de la comunidad y ayudará a llegar al público en general a través de los canales tradicionales y redes sociales.
+    -
+      - 3%  Airdrop
+      - A karbon14 le interesa que sus usuarios estén más que conforme con la plataforma y sus fundadores, por eso mismo se pensó en destinar un 3% de los tokens generados a la Airdrop
   legalNote:
     Nota legal
   legalNoteText:

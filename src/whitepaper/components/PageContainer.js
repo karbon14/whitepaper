@@ -9,8 +9,11 @@ const styles = {
   },
 }
 
-export const PageContainer = (props) => <div style={styles.pageContainer}>{props.children}</div>
+export const PageContainer = ({ children, style = {} }) => (
+  <div style={Object.assign({}, styles.pageContainer, style)}>{children}</div>
+)
 
 PageContainer.propTypes = {
   children: PropTypes.node,
+  style: PropTypes.object,
 }
