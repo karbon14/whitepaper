@@ -1,6 +1,6 @@
 {
   "name": "@karbon14/whitepaper",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Karbon14 Whitepaper",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,11 @@
   },
   "lint-staged": {
     "linters": {
-      "*.js": ["npm run lint:fix","npm run build","git add"]
+      "*.js": [
+        "npm run lint:fix",
+        "npm run build",
+        "git add"
+      ]
     },
     "ignore": [
       "package.json",
