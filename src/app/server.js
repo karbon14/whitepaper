@@ -35,7 +35,6 @@ router.get('/:lang', (ctx) => {
   })
 })
 
-
 app
   .use(serve(__dirname + '/public'))
   .use(bodyParser())

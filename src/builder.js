@@ -24,14 +24,15 @@ langs.forEach((lang, key) => {
     body: whitepaperHTMLSecond,
     title: 'Karbon14 - Whitepaper',
   })
-  
-  wkhtmltopdf(whitepaperHTML, { 
+
+  // wkhtmltopdf seems to work in 72PPI
+  wkhtmltopdf(whitepaperHTML, {
     output: `${getDistPath()}/${whitepaper_name}_${lang}.pdf`,
     marginTop: '0px',
     marginBottom: '0px',
     marginLeft: '0px',
     marginRight: '0px',
-    pageWidth: '290px',
-    pageHeight: '419px',
+    pageWidth: '595px',
+    pageHeight: '842px',
   })
 })
