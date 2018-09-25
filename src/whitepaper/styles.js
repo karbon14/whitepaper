@@ -69,8 +69,8 @@ export const styles = StyleSheet.create({
   useBudgetDescriptionContainer: {},
   useBudgetDescriptionTextContainer: {
     marginTop: '15px',
-    maxWidth: '70%',
-    display: 'inline-block',
+    maxWidth: '75%',
+    float: 'left',
   },
   useBudgetDescription: {
     fontFamily: 'Titillium Web',
@@ -84,26 +84,24 @@ export const styles = StyleSheet.create({
     margin: '0px',
   },
   useBudgetLabelsContainer: {
-    width: '30%',
+    width: '20%',
     marginTop: '15px',
-    display: 'inline-block',
+    float: 'right',
   },
   useBudgetLabelsContainerList: {
     listStyle: 'none',
-    float: 'right',
-    position: 'relative',
-    top: '7px',
-    left: '-9px',
+    float: 'left',
+    width: '100%',
   },
   useBudgetLabelsList: {
     display: 'block',
     marginBottom: '5px',
+    width: '100%',
   },
   rectangleCommunity: {
     width: '15px',
     height: '15px',
     backgroundColor: '#321f93',
-    display: 'block',
     lineHeight: '1.38',
     margin: '3px 5px 3px 0',
     float: 'left',
