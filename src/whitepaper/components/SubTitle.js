@@ -11,11 +11,12 @@ const styles = {
   },
 }
 
-export const SubTitle = ({ children, style }) => (
-  <p style={Object.assign({}, styles.subtitle, style)} dangerouslySetInnerHTML={{ __html: children }} />
+export const SubTitle = ({ children, style, id }) => (
+  <p id={id} style={Object.assign({}, styles.subtitle, style)} dangerouslySetInnerHTML={{ __html: children }} />
 )
 
 SubTitle.propTypes = {
   children: PropTypes.node,
   style: PropTypes.object,
+  id: PropTypes.string,
 }

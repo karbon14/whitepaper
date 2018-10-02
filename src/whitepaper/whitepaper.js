@@ -70,17 +70,8 @@ export const Karbon14Whitepaper = ({ lang }) => (
             ]}
           />
 
-          <List title={[introduction[lang].INDEXROADMAP, '#indexRoadmap']} />
-
-          <List 
-            title={[introduction[lang].INDEXDISTRIBUTION, '#indexDistribution']}
-            items={[
-              [introduction[lang].INDEXSELLTOKENS, '#indexSellTokens']
-            ]}
-          />
-
           <List title={[introduction[lang].INDEXWHYINVEST, '#indexWhyInvest']} />
-          <List title={[introduction[lang].INDEXBUDGET, '#indexBudget']} />
+          <List title={[introduction[lang].INDEXDISTRIBUTION, '#indexDistribution']} />
           <List title={[introduction[lang].INDEXLEGALNOTE, '#indexLegalNote']} />
           <List title={[introduction[lang].INDEXGLOSSARY, '#indexGlossary']} />
  
@@ -90,7 +81,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
     </Page>
 
     <Page>
-      <PageTitle>{introduction[lang].RESUME}</PageTitle>
+      <PageTitle id={'indexResume'}>{introduction[lang].RESUME}</PageTitle>
 
       <PageContainer>
         <Text>{resume[lang].first}</Text>
@@ -102,13 +93,13 @@ export const Karbon14Whitepaper = ({ lang }) => (
     </Page>
 
     <Page>
-      <PageTitle>{introduction[lang].introduction}</PageTitle>
+      <PageTitle id={'indexIntroduction'}>{introduction[lang].introduction}</PageTitle>
 
       <PageContainer>
-        <TitleText>{introduction[lang].wisK14}</TitleText>
+        <TitleText id={'indexWisk14'}>{introduction[lang].wisK14}</TitleText>
         <Text>{introduction[lang].wisK14TEXT}</Text>
         <br/>
-        <TitleText>{introduction[lang].defProblem}</TitleText>
+        <TitleText id={'indexDefProblem'}>{introduction[lang].defProblem}</TitleText>
         <Text>{introduction[lang].defProblemTEXTFirst}</Text>
         <br/>
         <ListItems>{introduction[lang].defProblemTEXTFirstList}</ListItems>        
@@ -123,10 +114,10 @@ export const Karbon14Whitepaper = ({ lang }) => (
       <PageTitle>{introduction[lang].introduction}</PageTitle>
 
       <PageContainer>
-        <TitleText>{introduction[lang].wProofLife}</TitleText>
+        <TitleText id={'indexWhyProofLife'}>{introduction[lang].wProofLife}</TitleText>
         <Text>{introduction[lang].wProofLifeTEXT}</Text>
         <br/>
-        <TitleText>{introduction[lang].pinterested}</TitleText>
+        <TitleText id={'indexStakeholders'}>{introduction[lang].pinterested}</TitleText>
         <SubTitle>{introduction[lang].governments}</SubTitle>
         <br/>
         <Text>{introduction[lang].governmentsText}</Text>
@@ -177,7 +168,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
       <PageTitle>{introduction[lang].introduction}</PageTitle>
 
       <PageContainer>
-        <TitleText>{introduction[lang].informationSecurity}</TitleText>
+        <TitleText id={'indexSecurity'}>{introduction[lang].informationSecurity}</TitleText>
         <Text>{introduction[lang].informationSecurityTextFirst}</Text>
         <Legend>{introduction[lang].informationSecurityTextSecond}</Legend>
         <Text>{introduction[lang].informationSecurityTextThird}</Text>
@@ -190,7 +181,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
       <PageTitle>{introduction[lang].introduction}</PageTitle>
 
       <PageContainer>
-        <TitleText>{introduction[lang].benefits}</TitleText>
+        <TitleText id={'indexBenefits'}>{introduction[lang].benefits}</TitleText>
         <Text>{introduction[lang].benefitsText}</Text>
         <br/>
         <SubTitle>{introduction[lang].shortenTimes}</SubTitle>
@@ -210,7 +201,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
     </Page>
 
     <Page>
-      <PageTitle>{introduction[lang].howWork}</PageTitle>
+      <PageTitle id={'indexHowWork'}>{introduction[lang].howWork}</PageTitle>
 
       <PageContainer>
         <Text>{introduction[lang].howWorkTextFirst}</Text>
@@ -309,24 +300,24 @@ export const Karbon14Whitepaper = ({ lang }) => (
     </Page>
 
     <Page>
-      <PageTitle>{introduction[lang].useCases}</PageTitle>
+      <PageTitle id={'indexUseCases'}>{introduction[lang].useCases}</PageTitle>
 
       <PageContainer>
         <Text>{introduction[lang].useCasesText}</Text>
         <br/>
-        <SubTitle>{introduction[lang].birthCertificates}</SubTitle>
+        <SubTitle id={'indexBirth'}>{introduction[lang].birthCertificates}</SubTitle>
         <br/>
         <Text>{introduction[lang].birthCertificatesText}</Text>
         <br/>
-        <SubTitle>{introduction[lang].fakeNews}</SubTitle>
+        <SubTitle id={'indexFakeNew'}>{introduction[lang].fakeNews}</SubTitle>
         <br/>
         <Text>{introduction[lang].fakeNewsText}</Text>
         <br/>
-        <SubTitle>{introduction[lang].proofGovernmentAgent}</SubTitle>
+        <SubTitle id={'indexPFAgents'}>{introduction[lang].proofGovernmentAgent}</SubTitle>
         <br/>
         <Text>{introduction[lang].proofGovernmentAgentText}</Text>
         <br/>
-        <SubTitle>{introduction[lang].reusingProof}</SubTitle>
+        <SubTitle id={'indexReusing'}>{introduction[lang].reusingProof}</SubTitle>
         <br/>
         <Text>{introduction[lang].reusingProofText}</Text>
       </PageContainer>
@@ -335,7 +326,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
     </Page>
 
     <Page>
-      <PageTitle>{introduction[lang].whyInvest}</PageTitle>
+      <PageTitle id={'indexWhyInvest'}>{introduction[lang].whyInvest}</PageTitle>
 
       <div style={styles.bigRectangle}>
         <div style={styles.logoK14}></div>
@@ -351,7 +342,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
     </Page>
 
     <Page>
-      <PageTitle>{introduction[lang].useBudget}</PageTitle>
+      <PageTitle id={'indexDistribution'}>{introduction[lang].useBudget}</PageTitle>
 
       <div style={styles.useBudgetContainer}>
         <div style={styles.useBudgetProvisionContainer}>
@@ -442,7 +433,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
     </Page>
 
     <Page>
-      <PageTitle>{introduction[lang].legalNote}</PageTitle>
+      <PageTitle id={'indexLegalNote'}>{introduction[lang].legalNote}</PageTitle>
 
       <PageContainer>
         <Text>{introduction[lang].legalNoteText}</Text>
@@ -452,7 +443,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
     </Page>
 
     <Page>
-      <PageTitle>{introduction[lang].glossary}</PageTitle>
+      <PageTitle id={'indexGlossary'}>{introduction[lang].glossary}</PageTitle>
 
       <PageContainer>
         <SubTitle>{introduction[lang].proofLifeGlossary}</SubTitle>

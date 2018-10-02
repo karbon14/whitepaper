@@ -12,8 +12,11 @@ const styles = {
   },
 }
 
-export const TitleText = ({ children }) => <p style={styles.titleText} dangerouslySetInnerHTML={{ __html: children }} />
+export const TitleText = ({ children, id }) => (
+  <p id={id} style={styles.titleText} dangerouslySetInnerHTML={{ __html: children }} />
+)
 
 TitleText.propTypes = {
   children: PropTypes.node,
+  id: PropTypes.string,
 }
