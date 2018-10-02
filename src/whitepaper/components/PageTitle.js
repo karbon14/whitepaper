@@ -27,12 +27,15 @@ const styles = {
   },
 }
 
-export const PageTitle = (props) => (
+export const PageTitle = ({ children, id }) => (
   <div style={styles.titleCover}>
-    <h2 style={styles.title}>{props.children}</h2>
+    <h2 id={id} style={styles.title}>
+      {children}
+    </h2>
   </div>
 )
 
 PageTitle.propTypes = {
   children: PropTypes.children,
+  id: PropTypes.string,
 }
