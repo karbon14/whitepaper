@@ -4,7 +4,7 @@
     "@semantic-release/npm",
     {
       "path": "@semantic-release/git",
-      "assets": ["package.json", "package-lock.json", "whitepaper/*.pdf"],
+      "assets": ["package.json", "package-lock.json", "whitepaper/**/*.pdf"],
       "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
     }
   ],
