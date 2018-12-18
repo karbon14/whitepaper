@@ -70,36 +70,45 @@ EN:
   wisK14: 
     What is Karbon14?
   wisK14TEXT: 
-    Karbon14 is an open source project that aims to create the first decentralized platform to perform Proof of Life Certificates.
-    Due to the rise of cryptocurrency applications, validation of user information is required, which is simply a Proof of Life. The Proof of Life is an indisputable certificate that confirms the existence of that person.<br/>
+    Karbon14 is an open source project, the goal is to create a startup that uses blockchain technology to issue Life Certificates. It will allow users to validate proof of life that could be used for  financial services such as receiving pension benefits and annuity payouts among many other things.</br>
+    </br>Karbon14 startup will include features such as buy tokens, issue life certificates with different levels of information, apply for crypto scribe, among others.</br>
+    Karbon14 does not store your data or any sensitive information. That is an important safety quality to highlight. The Life Certificates will not replace your physical documentation, such as passport, driver’s licence or ID, you will still need them to travel go through airports and similar activities.</br>
+    The scope of this project includes both developing and implementing Karbon14 Startup including its documentation. The fact that Karbon14 will reach people and companies from all around the world makes this project one of the most important ever to be developed.</br>
   defProblem: 
     Problem Definition
   defProblemTEXTFirst: 
-    Today's digital world lacks a credible identity system that is universally consumable and trusted by counterparts in all industries.
-    Getting all industries, governments and consumers from hundreds of jurisdictions to agree on one framework is a challenge.
-    Right now, users need a long time to provide the information to the different petitioners, because in most cases they are not prepared to create their Proof of Life.<br/>
-    <br/>But this problem will be solved with Karbon14 having his different types of Proof of Life in one place, avoiding in this way, repeating again and again the same procedure with the different entities that need the certificate.
-    Karbon14 aspires that this Proof of Life Certificate will be a valid document in governmental entities. Thanks to Karbon14 we could:<br/>
+    Over the years, technology has revolutionized our perspective of the world. Technology has created amazing tools and resources, putting each person’s most useful information at their fingertips.</br>
+    The digital revolution has launched a new era of human empowerment and engagement across business, society and in every aspect of our lives. </br>
+    </br>When it comes to prove your identity and that you are alive, a Proof of Life might be required from governments, pension and insurance companies and other bodies may need to check periodically that the people they are paying have not died in order that they do not overpay annuities and pensions.</br>
+    Where individuals are resident outside their country of origin, a Proof of Life may sometimes be obtained from a person's embassy in their country of residence by producing proof of identity such as a passport.</br>
+    Also, pension is an essential source of income after retirement for senior citizens. It supports them financially during emergency and helps them look after their needs at this stage of life. One of the main requisites for the pensioners post their retirement, was to provide life certificates to the authorised pension disbursing agencies like the bank, following which their pension got credited to their account.</br>
+  defProblemTEXTSecond: 
+    For obtaining a Life Certificate, a pensioner earlier needed to present himself/herself before the Pension Disbursing Agency or had the life certificate issued by authority where they served and had it delivered to the disbursing agency.</br>
+    </br>Karbon14 is willing to solve this problem. The idea is to issue a valid Proof of Life that the user can use as much as needed. It is a simple and easy way to provide your sensitive information and make sure that it will not be changed or stolen.</br>
+    Karbon14 will have different levels of certification, providing a design that works best for each specific need. With this, you will be able to:</br>
   defProblemTEXTFirstList: 
     - Facilitate the possession of identity for people
     - Establish massive consensus on the verification of real identities
     - Leaving behind centralized systems, as they are not reliable in the long term due to political and security risks
     - Maintain identities constantly validated and updated
     - Expand mass adoption by different stakeholders
-  defProblemTEXTSecond:
-    Governments around the world and industries are desperately looking for a solution and Karbon14 can help solve it.<br/>
   wProofLife:
     What is a Proof of Life?
   wProofLifeTEXT:
-    Karbon14 defines the Proof of Life as the process to confirm that the person in question really exists and that he is alive. Karbon14 will verify that past information is consistent with present data.<br/>
-    <br/>We could take as a reference that the information of the past are certificates or documents provided by a government agent testifying their identity, and that those are congruent with their present data provided by the same user.<br/>
+    It is very important to understand the difference between "Proof of life" and "Proof of Identity". A Proof of Life (also called Life Certificate or Letter of Existence) it is a certificate produced by a trusted entity to confirm that an individual was alive at the time of its creation.</br>
+    It is a natural action for any concerned family or company, as well security consultancy to take. Pensions and insurance companies may need to check periodically that the people they are paying have not died in order that they do not overpay annuities and pensions.</br>
+    </br>Where individuals are resident outside their country of origin or traveling around the world the Certificate of Life may be required very often.</br>
+    While a Identity Certificate a document such as your driver's license, and it proves your identity, a life certificate goes beyond that, not just proving that you are who you say you are, but also proofs that you were alive and at the time you issued it.
   pinterested:
     Stakeholders
   governments:
     Governments
   governmentsText:
-    Governments usually ask citizens for some type of certificate or document that corroborates the existence of that person when making a sort of procedure.<br/>
-    <br/>In general, the method is characterized by being excessively bureaucratic, slow and inefficient. Generating a highly frustrating process for people and a huge waste of time.<br/>
+    Once a year (or even more often, depending on the country) pensioners receive the form “Life Certificate” requesting confirmation that they are still alive. The pensioner must personally sign this form and have his/her signature certified by an authorized agency or authority of their country of residence.</br>
+    </br>The pensioner must prove his or her identity by presenting a valid ID. This includes a driver´s license, a senior citizen ID card, or a non-driver´s license. A valid passport may, but does not need to be presented. If the pensioner is unable to personally sign the life certificate (e.g. due to illness and/or incapacity) the process becomes even more complex.</br>
+    </br>The certification for a Life Certificate may be performed by a notary public, a Social Security Administration office, or physician. The Embassy or a Consulate General may also certify a life certificate. </br>
+    However, all of this is a long bureaucratic process and the result may even take more than expected. </br>
+    This project could be used by governments to receive certified and legal Proof of Life, making all of the formalities easier for seniors, disabled citizens and even those who live out of their country of origin. </br>
   governmentsTextSecond:
     <br/>A tool like Karbon14 will allow governments to leave behind the centralized and analogical system that now counts and will avoid the risk of losing the physical documents generated today by citizens.<br/>
   governmentsTextThird:
@@ -107,18 +116,20 @@ EN:
   exchangeCrypto:
     Cryptocurrency Exchange Applications
   exchangeCryptoTextFirst:
-    As mentioned above, the constant progress of cryptocurrency applications makes necessary at the time of the transaction, to validate user data. That is to say, a Proof of Life.<br/>
+    Due to rising interest in the crypto world, verifying your identity has become a common practice on most cryptocurrency trading sites nowadays, in order to prevent activities such as money laundering. Especially if you’re a newcomer or struggling with daily withdrawal limits you will have to show your real ID card in order to verify your account.</br>
+    Karbon14 will allow cryptocurrency apps to de a very easy and simple validation, with all of the sensitive data safe and secured. 
   exchangeCryptoTextSecond:
     An application such as Karbon14 will allow cryptocurrency applications to incorporate a secure and easy-to-use validation system.<br/>
   users: 
-    Users
+    Senior citizens
   usersText:
-    For users, a system like Karbon14 will directly benefit them when creating the Proof of Life, by giving them a great agility to do it. Which represents a significant saving of time, since they won’t have to repeat the same procedure over and over again with the different entities that ask for it.
+    As it has been explained above, once a year (or even more often, depending on the country) pensioners receive the form “Life Certificate” requesting confirmation that they are still alive. The goal is to offer an efficient way to create life certificates making formalities quicker and more convenient for retired people, specially those who have disabilities or simply live out of their country of origin.
   banks:
     Fintech/Banks
   banksText:
-    Currently a lot of Banks, are making major changes in Digital Banking, always trying to improve user experience. One of the ways to do this, is through the possibility to create an account, accessing loans or making transfers, completely by a digital medium, usually called Home Banking. <br/>
-    <br/>For such a thing, Banks needs a Proof of Life or certification of it as a fundamental requirement prior to operating. Thanks to Karbon14 digital banking world could further improve the experience and the approach of people towards the digital use of it.
+    The way incumbent banks onboard and verify the identities of their customers online is inconvenient and insecure, resulting in lowered customer satisfaction and loyalty, and security breaches leading to compensation payouts and legal costs.</br>
+    At the same time, this approach doesn't gain banks much, since the verification methods they use to remain compliant can actually end up compromising customers' personal data.</br>
+    As trends toward mobile banking and decentralization of access meet increased information around identity and advanced analytics, opportunities are being created which will enable customers and providers of financial services to interact in new ways including any technological innovation in the financial sector.
   mediaTitle:
     Mass Media
   mediaText:
@@ -348,24 +359,29 @@ ES:
   wisK14: 
     ¿Qué es Karbon14?
   wisK14TEXT: 
-    Karbon14 es un proyecto de código abierto que tiene como objetivo crear la primera plataforma descentralizada para realizar certificados de pruebas de vida.
-    En nuestro dia a dia se nota cada vez más un incremento en el auge de las aplicaciones que requieren una validación de los datos del usuario como algo indispensable para poder operar en la misma, esto es simplemente una prueba de vida. La prueba de vida es un certificado indiscutible que confirma la existencia de la persona. <br/>
+    Karbon14 es un proyecto de código abierto, el objetivo es crear una startup que utilice la tecnología blockchain para emitir certificados de vida. Permitirá a los usuarios validar el comprobante de vida que podría usarse para servicios financieros como recibir beneficios de pensión y pagos de anualidades entre muchas otras cosas.</br>
+    El inicio de Karbon14 incluirá características tales como comprar tokens, emitir certificados de vida con diferentes niveles de información, solicitar cripto escribano, entre otros.
+    Karbon14 no almacena sus datos o cualquier información confidencial. Esa es una importante calidad de seguridad para destacar. Los Certificados de Vida no reemplazarán su documentación física, como el pasaporte, la licencia de conducir o la identificación, aún los necesitará para viajar a través de aeropuertos y actividades similares.</br>
+    </br>El alcance de este proyecto incluye tanto el desarrollo como la implementación de la startup de Karbon14, incluida su documentación. El hecho de que Karbon14 llegue a personas y empresas de todo el mundo hace de este proyecto uno de los más importantes que se hayan desarrollado.
   defProblem: 
     Definición del Problema
   defProblemTEXTFirst: 
-    El mundo digital de hoy en día carece de un sistema de identidad creíble que sea universalmente consumible y en el que puedan confiar las contrapartes de todas las industrias.
-    Lograr que todas las industrias, gobiernos y consumidores de cientos de jurisdicciones acuerden un marco es un desafío.
-    En la actualidad, el usuario demora mucho tiempo en poder brindar los datos a distintos tipos de solicitantes, porque en la mayoría de los casos no está preparado para realizar su prueba de vida.<br/>
-    <br/>Pero este problema será resuelto con Karbon14 teniendo sus diferentes tipos de prueba de vida en un solo lugar, evitando de esta manera, repetir una y otra vez el mismo procedimiento con las distintas entidades que lo necesiten.
-    Karbon14 aspira que este certificado de vida sea un documento con validez en entidades gubernamentales. Gracias a Karbon14 se podría:<br/>
+    Con los años, la tecnología ha revolucionado nuestra perspectiva del mundo. La tecnología ha creado herramientas y recursos increíbles, poniendo la información más útil de cada persona al alcance de la mano.</br>
+    La revolución digital ha lanzado una nueva era de empoderamiento y compromiso humano en todos los negocios, la sociedad y en todos los aspectos de nuestras vidas.</br>
+    Cuando se trata de demostrar su identidad y de que está vivo, es posible que una Prueba de Vida sea requerida por parte de los gobiernos, las compañías de seguros y de pensiones y otros organismos que deben verificar periódicamente que las personas que pagan no hayan fallecido para no pagar de más las rentas vitalicias y las pensiones.</br>
+    Cuando las personas residen fuera de su país de origen, a veces se puede obtener una Prueba de vida en la embajada de una persona en su país de residencia mediante la presentación de una prueba de identidad, como un pasaporte.</br>
+    Además, la pensión es una fuente esencial de ingresos después de la jubilación para las personas mayores. </br>
+  defProblemTEXTSecond:
+    Los apoya financieramente durante una emergencia y los ayuda a atender sus necesidades en esta etapa de la vida. Uno de los requisitos principales para los jubilados después de su jubilación era proporcionar certificados de vida a las agencias autorizadas de desembolso de pensiones como el banco, luego de lo cual su pensión se acredita en su cuenta. </br>
+    </br>Para obtener un Certificado de Vida, un jubilado tenía que presentarse antes ante la Agencia de Desembolso de Pensiones o tenía el certificado de vida emitido por la autoridad en la que se encontraba y se lo había entregado a la agencia. </br>
+    </br>Karbon14 está dispuesto a resolver este problema. La idea es emitir una Prueba de vida válida que el usuario pueda usar tanto como sea necesario. Es una forma simple y fácil de proporcionar su información confidencial y asegurarse de que no se modifique ni se la roben. </br>
+    Karbon14 tendrá diferentes niveles de certificación, proporcionando un diseño que funcione mejor para cada necesidad específica. Con esto, podrás:</br>
   defProblemTEXTFirstList:
     - Facilitar la posesión de la identidad para las personas
     - Establecer el consenso masivo sobre la verificación de identidades reales
     - Dejar atrás los sistemas centralizados, ya que no son confiables a largo plazo debido a riesgos políticos y de seguridad
     - Mantener identidades validadas y actualizadas constantemente
     - Expandir la adopción masiva por las diferentes partes interesadas
-  defProblemTEXTSecond:
-    Los gobiernos de todo el mundo y la industria están buscando desesperadamente una solución y Karbon14 puede ayudar a solucionarlo.<br/>
   wProofLife:
     ¿Qué son las Pruebas de Vida?
   wProofLifeTEXT:
@@ -376,8 +392,11 @@ ES:
   governments:
     Gobiernos
   governmentsText:
-    Los Gobiernos de cualquier tipo, Nacional, Provincial o Municipal, suele solicitar a los ciudadanos algún tipo de certificado o documento que corrobore la existencia de la persona a la hora de realizar un trámite o diligencia de cualquier tipo.<br/>
-    <br/>Por lo general el procedimiento se caracteriza por ser excesivamente burocrático, lento y poco eficiente. Generando un proceso altamente frustrante para las personas y con una enorme pérdida de tiempo.<br/>
+    Una vez al año (o incluso más a menudo, según el país), los jubilados reciben un formulario de "Certificado de vida" solicitando confirmación de que aún están vivos. El pensionista debe firmar personalmente este formulario y tener su firma certificada por una agencia o autoridad autorizada de su país de residencia.</br>
+    El pensionista debe probar su identidad presentando una identificación válida. Esto incluye una licencia de conducir, una tarjeta de identificación de la tercera edad o una licencia de no conductor. Un pasaporte válido puede, pero no necesita ser presentado. Si el pensionista no puede firmar personalmente el certificado de vida (por ejemplo, debido a una enfermedad o incapacidad), el proceso se vuelve aún más complejo.</br>
+    La certificación de un Certificado de Vida puede ser realizada por un escribano público, una oficina de la Administración del Seguro Social o un médico. La Embajada o un Consulado General también pueden certificar un certificado de vida.</br>
+    Sin embargo, todo esto es un proceso burocrático largo y el resultado puede llevar incluso más de lo esperado.</br>
+    Este proyecto podría ser utilizado por los gobiernos para recibir una Prueba de Vida certificada y legal, facilitando todas las formalidades para las personas mayores, los ciudadanos discapacitados e incluso aquellos que viven fuera de su país de origen.
   governmentsTextSecond:
     <br/>Una herramienta como Karbon14 permitirá a los gobiernos dejar atrás el sistema centralizado y analógico con el que cuenta ahora y permitirá evitar el riesgo de perder los documentos físicos generados hoy por hoy por los ciudadanos.<br/>
   governmentsTextThird:
@@ -385,18 +404,20 @@ ES:
   exchangeCrypto:
     Aplicaciones de Intercambio de Criptomonedas
   exchangeCryptoTextFirst:
-    El constante avance de aplicaciones de intercambio de criptomonedas, genera cada vez más, que al momento de realizar transacción, se requiera la validación de los datos de los usuarios. Es decir una prueba de vida</br>
+    Debido al creciente interés en el mundo de las criptografías, la verificación de su identidad se ha convertido en una práctica común en la mayoría de los sitios de comercio de criptomonedas hoy en día, a fin de evitar actividades como el lavado de dinero. Especialmente si es un recién llegado o tienes dificultades con los límites diarios de retiro, deberá mostrar su tarjeta de identificación real para verificar su cuenta.</br>
+    Karbon14 permitirá que las aplicaciones de criptomoneda de una validación muy fácil y simple, con todos los datos confidenciales seguros y protegidos.
   exchangeCryptoTextSecond:
     Una aplicación como Karbon14 permitirá a las aplicaciones de criptomoneda incorporar un sistema de validación seguro y fácil de utilizar.</br>
   users: 
-    Usuarios
+    Personas mayores
   usersText:
-    Para los usuarios un sistema como Karbon14 los beneficiará directamente en la agilidad a la hora de realizar los certificados de vida, lo cual representa un ahorro significativo de tiempo, ya que no tendrá que repetir una y otra vez el mismo procedimiento con las distintas entidades que lo necesiten.
+    Como se explicó anteriormente, una vez al año (o incluso más a menudo, según el país), los jubilados reciben el formulario "Certificado de vida" solicitando confirmación de que aún están vivos. El objetivo es ofrecer una forma eficiente de crear certificados de vida que hagan que los trámites sean más rápidos y convenientes para las personas jubiladas, especialmente para aquellas personas con discapacidades o que simplemente viven fuera de su país de origen.
   banks:
     Fintech/ Bancos
   banksText:
-    En la actualidad muchas entidades financieras, están haciendo cambios importantes en su Banca Digital, intentando en todo momento mejorar la experiencia del usuario. Una de las formas de hacerlo es mediante la posibilidad de crear cuentas, acceder a préstamos o realizar transferencias completamente a través de un medio digital, por lo general el Home Banking. <br/>
-    <br/>Para tales requerimientos las entidades necesitan una prueba de vida o certificación de la misma como requisito fundamental previo a operar. Gracias a Karbon14 el mundo la banca digital podría mejorar aún más la experiencia y el acercamiento de las personas hacia el uso digital del banco.</br>
+    La forma en que los bancos verifican las identidades de sus clientes en línea es un inconveniente y es inseguro, lo que genera insatisfacción y menos lealtad en el cliente, y en infracciones de seguridad que conducen a pagos de compensación y costos legales.</br>
+    Al mismo tiempo, este enfoque no hace que los bancos ganen mucho, ya que los métodos de verificación que utilizan para seguir cumpliendo pueden terminar comprometiendo los datos personales de los clientes.</br>
+    A medida que las tendencias hacia la banca móvil y la descentralización del acceso se combinan con una mayor información sobre identidad y análisis avanzado, se están creando oportunidades que permitirán a los clientes y proveedores de servicios financieros interactuar de nuevas formas, incluida cualquier innovación tecnológica en el sector financiero.
   mediaTitle:
     Medios de Comunicación
   mediaText:

@@ -22,7 +22,7 @@ import { ListName } from './components/ListName'
 
 const resume = yimp.read(path.join(__dirname, 'sections/resume.yml'))
 const introduction = yimp.read(path.join(__dirname, 'sections/introduction.yml'))
-const totalPage = 20
+const totalPage = 21
 
 export const Karbon14Whitepaper = ({ lang }) => (
   <Document>
@@ -101,22 +101,30 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <br/>
         <TitleText id={'indexDefProblem'}>{introduction[lang].defProblem}</TitleText>
         <Text>{introduction[lang].defProblemTEXTFirst}</Text>
-        <br/>
-        <ListItems>{introduction[lang].defProblemTEXTFirstList}</ListItems>        
-        <br/>
-        <Legend>{introduction[lang].defProblemTEXTSecond}</Legend>
       </PageContainer>
 
       <PageFooter textPage={introduction[lang].page} currentPage={4} totalPage={totalPage} />
     </Page>
 
     <Page>
+      <PageTitle id={'indexIntroduction'}>{introduction[lang].introduction}</PageTitle>
+
+      <PageContainer>
+        <Text>{introduction[lang].defProblemTEXTSecond}</Text>
+        <br/>
+        <ListItems>{introduction[lang].defProblemTEXTFirstList}</ListItems>        
+        <br/>
+        <TitleText id={'indexWhyProofLife'}>{introduction[lang].wProofLife}</TitleText>
+        <Text>{introduction[lang].wProofLifeTEXT}</Text>
+      </PageContainer>
+
+      <PageFooter textPage={introduction[lang].page} currentPage={5} totalPage={totalPage} />
+    </Page>
+
+    <Page>
       <PageTitle>{introduction[lang].introduction}</PageTitle>
 
       <PageContainer>
-        <TitleText id={'indexWhyProofLife'}>{introduction[lang].wProofLife}</TitleText>
-        <Text>{introduction[lang].wProofLifeTEXT}</Text>
-        <br/>
         <TitleText id={'indexStakeholders'}>{introduction[lang].pinterested}</TitleText>
         <SubTitle>{introduction[lang].governments}</SubTitle>
         <br/>
@@ -125,7 +133,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <Text>{introduction[lang].governmentsTextThird}</Text>     
       </PageContainer>
 
-      <PageFooter textPage={introduction[lang].page} currentPage={5} totalPage={totalPage} />
+      <PageFooter textPage={introduction[lang].page} currentPage={6} totalPage={totalPage} />
     </Page>
 
     <Page>
@@ -147,7 +155,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <Text>{introduction[lang].banksText}</Text>     
       </PageContainer>
 
-      <PageFooter textPage={introduction[lang].page} currentPage={6} totalPage={totalPage} />
+      <PageFooter textPage={introduction[lang].page} currentPage={7} totalPage={totalPage} />
     </Page>
 
     <Page>
@@ -161,7 +169,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <Text>{introduction[lang].mediaText}</Text>    
       </PageContainer>
 
-      <PageFooter textPage={introduction[lang].page} currentPage={7} totalPage={totalPage} />
+      <PageFooter textPage={introduction[lang].page} currentPage={8} totalPage={totalPage} />
     </Page>
 
     <Page>
@@ -174,7 +182,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <Text>{introduction[lang].informationSecurityTextThird}</Text>
       </PageContainer>
 
-      <PageFooter textPage={introduction[lang].page} currentPage={8} totalPage={totalPage} />
+      <PageFooter textPage={introduction[lang].page} currentPage={9} totalPage={totalPage} />
     </Page>
 
     <Page>
@@ -197,7 +205,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <Text>{introduction[lang].trustCompaniesEntitiesText}</Text>
       </PageContainer>
 
-      <PageFooter textPage={introduction[lang].page} currentPage={9} totalPage={totalPage} />
+      <PageFooter textPage={introduction[lang].page} currentPage={10} totalPage={totalPage} />
     </Page>
 
     <Page>
@@ -211,7 +219,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <ListItems>{introduction[lang].howWorkTextThird}</ListItems>
       </PageContainer>
 
-      <PageFooter textPage={introduction[lang].page} currentPage={10} totalPage={totalPage} />
+      <PageFooter textPage={introduction[lang].page} currentPage={11} totalPage={totalPage} />
     </Page>
 
     <Page>
@@ -228,7 +236,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <Text>{introduction[lang].certificateProofLifeText}</Text>
       </PageContainer>
 
-      <PageFooter textPage={introduction[lang].page} currentPage={11} totalPage={totalPage} />
+      <PageFooter textPage={introduction[lang].page} currentPage={12} totalPage={totalPage} />
     </Page>
 
     <Page>
@@ -245,7 +253,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <Text>{introduction[lang].cryptoText}</Text>
       </PageContainer>
 
-      <PageFooter textPage={introduction[lang].page} currentPage={12} totalPage={totalPage} />
+      <PageFooter textPage={introduction[lang].page} currentPage={13} totalPage={totalPage} />
     </Page>
 
     <Page>
@@ -262,7 +270,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <Text>{introduction[lang].licenseCryptoText}</Text>
       </PageContainer>
 
-      <PageFooter textPage={introduction[lang].page} currentPage={13} totalPage={totalPage} />
+      <PageFooter textPage={introduction[lang].page} currentPage={14} totalPage={totalPage} />
     </Page>
 
     <Page>
@@ -279,7 +287,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <Text>{introduction[lang].validatorProofLifeText}</Text>
       </PageContainer>
 
-      <PageFooter textPage={introduction[lang].page} currentPage={14} totalPage={totalPage} />
+      <PageFooter textPage={introduction[lang].page} currentPage={15} totalPage={totalPage} />
     </Page>
 
     <Page>
@@ -296,7 +304,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <Text>{introduction[lang].walletText}</Text>
       </PageContainer>
 
-      <PageFooter textPage={introduction[lang].page} currentPage={15} totalPage={totalPage} />
+      <PageFooter textPage={introduction[lang].page} currentPage={16} totalPage={totalPage} />
     </Page>
 
     <Page>
@@ -322,7 +330,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <Text>{introduction[lang].reusingProofText}</Text>
       </PageContainer>
 
-      <PageFooter textPage={introduction[lang].page} currentPage={16} totalPage={totalPage} />
+      <PageFooter textPage={introduction[lang].page} currentPage={17} totalPage={totalPage} />
     </Page>
 
     <Page>
@@ -338,7 +346,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <Legend>{introduction[lang].whyInvestTextSecond}</Legend>
       </PageContainer>
 
-      <PageFooter textPage={introduction[lang].page} currentPage={17} totalPage={totalPage} />
+      <PageFooter textPage={introduction[lang].page} currentPage={18} totalPage={totalPage} />
     </Page>
 
     <Page>
@@ -429,7 +437,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         </table>
       
       </PageContainer>
-      <PageFooter textPage={introduction[lang].page} currentPage={18} totalPage={totalPage} />
+      <PageFooter textPage={introduction[lang].page} currentPage={19} totalPage={totalPage} />
     </Page>
 
     <Page>
@@ -439,7 +447,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <Text>{introduction[lang].legalNoteText}</Text>
       </PageContainer>
 
-      <PageFooter textPage={introduction[lang].page} currentPage={19} totalPage={totalPage} />
+      <PageFooter textPage={introduction[lang].page} currentPage={20} totalPage={totalPage} />
     </Page>
 
     <Page>
@@ -466,7 +474,7 @@ export const Karbon14Whitepaper = ({ lang }) => (
         <Text>{introduction[lang].validatorGlossaryText}</Text>
       </PageContainer>
       
-      <PageFooter textPage={introduction[lang].page} currentPage={20} totalPage={totalPage} />
+      <PageFooter textPage={introduction[lang].page} currentPage={21} totalPage={totalPage} />
     </Page>
   </Document>
 )
