@@ -1,6 +1,6 @@
 {
   "name": "@karbon14/whitepaper",
-  "version": "1.5.6",
+  "version": "1.6.0",
   "description": "Karbon14 Whitepaper",
   "main": "index.js",
   "scripts": {
